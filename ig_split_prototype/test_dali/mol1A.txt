@@ -1,0 +1,23 @@
+# Job: test
+# Query: mol1A
+# No:  Chain   Z    rmsd lali nres  %id PDB  Description
+   1:  mol2-A  3.0  3.5   66    92    3                                                                        
+
+# Structural equivalences
+   1: mol1-A mol2-A     9 -  20 <=>    9 -  20   (ARG  649  - PRO  660  <=> TYR  185  - ILE  196 )                          
+   1: mol1-A mol2-A    22 -  27 <=>   22 -  27   (LYS  662  - TRP  667  <=> ASP  199  - GLN  204 )                          
+   1: mol1-A mol2-A    34 -  39 <=>   31 -  36   (ASN  674  - LYS  679  <=> VAL  209  - HIS  214 )                          
+   1: mol1-A mol2-A    41 -  45 <=>   37 -  41   (ALA  681  - ARG  685  <=> THR  216  - ALA  220 )                          
+   1: mol1-A mol2-A    55 -  60 <=>   42 -  47   (ASP  695  - ILE  700  <=> GLY  221  - ALA  226 )                          
+   1: mol1-A mol2-A    62 -  66 <=>   48 -  52   (ASN  702  - ASP  706  <=> ILE  227  - ALA  231 )                          
+   1: mol1-A mol2-A    69 -  74 <=>   53 -  58   (LYS  709  - ALA  714  <=> ILE  237  - TYR  242 )                          
+   1: mol1-A mol2-A    83 -  86 <=>   64 -  67   (SER  723  - GLU  726  <=> SER  248  - LEU  251 )                          
+   1: mol1-A mol2-A    87 -  93 <=>   69 -  75   (PHE  727  - ASN  733  <=> THR  253  - SER  259 )                          
+   1: mol1-A mol2-A    94 -  98 <=>   77 -  81   (LYS  734  - GLY  738  <=> SER  261  - VAL  265 )                          
+   1: mol1-A mol2-A   100 - 103 <=>   82 -  85   (PRO  740  - PRO  743  <=> ARG  266  - PHE  269 )                          
+
+# Translation-rotation matrices
+-matrix  "mol1-A mol2-A  U(1,.)   0.716377  0.323751 -0.618053          -89.436089"
+-matrix  "mol1-A mol2-A  U(2,.)  -0.524362 -0.334543 -0.783023           71.828400"
+-matrix  "mol1-A mol2-A  U(3,.)  -0.460270  0.885023 -0.069896           -3.818652"
+

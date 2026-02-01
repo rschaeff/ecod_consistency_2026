@@ -1,0 +1,26 @@
+# Iterative DALI Ig Domain Splitting Results
+# Domain: Q60ZN5_nD12 (740aa)
+# Template: e2o5nA1 (92aa)
+# Expected: ~8 domains
+# Found: 4 domains
+
+Domain 1:
+  Z-score: 3.0
+  Aligned: 66
+  Range: 649-667,674-685,695-714,723-743
+
+Domain 2:
+  Z-score: 4.8
+  Aligned: 75
+  Range: 1675-1699,1706-1719,1726-1768
+
+Domain 3:
+  Z-score: 3.8
+  Aligned: 74
+  Range: 753-776,787-849
+
+Domain 4:
+  Z-score: 2.6
+  Aligned: 69
+  Range: 1880-1912,1958-2004
+

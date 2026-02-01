@@ -1,0 +1,44 @@
+# Environment and credentials
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs (keep structure, ignore contents)
+logs/*
+!logs/.gitkeep
+
+# Large data files
+*.pdb
+*.cif
+*.fasta
+*.fa
+downloads/
+
+# CLANS output (can be large)
+*.clans
+*.clans.save
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store

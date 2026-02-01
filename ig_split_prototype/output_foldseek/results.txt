@@ -1,0 +1,42 @@
+# Iterative FoldSeek Ig Domain Splitting Results
+# Domain: Q60ZN5_nD12 (740aa)
+# Template: e2o5nA1 (92aa)
+# Expected: ~8 domains
+# Found: 5 domains
+# Time: 8.3 seconds
+
+Domain 1:
+  TM-score: 0.477
+  Aligned: 74
+  Range: 1155-1155,1671-1682,1688-1699,1708-1717,1724-1769
+  E-value: 0.3356
+  Bits: 20.0
+
+Domain 2:
+  TM-score: 0.338
+  Aligned: 72
+  Range: 648-668,676-698,712-736,742-750
+  E-value: 2.488
+  Bits: 2.0
+
+Domain 3:
+  TM-score: 0.308
+  Aligned: 68
+  Range: 1063-1079,1087-1139,1148-1154
+  E-value: 3.132
+  Bits: 0.0
+
+Domain 4:
+  TM-score: 0.400
+  Aligned: 69
+  Range: 760-779,789-839,845-852
+  E-value: 0.4494
+  Bits: 14.0
+
+Domain 5:
+  TM-score: 0.394
+  Aligned: 28
+  Range: 1878-1898,1904-1911
+  E-value: 2.79
+  Bits: 1.0
+

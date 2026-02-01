@@ -1,0 +1,2263 @@
+[
+  {
+    "uid": "001954218",
+    "domain_id": "e5hl3A3",
+    "fgroup": "DUF3244",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001954218.pdb"
+  },
+  {
+    "uid": "000001448",
+    "domain_id": "e2dmbA1",
+    "fgroup": "Filamin",
+    "length": 111,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001448.pdb"
+  },
+  {
+    "uid": "000001533",
+    "domain_id": "e1x5xA1",
+    "fgroup": "fn3",
+    "length": 96,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001533.pdb"
+  },
+  {
+    "uid": "000001489",
+    "domain_id": "e1qg3A1",
+    "fgroup": "fn3",
+    "length": 92,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001489.pdb"
+  },
+  {
+    "uid": "000001464",
+    "domain_id": "e2q0zX1",
+    "fgroup": "Sec63",
+    "length": 114,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001464.pdb"
+  },
+  {
+    "uid": "000146336",
+    "domain_id": "e3pmqA1",
+    "fgroup": "MtrC-MtrF_N",
+    "length": 133,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000146336.pdb"
+  },
+  {
+    "uid": "000001497",
+    "domain_id": "e1iarB1",
+    "fgroup": "IL4Ra_N",
+    "length": 96,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001497.pdb"
+  },
+  {
+    "uid": "001807404",
+    "domain_id": "e3eifA3",
+    "fgroup": "fn3_5",
+    "length": 129,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001807404.pdb"
+  },
+  {
+    "uid": "000145325",
+    "domain_id": "e2xwxA2",
+    "fgroup": "GbpA_D3",
+    "length": 101,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000145325.pdb"
+  },
+  {
+    "uid": "000001527",
+    "domain_id": "e1wj3A1",
+    "fgroup": "fn3",
+    "length": 117,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001527.pdb"
+  },
+  {
+    "uid": "000001766",
+    "domain_id": "e1xq4A1",
+    "fgroup": "DUF525",
+    "length": 123,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001766.pdb"
+  },
+  {
+    "uid": "000001700",
+    "domain_id": "e1cidA2",
+    "fgroup": "C2-set",
+    "length": 72,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001700.pdb"
+  },
+  {
+    "uid": "000001568",
+    "domain_id": "e1l3wA3",
+    "fgroup": "Cadherin",
+    "length": 113,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001568.pdb"
+  },
+  {
+    "uid": "000001561",
+    "domain_id": "e1x5aA1",
+    "fgroup": "fn3",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001561.pdb"
+  },
+  {
+    "uid": "000001717",
+    "domain_id": "e1gxeA1",
+    "fgroup": "I-set",
+    "length": 130,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001717.pdb"
+  },
+  {
+    "uid": "000185355",
+    "domain_id": "e3iylW7",
+    "fgroup": "Reovirus_L2_7th",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000185355.pdb"
+  },
+  {
+    "uid": "000001736",
+    "domain_id": "e1cs6A4",
+    "fgroup": "I-set",
+    "length": 89,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001736.pdb"
+  },
+  {
+    "uid": "000001550",
+    "domain_id": "e1x5fA1",
+    "fgroup": "fn3",
+    "length": 107,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001550.pdb"
+  },
+  {
+    "uid": "000001554",
+    "domain_id": "e1x5iA1",
+    "fgroup": "fn3",
+    "length": 113,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001554.pdb"
+  },
+  {
+    "uid": "000001569",
+    "domain_id": "e1l3wA4",
+    "fgroup": "Cadherin",
+    "length": 107,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001569.pdb"
+  },
+  {
+    "uid": "000001478",
+    "domain_id": "e1j8kA1",
+    "fgroup": "fn3",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001478.pdb"
+  },
+  {
+    "uid": "000001542",
+    "domain_id": "e2cuhA1",
+    "fgroup": "fn3",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001542.pdb"
+  },
+  {
+    "uid": "000001531",
+    "domain_id": "e1wk0A1",
+    "fgroup": "fn3",
+    "length": 137,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001531.pdb"
+  },
+  {
+    "uid": "000001523",
+    "domain_id": "e1v5jA1",
+    "fgroup": "fn3",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001523.pdb"
+  },
+  {
+    "uid": "000001528",
+    "domain_id": "e2crzA1",
+    "fgroup": "fn3",
+    "length": 97,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001528.pdb"
+  },
+  {
+    "uid": "000001558",
+    "domain_id": "e2dn7A1",
+    "fgroup": "fn3",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001558.pdb"
+  },
+  {
+    "uid": "000001508",
+    "domain_id": "e1bquA2",
+    "fgroup": "fn3",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001508.pdb"
+  },
+  {
+    "uid": "000001516",
+    "domain_id": "e1n26A2",
+    "fgroup": "fn3",
+    "length": 104,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001516.pdb"
+  },
+  {
+    "uid": "000001539",
+    "domain_id": "e2cspA1",
+    "fgroup": "fn3",
+    "length": 117,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001539.pdb"
+  },
+  {
+    "uid": "000001588",
+    "domain_id": "e2je8A2",
+    "fgroup": "Glyco_hydro_2",
+    "length": 111,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001588.pdb"
+  },
+  {
+    "uid": "001346834",
+    "domain_id": "e4cu7A2",
+    "fgroup": "Glyco_hydro_2",
+    "length": 120,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001346834.pdb"
+  },
+  {
+    "uid": "000001579",
+    "domain_id": "e1g0dA3",
+    "fgroup": "Transglut_C",
+    "length": 101,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001579.pdb"
+  },
+  {
+    "uid": "000001399",
+    "domain_id": "e3bmvA1",
+    "fgroup": "TIG",
+    "length": 83,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001399.pdb"
+  },
+  {
+    "uid": "001828349",
+    "domain_id": "e5e7gA1",
+    "fgroup": "TIG",
+    "length": 99,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001828349.pdb"
+  },
+  {
+    "uid": "000001603",
+    "domain_id": "e1vziA1",
+    "fgroup": "Desulfoferrodox",
+    "length": 88,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001603.pdb"
+  },
+  {
+    "uid": "000223972",
+    "domain_id": "e4ak1A2",
+    "fgroup": "SGBP_BT4661-like",
+    "length": 93,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000223972.pdb"
+  },
+  {
+    "uid": "001933319",
+    "domain_id": "e5tfyI1",
+    "fgroup": "Arch_flagellin",
+    "length": 116,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001933319.pdb"
+  },
+  {
+    "uid": "000001594",
+    "domain_id": "e1f00I2",
+    "fgroup": "Big_2",
+    "length": 89,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001594.pdb"
+  },
+  {
+    "uid": "000001595",
+    "domain_id": "e1cwvA1",
+    "fgroup": "Big_1",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001595.pdb"
+  },
+  {
+    "uid": "000001612",
+    "domain_id": "e1p4uA1",
+    "fgroup": "Alpha_adaptinC2",
+    "length": 145,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001612.pdb"
+  },
+  {
+    "uid": "001721544",
+    "domain_id": "e5dcaA15",
+    "fgroup": "Sec63",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001721544.pdb"
+  },
+  {
+    "uid": "000001455",
+    "domain_id": "e1ehxA1",
+    "fgroup": "CBM_X2",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001455.pdb"
+  },
+  {
+    "uid": "000001411",
+    "domain_id": "e1txkA1",
+    "fgroup": "MdoG",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001411.pdb"
+  },
+  {
+    "uid": "000001767",
+    "domain_id": "e1xvsA1",
+    "fgroup": "DUF525",
+    "length": 124,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001767.pdb"
+  },
+  {
+    "uid": "000001694",
+    "domain_id": "e1u58A1",
+    "fgroup": "C1-set",
+    "length": 98,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001694.pdb"
+  },
+  {
+    "uid": "000001715",
+    "domain_id": "e2cqvA1",
+    "fgroup": "I-set",
+    "length": 101,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001715.pdb"
+  },
+  {
+    "uid": "001807490",
+    "domain_id": "e5fmvA3",
+    "fgroup": "fn3",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001807490.pdb"
+  },
+  {
+    "uid": "001839928",
+    "domain_id": "e3wdhA2",
+    "fgroup": "CBM_48",
+    "length": 100,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001839928.pdb"
+  },
+  {
+    "uid": "000001658",
+    "domain_id": "e1dr9A1",
+    "fgroup": "V-set",
+    "length": 105,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001658.pdb"
+  },
+  {
+    "uid": "000001631",
+    "domain_id": "e1ogaD1",
+    "fgroup": "V-set",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001631.pdb"
+  },
+  {
+    "uid": "000001630",
+    "domain_id": "e1lp9E1",
+    "fgroup": "V-set",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001630.pdb"
+  },
+  {
+    "uid": "000001457",
+    "domain_id": "e1pbyA3",
+    "fgroup": "Qn_am_d_aIV",
+    "length": 138,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001457.pdb"
+  },
+  {
+    "uid": "000001697",
+    "domain_id": "e2oz4A1",
+    "fgroup": "Ig_2",
+    "length": 84,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001697.pdb"
+  },
+  {
+    "uid": "001097179",
+    "domain_id": "e1e07A7",
+    "fgroup": "Ig_3",
+    "length": 84,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001097179.pdb"
+  },
+  {
+    "uid": "001097174",
+    "domain_id": "e1e07A2",
+    "fgroup": "Ig_3",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001097174.pdb"
+  },
+  {
+    "uid": "000001669",
+    "domain_id": "e2cryA1",
+    "fgroup": "Ig_3",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001669.pdb"
+  },
+  {
+    "uid": "000001735",
+    "domain_id": "e1cs6A3",
+    "fgroup": "Ig_3",
+    "length": 91,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001735.pdb"
+  },
+  {
+    "uid": "000001668",
+    "domain_id": "e1yjdC1",
+    "fgroup": "V-set_2",
+    "length": 118,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001668.pdb"
+  },
+  {
+    "uid": "000001462",
+    "domain_id": "e2qlvB1",
+    "fgroup": "AMPK1_CBM",
+    "length": 87,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001462.pdb"
+  },
+  {
+    "uid": "001141265",
+    "domain_id": "e3zk4B2",
+    "fgroup": "Pur_ac_phosph_N",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001141265.pdb"
+  },
+  {
+    "uid": "001144829",
+    "domain_id": "e3hn5A2",
+    "fgroup": "DUF3823_C",
+    "length": 114,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001144829.pdb"
+  },
+  {
+    "uid": "001121974",
+    "domain_id": "e4mkmA2",
+    "fgroup": "TQ",
+    "length": 149,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001121974.pdb"
+  },
+  {
+    "uid": "001824168",
+    "domain_id": "e4uieA2",
+    "fgroup": "S-l_SbsC_C",
+    "length": 106,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001824168.pdb"
+  },
+  {
+    "uid": "001346837",
+    "domain_id": "e4cu7A5",
+    "fgroup": "Glyco_hydro2_C5",
+    "length": 119,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001346837.pdb"
+  },
+  {
+    "uid": "001712020",
+    "domain_id": "e5dfkA2",
+    "fgroup": "EcpB_C",
+    "length": 75,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001712020.pdb"
+  },
+  {
+    "uid": "000185354",
+    "domain_id": "e3iylW6",
+    "fgroup": "Reovirus_L2_6th",
+    "length": 99,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000185354.pdb"
+  },
+  {
+    "uid": "001141031",
+    "domain_id": "e3py9A4",
+    "fgroup": "PrkC-like_PASTA-like",
+    "length": 79,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001141031.pdb"
+  },
+  {
+    "uid": "001412422",
+    "domain_id": "e3lxuX3",
+    "fgroup": "TPPII_Ig-like-1",
+    "length": 125,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001412422.pdb"
+  },
+  {
+    "uid": "000146338",
+    "domain_id": "e3pmqA3",
+    "fgroup": "MtrF-like_dom-III",
+    "length": 149,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000146338.pdb"
+  },
+  {
+    "uid": "001718741",
+    "domain_id": "e5aoqA1",
+    "fgroup": "Tor_FN3_1nd",
+    "length": 130,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001718741.pdb"
+  },
+  {
+    "uid": "000153656",
+    "domain_id": "e4apxB2",
+    "fgroup": "ECD",
+    "length": 119,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000153656.pdb"
+  },
+  {
+    "uid": "000001520",
+    "domain_id": "e1ujtA1",
+    "fgroup": "fn3",
+    "length": 120,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001520.pdb"
+  },
+  {
+    "uid": "000001524",
+    "domain_id": "e1uc6A1",
+    "fgroup": "fn3",
+    "length": 109,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001524.pdb"
+  },
+  {
+    "uid": "000001439",
+    "domain_id": "e1v05A1",
+    "fgroup": "Filamin",
+    "length": 96,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001439.pdb"
+  },
+  {
+    "uid": "000001438",
+    "domain_id": "e1qfhA2",
+    "fgroup": "Filamin",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001438.pdb"
+  },
+  {
+    "uid": "000001436",
+    "domain_id": "e1g0dA1",
+    "fgroup": "Transglut_N",
+    "length": 135,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001436.pdb"
+  },
+  {
+    "uid": "000001400",
+    "domain_id": "e1qhoA1",
+    "fgroup": "TIG",
+    "length": 81,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001400.pdb"
+  },
+  {
+    "uid": "000001772",
+    "domain_id": "e1b4rA1",
+    "fgroup": "PKD",
+    "length": 80,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001772.pdb"
+  },
+  {
+    "uid": "000001738",
+    "domain_id": "e1f97A2",
+    "fgroup": "Ig_3",
+    "length": 110,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001738.pdb"
+  },
+  {
+    "uid": "001070873",
+    "domain_id": "e4kh9A2",
+    "fgroup": "DUF4785_2nd",
+    "length": 106,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001070873.pdb"
+  },
+  {
+    "uid": "001127141",
+    "domain_id": "e4nzjA3",
+    "fgroup": "He_PIG",
+    "length": 91,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001127141.pdb"
+  },
+  {
+    "uid": "000001651",
+    "domain_id": "e1smoA1",
+    "fgroup": "V-set",
+    "length": 113,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001651.pdb"
+  },
+  {
+    "uid": "000223775",
+    "domain_id": "e2q2eB4",
+    "fgroup": "Top6b_C",
+    "length": 120,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000223775.pdb"
+  },
+  {
+    "uid": "001840970",
+    "domain_id": "e2e8yA2",
+    "fgroup": "CBM_48",
+    "length": 106,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001840970.pdb"
+  },
+  {
+    "uid": "000001421",
+    "domain_id": "e1s6nA1",
+    "fgroup": "Flavi_glycop_C",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001421.pdb"
+  },
+  {
+    "uid": "000001402",
+    "domain_id": "e1wzlA1",
+    "fgroup": "Alpha-amylase_N",
+    "length": 120,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001402.pdb"
+  },
+  {
+    "uid": "000001646",
+    "domain_id": "e1pkoA1",
+    "fgroup": "V-set",
+    "length": 126,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001646.pdb"
+  },
+  {
+    "uid": "001088881",
+    "domain_id": "e4lbaB1",
+    "fgroup": "TraQ_transposon",
+    "length": 109,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001088881.pdb"
+  },
+  {
+    "uid": "001070883",
+    "domain_id": "e4lb8A2",
+    "fgroup": "DUF4848",
+    "length": 135,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001070883.pdb"
+  },
+  {
+    "uid": "000001589",
+    "domain_id": "e2je8A3",
+    "fgroup": "Ig_mannosidase",
+    "length": 81,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001589.pdb"
+  },
+  {
+    "uid": "000001703",
+    "domain_id": "e2d9qB3",
+    "fgroup": "Lep_receptor_Ig",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001703.pdb"
+  },
+  {
+    "uid": "000001673",
+    "domain_id": "e2fbjH2",
+    "fgroup": "C1-set",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001673.pdb"
+  },
+  {
+    "uid": "000001483",
+    "domain_id": "e1tdqA3",
+    "fgroup": "fn3",
+    "length": 86,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001483.pdb"
+  },
+  {
+    "uid": "000001477",
+    "domain_id": "e2fnbA1",
+    "fgroup": "fn3",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001477.pdb"
+  },
+  {
+    "uid": "000001460",
+    "domain_id": "e1v8hA1",
+    "fgroup": "SoxZ",
+    "length": 106,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001460.pdb"
+  },
+  {
+    "uid": "000001456",
+    "domain_id": "e1pbyA2",
+    "fgroup": "Qn_am_d_aIII",
+    "length": 78,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001456.pdb"
+  },
+  {
+    "uid": "000001534",
+    "domain_id": "e2djsA1",
+    "fgroup": "fn3",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001534.pdb"
+  },
+  {
+    "uid": "000001532",
+    "domain_id": "e2crmA1",
+    "fgroup": "fn3",
+    "length": 107,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001532.pdb"
+  },
+  {
+    "uid": "000001484",
+    "domain_id": "e1cfbA1",
+    "fgroup": "fn3",
+    "length": 100,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001484.pdb"
+  },
+  {
+    "uid": "000001488",
+    "domain_id": "e1k85A1",
+    "fgroup": "fn3",
+    "length": 88,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001488.pdb"
+  },
+  {
+    "uid": "000001529",
+    "domain_id": "e1x3dA1",
+    "fgroup": "fn3",
+    "length": 105,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001529.pdb"
+  },
+  {
+    "uid": "000001530",
+    "domain_id": "e1x4xA1",
+    "fgroup": "fn3",
+    "length": 93,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001530.pdb"
+  },
+  {
+    "uid": "000001491",
+    "domain_id": "e1axiB1",
+    "fgroup": "EpoR_lig-bind",
+    "length": 99,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001491.pdb"
+  },
+  {
+    "uid": "001142008",
+    "domain_id": "e4n6rB1",
+    "fgroup": "Velvet",
+    "length": 112,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001142008.pdb"
+  },
+  {
+    "uid": "001148147",
+    "domain_id": "e2hsiB1",
+    "fgroup": "Peptidase_M23_N",
+    "length": 81,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001148147.pdb"
+  },
+  {
+    "uid": "000001549",
+    "domain_id": "e1wfnA1",
+    "fgroup": "fn3",
+    "length": 106,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001549.pdb"
+  },
+  {
+    "uid": "000001545",
+    "domain_id": "e1x5zA1",
+    "fgroup": "fn3",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001545.pdb"
+  },
+  {
+    "uid": "000001597",
+    "domain_id": "e1cwvA3",
+    "fgroup": "Invasin_D3",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001597.pdb"
+  },
+  {
+    "uid": "000001592",
+    "domain_id": "e1l6pA1",
+    "fgroup": "DsbD_N",
+    "length": 121,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001592.pdb"
+  },
+  {
+    "uid": "000140125",
+    "domain_id": "e3o0lA1",
+    "fgroup": "DUF1425",
+    "length": 109,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000140125.pdb"
+  },
+  {
+    "uid": "001349044",
+    "domain_id": "e4r5oA2",
+    "fgroup": "PKD_3",
+    "length": 96,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001349044.pdb"
+  },
+  {
+    "uid": "001839927",
+    "domain_id": "e3wdhA1",
+    "fgroup": "PulA_N1",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001839927.pdb"
+  },
+  {
+    "uid": "001841047",
+    "domain_id": "e5j67C3",
+    "fgroup": "ASTN1_2_fn3",
+    "length": 126,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001841047.pdb"
+  },
+  {
+    "uid": "000001708",
+    "domain_id": "e1zxqA2",
+    "fgroup": "ICAM_N",
+    "length": 86,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001708.pdb"
+  },
+  {
+    "uid": "000153078",
+    "domain_id": "e4gucA1",
+    "fgroup": "DUF5065",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000153078.pdb"
+  },
+  {
+    "uid": "000139957",
+    "domain_id": "e2kzbA1",
+    "fgroup": "ATG19",
+    "length": 114,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000139957.pdb"
+  },
+  {
+    "uid": "001144826",
+    "domain_id": "e3fbqA2",
+    "fgroup": "DUF5643",
+    "length": 144,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001144826.pdb"
+  },
+  {
+    "uid": "000185725",
+    "domain_id": "e4exkA2",
+    "fgroup": "ZirS_C",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000185725.pdb"
+  },
+  {
+    "uid": "001699703",
+    "domain_id": "e4zi8B1",
+    "fgroup": "Cadherin_2",
+    "length": 98,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001699703.pdb"
+  },
+  {
+    "uid": "001779565",
+    "domain_id": "e4zzfA1",
+    "fgroup": "FlgD_ig",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001779565.pdb"
+  },
+  {
+    "uid": "001562410",
+    "domain_id": "e4zkfA2",
+    "fgroup": "PDE12-like_N",
+    "length": 126,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001562410.pdb"
+  },
+  {
+    "uid": "001713375",
+    "domain_id": "e5axhB1",
+    "fgroup": "Glyco_hydro_66",
+    "length": 120,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001713375.pdb"
+  },
+  {
+    "uid": "001820984",
+    "domain_id": "e5ag8A1",
+    "fgroup": "Peptidase_M60_C",
+    "length": 65,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001820984.pdb"
+  },
+  {
+    "uid": "001870474",
+    "domain_id": "e5b68A2",
+    "fgroup": "MalQ_N",
+    "length": 93,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001870474.pdb"
+  },
+  {
+    "uid": "001718742",
+    "domain_id": "e5aoqA2",
+    "fgroup": "Tor_FN3_2nd",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001718742.pdb"
+  },
+  {
+    "uid": "001807491",
+    "domain_id": "e5fmvA4",
+    "fgroup": "fn3",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001807491.pdb"
+  },
+  {
+    "uid": "002036580",
+    "domain_id": "e5h9xA1",
+    "fgroup": "CBM_56",
+    "length": 85,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002036580.pdb"
+  },
+  {
+    "uid": "002029629",
+    "domain_id": "e5j72A1",
+    "fgroup": "Cwp6_N",
+    "length": 121,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002029629.pdb"
+  },
+  {
+    "uid": "002088113",
+    "domain_id": "e5uj6A4",
+    "fgroup": "DUF4982",
+    "length": 97,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002088113.pdb"
+  },
+  {
+    "uid": "000001511",
+    "domain_id": "e1y6kR2",
+    "fgroup": "Interfer-bind",
+    "length": 106,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001511.pdb"
+  },
+  {
+    "uid": "001147771",
+    "domain_id": "e2w91A3",
+    "fgroup": "GH85_C",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001147771.pdb"
+  },
+  {
+    "uid": "000001482",
+    "domain_id": "e1tdqA2",
+    "fgroup": "fn3",
+    "length": 92,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001482.pdb"
+  },
+  {
+    "uid": "002324090",
+    "domain_id": "e6ey4A3",
+    "fgroup": "GldM_3rd",
+    "length": 84,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002324090.pdb"
+  },
+  {
+    "uid": "000223971",
+    "domain_id": "e4ak1A1",
+    "fgroup": "SGBP_BT4661-like",
+    "length": 96,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000223971.pdb"
+  },
+  {
+    "uid": "000223973",
+    "domain_id": "e4ak1A3",
+    "fgroup": "SGBP_BT4661-like",
+    "length": 114,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000223973.pdb"
+  },
+  {
+    "uid": "001487343",
+    "domain_id": "e4r7fA1",
+    "fgroup": "T9SS_plug_1st",
+    "length": 138,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001487343.pdb"
+  },
+  {
+    "uid": "000169921",
+    "domain_id": "e3f62A1",
+    "fgroup": "Pox_vIL-18BP",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000169921.pdb"
+  },
+  {
+    "uid": "001144825",
+    "domain_id": "e3fbqA1",
+    "fgroup": "DUF4179",
+    "length": 144,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001144825.pdb"
+  },
+  {
+    "uid": "000224021",
+    "domain_id": "e4fe9A1",
+    "fgroup": "DUF5115",
+    "length": 122,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000224021.pdb"
+  },
+  {
+    "uid": "001487355",
+    "domain_id": "e4ruwA2",
+    "fgroup": "EEP_ig-like",
+    "length": 107,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001487355.pdb"
+  },
+  {
+    "uid": "001828351",
+    "domain_id": "e5e7gA3",
+    "fgroup": "TIG",
+    "length": 84,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001828351.pdb"
+  },
+  {
+    "uid": "000001389",
+    "domain_id": "e1imhC1",
+    "fgroup": "RHD_dimer",
+    "length": 101,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001389.pdb"
+  },
+  {
+    "uid": "000001391",
+    "domain_id": "e3brdA1",
+    "fgroup": "TIG_SUH",
+    "length": 119,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001391.pdb"
+  },
+  {
+    "uid": "000001521",
+    "domain_id": "e1uenA1",
+    "fgroup": "fn3",
+    "length": 125,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001521.pdb"
+  },
+  {
+    "uid": "000001522",
+    "domain_id": "e1ueyA1",
+    "fgroup": "fn3",
+    "length": 127,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001522.pdb"
+  },
+  {
+    "uid": "000001512",
+    "domain_id": "e1bpvA1",
+    "fgroup": "fn3",
+    "length": 104,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001512.pdb"
+  },
+  {
+    "uid": "000001519",
+    "domain_id": "e1uemA1",
+    "fgroup": "fn3",
+    "length": 117,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001519.pdb"
+  },
+  {
+    "uid": "000001442",
+    "domain_id": "e2d7pA1",
+    "fgroup": "Filamin",
+    "length": 99,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001442.pdb"
+  },
+  {
+    "uid": "000001510",
+    "domain_id": "e1y6kR1",
+    "fgroup": "Tissue_fac",
+    "length": 99,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001510.pdb"
+  },
+  {
+    "uid": "000001606",
+    "domain_id": "e1kyfA1",
+    "fgroup": "Alpha_adaptinC2",
+    "length": 133,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001606.pdb"
+  },
+  {
+    "uid": "000001774",
+    "domain_id": "e1wgoA1",
+    "fgroup": "PKD",
+    "length": 123,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001774.pdb"
+  },
+  {
+    "uid": "000001761",
+    "domain_id": "e2davA1",
+    "fgroup": "I-set",
+    "length": 113,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001761.pdb"
+  },
+  {
+    "uid": "000001748",
+    "domain_id": "e1fnlA2",
+    "fgroup": "Ig_2",
+    "length": 89,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001748.pdb"
+  },
+  {
+    "uid": "000001758",
+    "domain_id": "e1xauA1",
+    "fgroup": "Ig_2",
+    "length": 104,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001758.pdb"
+  },
+  {
+    "uid": "000185192",
+    "domain_id": "e3e38A2",
+    "fgroup": "DUF5001",
+    "length": 86,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000185192.pdb"
+  },
+  {
+    "uid": "001082797",
+    "domain_id": "e1zlgA4",
+    "fgroup": "fn3",
+    "length": 122,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001082797.pdb"
+  },
+  {
+    "uid": "001082796",
+    "domain_id": "e1zlgA3",
+    "fgroup": "fn3",
+    "length": 104,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001082796.pdb"
+  },
+  {
+    "uid": "001560731",
+    "domain_id": "e4z29A1",
+    "fgroup": "MtxA_IG-like",
+    "length": 85,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001560731.pdb"
+  },
+  {
+    "uid": "002724104",
+    "domain_id": "e7m1bAAA2",
+    "fgroup": "DUF5126",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002724104.pdb"
+  },
+  {
+    "uid": "001720171",
+    "domain_id": "e5cl2A1",
+    "fgroup": "Spo0M",
+    "length": 123,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001720171.pdb"
+  },
+  {
+    "uid": "002066819",
+    "domain_id": "e5n40A2",
+    "fgroup": "BIg21",
+    "length": 116,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002066819.pdb"
+  },
+  {
+    "uid": "000001760",
+    "domain_id": "e1x44A1",
+    "fgroup": "I-set",
+    "length": 90,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001760.pdb"
+  },
+  {
+    "uid": "000001649",
+    "domain_id": "e2g5rA1",
+    "fgroup": "V-set",
+    "length": 121,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001649.pdb"
+  },
+  {
+    "uid": "000001596",
+    "domain_id": "e1cwvA2",
+    "fgroup": "Invasin_D3",
+    "length": 96,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001596.pdb"
+  },
+  {
+    "uid": "002066818",
+    "domain_id": "e5n40A1",
+    "fgroup": "Invasin_D3",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002066818.pdb"
+  },
+  {
+    "uid": "000001747",
+    "domain_id": "e1fnlA1",
+    "fgroup": "Ig_2",
+    "length": 84,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001747.pdb"
+  },
+  {
+    "uid": "001144795",
+    "domain_id": "e4ak1A5",
+    "fgroup": "SGBP_BT4661-like",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001144795.pdb"
+  },
+  {
+    "uid": "000001598",
+    "domain_id": "e1cwvA4",
+    "fgroup": "Invasin_D4",
+    "length": 91,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001598.pdb"
+  },
+  {
+    "uid": "001759961",
+    "domain_id": "e5hzlB3",
+    "fgroup": "Lmo2445-like_C",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001759961.pdb"
+  },
+  {
+    "uid": "000001449",
+    "domain_id": "e2dmcA1",
+    "fgroup": "Filamin",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001449.pdb"
+  },
+  {
+    "uid": "000001685",
+    "domain_id": "e1k5nB1",
+    "fgroup": "C1-set",
+    "length": 100,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001685.pdb"
+  },
+  {
+    "uid": "002491446",
+    "domain_id": "e6dlhA3",
+    "fgroup": "Cadherin_5",
+    "length": 106,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002491446.pdb"
+  },
+  {
+    "uid": "002557439",
+    "domain_id": "e6s5wA1",
+    "fgroup": "RibLong",
+    "length": 106,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002557439.pdb"
+  },
+  {
+    "uid": "002605189",
+    "domain_id": "e6szcA1",
+    "fgroup": "CshA_repeat",
+    "length": 78,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002605189.pdb"
+  },
+  {
+    "uid": "001807488",
+    "domain_id": "e5fmvA1",
+    "fgroup": "CD45",
+    "length": 75,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001807488.pdb"
+  },
+  {
+    "uid": "001070874",
+    "domain_id": "e4kh9A3",
+    "fgroup": "DUF4785_3rd",
+    "length": 107,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001070874.pdb"
+  },
+  {
+    "uid": "001807406",
+    "domain_id": "e3eifA5",
+    "fgroup": "ScpA_C",
+    "length": 100,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001807406.pdb"
+  },
+  {
+    "uid": "001097258",
+    "domain_id": "e4l3aA2",
+    "fgroup": "InlK_D2",
+    "length": 130,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001097258.pdb"
+  },
+  {
+    "uid": "002387783",
+    "domain_id": "e5ngjA3",
+    "fgroup": "Big_2",
+    "length": 97,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002387783.pdb"
+  },
+  {
+    "uid": "002323961",
+    "domain_id": "e5uz8A1",
+    "fgroup": "Cadherin",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002323961.pdb"
+  },
+  {
+    "uid": "002323962",
+    "domain_id": "e5uz8A2",
+    "fgroup": "Cadherin",
+    "length": 107,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002323962.pdb"
+  },
+  {
+    "uid": "002323963",
+    "domain_id": "e5uz8A3",
+    "fgroup": "Cadherin",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002323963.pdb"
+  },
+  {
+    "uid": "000166290",
+    "domain_id": "e2pttB1",
+    "fgroup": "Receptor_2B4",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000166290.pdb"
+  },
+  {
+    "uid": "001298749",
+    "domain_id": "e4m00A4",
+    "fgroup": "He_PIG",
+    "length": 90,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001298749.pdb"
+  },
+  {
+    "uid": "000001701",
+    "domain_id": "e1cczA2",
+    "fgroup": "C2-set",
+    "length": 78,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001701.pdb"
+  },
+  {
+    "uid": "000001447",
+    "domain_id": "e2c34A1",
+    "fgroup": "Inhibitor_I42",
+    "length": 113,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001447.pdb"
+  },
+  {
+    "uid": "000001406",
+    "domain_id": "e1eh9A1",
+    "fgroup": "CBM_48",
+    "length": 90,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001406.pdb"
+  },
+  {
+    "uid": "002324091",
+    "domain_id": "e6ey4A4",
+    "fgroup": "GldM_4th",
+    "length": 107,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002324091.pdb"
+  },
+  {
+    "uid": "001860432",
+    "domain_id": "e5l56A9",
+    "fgroup": "TIG_2",
+    "length": 100,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001860432.pdb"
+  },
+  {
+    "uid": "000001650",
+    "domain_id": "e1hkfA1",
+    "fgroup": "V-set",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001650.pdb"
+  },
+  {
+    "uid": "001790183",
+    "domain_id": "e5ek5B1",
+    "fgroup": "IrmA",
+    "length": 120,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001790183.pdb"
+  },
+  {
+    "uid": "001946133",
+    "domain_id": "e5kd2A3",
+    "fgroup": "Peptidase_M60_C",
+    "length": 73,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001946133.pdb"
+  },
+  {
+    "uid": "000196535",
+    "domain_id": "e2r2cA1",
+    "fgroup": "Omp28",
+    "length": 145,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000196535.pdb"
+  },
+  {
+    "uid": "000220332",
+    "domain_id": "e4e5xG1",
+    "fgroup": "Adeno_GP19K",
+    "length": 99,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000220332.pdb"
+  },
+  {
+    "uid": "000001465",
+    "domain_id": "e3es6B1",
+    "fgroup": "SVA",
+    "length": 118,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001465.pdb"
+  },
+  {
+    "uid": "000001410",
+    "domain_id": "e1ulvA2",
+    "fgroup": "Glucodextran_B",
+    "length": 89,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001410.pdb"
+  },
+  {
+    "uid": "000001655",
+    "domain_id": "e1cidA1",
+    "fgroup": "CD4-extracel",
+    "length": 105,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001655.pdb"
+  },
+  {
+    "uid": "000001515",
+    "domain_id": "e1n26A1",
+    "fgroup": "IL6Ra-bind",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001515.pdb"
+  },
+  {
+    "uid": "000001604",
+    "domain_id": "e1o75A1",
+    "fgroup": "PBP-Tp47_c",
+    "length": 126,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001604.pdb"
+  },
+  {
+    "uid": "000144032",
+    "domain_id": "e2lfeA1",
+    "fgroup": "HECW_N",
+    "length": 106,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000144032.pdb"
+  },
+  {
+    "uid": "001098190",
+    "domain_id": "e3besR4",
+    "fgroup": "CR4_N",
+    "length": 87,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001098190.pdb"
+  },
+  {
+    "uid": "000001571",
+    "domain_id": "e1u2cA1",
+    "fgroup": "He_PIG",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001571.pdb"
+  },
+  {
+    "uid": "000001656",
+    "domain_id": "e1hnfA1",
+    "fgroup": "V-set",
+    "length": 101,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001656.pdb"
+  },
+  {
+    "uid": "002526906",
+    "domain_id": "e6r0xE1",
+    "fgroup": "G6B",
+    "length": 110,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002526906.pdb"
+  },
+  {
+    "uid": "002033668",
+    "domain_id": "e5t4mB3",
+    "fgroup": "Cadherin",
+    "length": 114,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002033668.pdb"
+  },
+  {
+    "uid": "001163835",
+    "domain_id": "e2qsvA4",
+    "fgroup": "PG_0320-like_C",
+    "length": 114,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001163835.pdb"
+  },
+  {
+    "uid": "002387841",
+    "domain_id": "e6c29A1",
+    "fgroup": "DsbD_N",
+    "length": 148,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002387841.pdb"
+  },
+  {
+    "uid": "000141998",
+    "domain_id": "e3alzB1",
+    "fgroup": "SLAM",
+    "length": 110,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000141998.pdb"
+  },
+  {
+    "uid": "000001720",
+    "domain_id": "e1koaA1",
+    "fgroup": "I-set",
+    "length": 97,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001720.pdb"
+  },
+  {
+    "uid": "000185420",
+    "domain_id": "e3n40P3",
+    "fgroup": "Alpha_E2_glycop",
+    "length": 131,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000185420.pdb"
+  },
+  {
+    "uid": "000001422",
+    "domain_id": "e2v33A1",
+    "fgroup": "Alpha_E1_glycop",
+    "length": 90,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001422.pdb"
+  },
+  {
+    "uid": "001030966",
+    "domain_id": "e2axoA2",
+    "fgroup": "DUF1223",
+    "length": 116,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001030966.pdb"
+  },
+  {
+    "uid": "000001590",
+    "domain_id": "e2je8A4",
+    "fgroup": "Mannosidase_ig",
+    "length": 105,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001590.pdb"
+  },
+  {
+    "uid": "001141266",
+    "domain_id": "e3zk4B3",
+    "fgroup": "fn3_PAP",
+    "length": 124,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001141266.pdb"
+  },
+  {
+    "uid": "001145734",
+    "domain_id": "e4lk4A2",
+    "fgroup": "HYDIN_VesB_CFA65-like_Ig",
+    "length": 117,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001145734.pdb"
+  },
+  {
+    "uid": "001189351",
+    "domain_id": "e2yhgA6",
+    "fgroup": "Sde0182_C",
+    "length": 89,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001189351.pdb"
+  },
+  {
+    "uid": "001824169",
+    "domain_id": "e4uieA3",
+    "fgroup": "S-l_SbsC_C",
+    "length": 114,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001824169.pdb"
+  },
+  {
+    "uid": "001830951",
+    "domain_id": "e2n59A1",
+    "fgroup": "CsgH",
+    "length": 101,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001830951.pdb"
+  },
+  {
+    "uid": "000001567",
+    "domain_id": "e2omzB1",
+    "fgroup": "Cadherin",
+    "length": 104,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001567.pdb"
+  },
+  {
+    "uid": "002323839",
+    "domain_id": "e5i8dA1",
+    "fgroup": "Cadherin",
+    "length": 110,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002323839.pdb"
+  },
+  {
+    "uid": "001412425",
+    "domain_id": "e3lxuX6",
+    "fgroup": "TPPII",
+    "length": 122,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001412425.pdb"
+  },
+  {
+    "uid": "001786512",
+    "domain_id": "e4aq1A1",
+    "fgroup": "Big_5",
+    "length": 93,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001786512.pdb"
+  },
+  {
+    "uid": "000001752",
+    "domain_id": "e1ugnA1",
+    "fgroup": "Ig_2",
+    "length": 96,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001752.pdb"
+  },
+  {
+    "uid": "001164000",
+    "domain_id": "e3k1dA8",
+    "fgroup": "GlgB_N",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001164000.pdb"
+  },
+  {
+    "uid": "001760251",
+    "domain_id": "e2ch8B2",
+    "fgroup": "BARF1_ig2",
+    "length": 112,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001760251.pdb"
+  },
+  {
+    "uid": "001146559",
+    "domain_id": "e3nk3A1",
+    "fgroup": "Zona_pellucida",
+    "length": 107,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001146559.pdb"
+  },
+  {
+    "uid": "001108152",
+    "domain_id": "e4n0rA1",
+    "fgroup": "DUF5060",
+    "length": 87,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001108152.pdb"
+  },
+  {
+    "uid": "000001759",
+    "domain_id": "e1xiwB1",
+    "fgroup": "Ig_4",
+    "length": 74,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001759.pdb"
+  },
+  {
+    "uid": "001564913",
+    "domain_id": "e5a1uG2",
+    "fgroup": "Coatamer_beta_C",
+    "length": 105,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001564913.pdb"
+  },
+  {
+    "uid": "000001398",
+    "domain_id": "e1qbaA1",
+    "fgroup": "CHB_HEX_C",
+    "length": 105,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001398.pdb"
+  },
+  {
+    "uid": "000185002",
+    "domain_id": "e2xtsA1",
+    "fgroup": "Mo-co_dimer",
+    "length": 130,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000185002.pdb"
+  },
+  {
+    "uid": "001002455",
+    "domain_id": "e2zwsA2",
+    "fgroup": "Ceramidse_alk_C",
+    "length": 134,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001002455.pdb"
+  },
+  {
+    "uid": "000001773",
+    "domain_id": "e1l0qA1",
+    "fgroup": "PKD_4",
+    "length": 90,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001773.pdb"
+  },
+  {
+    "uid": "001031079",
+    "domain_id": "e3qc5X2",
+    "fgroup": "GspA_SrpA_N",
+    "length": 126,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001031079.pdb"
+  },
+  {
+    "uid": "000001397",
+    "domain_id": "e1f1sA1",
+    "fgroup": "HL_N-beta",
+    "length": 78,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001397.pdb"
+  },
+  {
+    "uid": "001148112",
+    "domain_id": "e3nqkA1",
+    "fgroup": "DUF4973",
+    "length": 147,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001148112.pdb"
+  },
+  {
+    "uid": "000136404",
+    "domain_id": "e3isyA1",
+    "fgroup": "BsuPI",
+    "length": 117,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000136404.pdb"
+  },
+  {
+    "uid": "000001475",
+    "domain_id": "e1fnhA3",
+    "fgroup": "fn3",
+    "length": 90,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001475.pdb"
+  },
+  {
+    "uid": "000001560",
+    "domain_id": "e2ibgA2",
+    "fgroup": "fn3",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001560.pdb"
+  },
+  {
+    "uid": "000001556",
+    "domain_id": "e1va9A1",
+    "fgroup": "fn3",
+    "length": 109,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001556.pdb"
+  },
+  {
+    "uid": "000001755",
+    "domain_id": "e1n26A3",
+    "fgroup": "ig",
+    "length": 93,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001755.pdb"
+  },
+  {
+    "uid": "002088111",
+    "domain_id": "e5uj6A2",
+    "fgroup": "Glyco_hydro_2",
+    "length": 121,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002088111.pdb"
+  },
+  {
+    "uid": "000185592",
+    "domain_id": "e3va6A3",
+    "fgroup": "Y_Y_Y",
+    "length": 126,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000185592.pdb"
+  },
+  {
+    "uid": "000001507",
+    "domain_id": "e1bquA1",
+    "fgroup": "IL6Ra-bind",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001507.pdb"
+  },
+  {
+    "uid": "000001518",
+    "domain_id": "e2hymA2",
+    "fgroup": "Interfer-bind",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001518.pdb"
+  },
+  {
+    "uid": "000141886",
+    "domain_id": "e2xskA1",
+    "fgroup": "Tafi-CsgC",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000141886.pdb"
+  },
+  {
+    "uid": "001097175",
+    "domain_id": "e1e07A3",
+    "fgroup": "Ig_2",
+    "length": 84,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001097175.pdb"
+  },
+  {
+    "uid": "000196413",
+    "domain_id": "e2r39A1",
+    "fgroup": "FixG_C",
+    "length": 111,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000196413.pdb"
+  },
+  {
+    "uid": "001919591",
+    "domain_id": "e4fmrB2",
+    "fgroup": "DUF4469",
+    "length": 117,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001919591.pdb"
+  },
+  {
+    "uid": "000001660",
+    "domain_id": "e1f97A1",
+    "fgroup": "V-set",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001660.pdb"
+  },
+  {
+    "uid": "000150279",
+    "domain_id": "e2lr4A1",
+    "fgroup": "DUF4879",
+    "length": 128,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000150279.pdb"
+  },
+  {
+    "uid": "000001392",
+    "domain_id": "e2cxkA1",
+    "fgroup": "TIG",
+    "length": 82,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001392.pdb"
+  },
+  {
+    "uid": "001840969",
+    "domain_id": "e2e8yA1",
+    "fgroup": "PulA_N1",
+    "length": 91,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001840969.pdb"
+  },
+  {
+    "uid": "001828342",
+    "domain_id": "e4uj6A6",
+    "fgroup": "Big-like",
+    "length": 109,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001828342.pdb"
+  },
+  {
+    "uid": "000222871",
+    "domain_id": "e3vvwA1",
+    "fgroup": "SKICH",
+    "length": 117,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000222871.pdb"
+  },
+  {
+    "uid": "000001647",
+    "domain_id": "e1eajA1",
+    "fgroup": "V-set",
+    "length": 124,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001647.pdb"
+  },
+  {
+    "uid": "001171322",
+    "domain_id": "e4aeeB7",
+    "fgroup": "SMMA_N",
+    "length": 109,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001171322.pdb"
+  },
+  {
+    "uid": "000152750",
+    "domain_id": "e4eeeA1",
+    "fgroup": "YLDV-IL18BP-like",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000152750.pdb"
+  },
+  {
+    "uid": "001862369",
+    "domain_id": "e5l5gC5",
+    "fgroup": "PSI,TIG",
+    "length": 146,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001862369.pdb"
+  },
+  {
+    "uid": "001162560",
+    "domain_id": "e2q7nA13",
+    "fgroup": "LIFR_N",
+    "length": 75,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001162560.pdb"
+  },
+  {
+    "uid": "001502806",
+    "domain_id": "e4uz8A1",
+    "fgroup": "CBM46",
+    "length": 107,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001502806.pdb"
+  },
+  {
+    "uid": "000001547",
+    "domain_id": "e1wf5A1",
+    "fgroup": "fn3",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001547.pdb"
+  },
+  {
+    "uid": "000001445",
+    "domain_id": "e2diaA1",
+    "fgroup": "Filamin",
+    "length": 100,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001445.pdb"
+  },
+  {
+    "uid": "002337280",
+    "domain_id": "e6ej7A2",
+    "fgroup": "Xylo_C",
+    "length": 130,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002337280.pdb"
+  },
+  {
+    "uid": "000001450",
+    "domain_id": "e2dibA1",
+    "fgroup": "Filamin",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001450.pdb"
+  },
+  {
+    "uid": "001758352",
+    "domain_id": "e4i0kA2",
+    "fgroup": "C2-set_3",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001758352.pdb"
+  },
+  {
+    "uid": "000001714",
+    "domain_id": "e1fhgA1",
+    "fgroup": "I-set",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001714.pdb"
+  },
+  {
+    "uid": "000001385",
+    "domain_id": "e1dceA1",
+    "fgroup": "RabGGT_insert",
+    "length": 109,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001385.pdb"
+  },
+  {
+    "uid": "002831701",
+    "domain_id": "e7e2cK1",
+    "fgroup": "Trs65",
+    "length": 61,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002831701.pdb"
+  },
+  {
+    "uid": "000001407",
+    "domain_id": "e2bhuA1",
+    "fgroup": "CBM_48",
+    "length": 97,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001407.pdb"
+  },
+  {
+    "uid": "001141973",
+    "domain_id": "e3zmrA1",
+    "fgroup": "BACON",
+    "length": 89,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001141973.pdb"
+  },
+  {
+    "uid": "000001584",
+    "domain_id": "e1bhgA2",
+    "fgroup": "Glyco_hydro_2",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001584.pdb"
+  },
+  {
+    "uid": "000001454",
+    "domain_id": "e1ix2A1",
+    "fgroup": "CopC",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001454.pdb"
+  },
+  {
+    "uid": "000001509",
+    "domain_id": "e1i1rA3",
+    "fgroup": "Lep_receptor_Ig",
+    "length": 100,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001509.pdb"
+  },
+  {
+    "uid": "000001409",
+    "domain_id": "e1edqA1",
+    "fgroup": "ChitinaseA_N",
+    "length": 109,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001409.pdb"
+  },
+  {
+    "uid": "000001565",
+    "domain_id": "e1op4A1",
+    "fgroup": "Cadherin_pro",
+    "length": 136,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001565.pdb"
+  },
+  {
+    "uid": "001148141",
+    "domain_id": "e2gy5A1",
+    "fgroup": "Ig_Tie2_1",
+    "length": 99,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001148141.pdb"
+  },
+  {
+    "uid": "000001492",
+    "domain_id": "e1axiB2",
+    "fgroup": "fn3",
+    "length": 106,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001492.pdb"
+  },
+  {
+    "uid": "000001517",
+    "domain_id": "e2hymA1",
+    "fgroup": "Tissue_fac",
+    "length": 109,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001517.pdb"
+  },
+  {
+    "uid": "002084815",
+    "domain_id": "e1hzhH7",
+    "fgroup": "C1-set",
+    "length": 117,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002084815.pdb"
+  },
+  {
+    "uid": "000138493",
+    "domain_id": "e2khaA1",
+    "fgroup": "CBM39",
+    "length": 113,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000138493.pdb"
+  },
+  {
+    "uid": "001145685",
+    "domain_id": "e4oleA1",
+    "fgroup": "N_BRCA1_IG",
+    "length": 122,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001145685.pdb"
+  },
+  {
+    "uid": "001346836",
+    "domain_id": "e4cu7A4",
+    "fgroup": "DUF4982",
+    "length": 109,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001346836.pdb"
+  },
+  {
+    "uid": "000137971",
+    "domain_id": "e2wy3B1",
+    "fgroup": "UL16",
+    "length": 137,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000137971.pdb"
+  },
+  {
+    "uid": "001107293",
+    "domain_id": "e4m8rB2",
+    "fgroup": "DUF4784_N",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001107293.pdb"
+  },
+  {
+    "uid": "001759965",
+    "domain_id": "e4v10A2",
+    "fgroup": "I-set",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001759965.pdb"
+  },
+  {
+    "uid": "000001733",
+    "domain_id": "e1cs6A1",
+    "fgroup": "Ig_3",
+    "length": 97,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001733.pdb"
+  },
+  {
+    "uid": "000001737",
+    "domain_id": "e1gl4B1",
+    "fgroup": "Ig_3",
+    "length": 89,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001737.pdb"
+  },
+  {
+    "uid": "001144166",
+    "domain_id": "e2h6oA3",
+    "fgroup": "Herpes_gp350_C",
+    "length": 132,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001144166.pdb"
+  },
+  {
+    "uid": "002066791",
+    "domain_id": "e5h7vA2",
+    "fgroup": "K319L-like_PKD",
+    "length": 76,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002066791.pdb"
+  },
+  {
+    "uid": "001806461",
+    "domain_id": "e2ra1A4",
+    "fgroup": "Big_5",
+    "length": 97,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001806461.pdb"
+  },
+  {
+    "uid": "000001535",
+    "domain_id": "e1x4zA1",
+    "fgroup": "fn3",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001535.pdb"
+  },
+  {
+    "uid": "000001541",
+    "domain_id": "e2cuiA1",
+    "fgroup": "fn3",
+    "length": 101,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001541.pdb"
+  },
+  {
+    "uid": "002491379",
+    "domain_id": "e5ow3C2",
+    "fgroup": "HAP2-GCS1",
+    "length": 105,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002491379.pdb"
+  },
+  {
+    "uid": "001866766",
+    "domain_id": "e5fceB1",
+    "fgroup": "SgrA_ig-like",
+    "length": 116,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001866766.pdb"
+  },
+  {
+    "uid": "000001687",
+    "domain_id": "e1hyrC1",
+    "fgroup": "C1-set",
+    "length": 94,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001687.pdb"
+  },
+  {
+    "uid": "000001458",
+    "domain_id": "e1jmxA3",
+    "fgroup": "Qn_am_d_aIII",
+    "length": 82,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001458.pdb"
+  },
+  {
+    "uid": "000001749",
+    "domain_id": "e1uctA1",
+    "fgroup": "Ig_2",
+    "length": 99,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001749.pdb"
+  },
+  {
+    "uid": "000001557",
+    "domain_id": "e1x5yA1",
+    "fgroup": "fn3",
+    "length": 98,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001557.pdb"
+  },
+  {
+    "uid": "000001611",
+    "domain_id": "e2h3kA1",
+    "fgroup": "NEAT",
+    "length": 144,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001611.pdb"
+  },
+  {
+    "uid": "000001446",
+    "domain_id": "e2nqdA1",
+    "fgroup": "Inhibitor_I42",
+    "length": 108,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001446.pdb"
+  },
+  {
+    "uid": "000185144",
+    "domain_id": "e3d33A1",
+    "fgroup": "DUF3244",
+    "length": 101,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000185144.pdb"
+  },
+  {
+    "uid": "000001394",
+    "domain_id": "e1w8oA2",
+    "fgroup": "NPCBM_assoc",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001394.pdb"
+  },
+  {
+    "uid": "000001718",
+    "domain_id": "e1g1cA1",
+    "fgroup": "I-set",
+    "length": 98,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001718.pdb"
+  },
+  {
+    "uid": "000001711",
+    "domain_id": "e1qz1A3",
+    "fgroup": "I-set",
+    "length": 100,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001711.pdb"
+  },
+  {
+    "uid": "000001702",
+    "domain_id": "e1dr9A2",
+    "fgroup": "C2-set_2",
+    "length": 95,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001702.pdb"
+  },
+  {
+    "uid": "000001551",
+    "domain_id": "e1x5hA1",
+    "fgroup": "fn3",
+    "length": 119,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001551.pdb"
+  },
+  {
+    "uid": "000001553",
+    "domain_id": "e1x5gA1",
+    "fgroup": "fn3",
+    "length": 103,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001553.pdb"
+  },
+  {
+    "uid": "000001467",
+    "domain_id": "e1akpA1",
+    "fgroup": "Neocarzinostat",
+    "length": 114,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001467.pdb"
+  },
+  {
+    "uid": "000001540",
+    "domain_id": "e2cumA1",
+    "fgroup": "fn3",
+    "length": 93,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001540.pdb"
+  },
+  {
+    "uid": "000001546",
+    "domain_id": "e1wisA1",
+    "fgroup": "fn3",
+    "length": 111,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001546.pdb"
+  },
+  {
+    "uid": "000001548",
+    "domain_id": "e1wfoA1",
+    "fgroup": "fn3",
+    "length": 117,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001548.pdb"
+  },
+  {
+    "uid": "001779557",
+    "domain_id": "e3c12A1",
+    "fgroup": "FlgD_ig",
+    "length": 85,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001779557.pdb"
+  },
+  {
+    "uid": "000138652",
+    "domain_id": "e2kutA1",
+    "fgroup": "CARDB",
+    "length": 115,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000138652.pdb"
+  },
+  {
+    "uid": "000139952",
+    "domain_id": "e3n6yA1",
+    "fgroup": "DUF3859",
+    "length": 137,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000139952.pdb"
+  },
+  {
+    "uid": "000001746",
+    "domain_id": "e1wwcA1",
+    "fgroup": "I-set",
+    "length": 105,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/000001746.pdb"
+  },
+  {
+    "uid": "002526347",
+    "domain_id": "e6q63A3",
+    "fgroup": "Fn3_assoc",
+    "length": 73,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002526347.pdb"
+  },
+  {
+    "uid": "002324089",
+    "domain_id": "e6ey4A2",
+    "fgroup": "GldM_2nd",
+    "length": 90,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002324089.pdb"
+  },
+  {
+    "uid": "002559745",
+    "domain_id": "e6gf6B1",
+    "fgroup": "ZP1_ZP4_Ig-like",
+    "length": 110,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002559745.pdb"
+  },
+  {
+    "uid": "001088523",
+    "domain_id": "e4bhuC1",
+    "fgroup": "BslA",
+    "length": 125,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001088523.pdb"
+  },
+  {
+    "uid": "001082798",
+    "domain_id": "e1zlgA5",
+    "fgroup": "Ig_ANOS1",
+    "length": 123,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001082798.pdb"
+  },
+  {
+    "uid": "001758316",
+    "domain_id": "e2ec8A5",
+    "fgroup": "Ig_PDGFR_d4",
+    "length": 102,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/001758316.pdb"
+  },
+  {
+    "uid": "002831702",
+    "domain_id": "e7e2cK2",
+    "fgroup": "IgD2_Trs65",
+    "length": 126,
+    "path": "/home/rschaeff/data/dpam_reference/ecod_data/ECOD70/002831702.pdb"
+  }
+]
