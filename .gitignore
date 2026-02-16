@@ -34,6 +34,15 @@ logs/*
 *.fa
 downloads/
 
+# Generated analysis outputs (large)
+evaluation/
+results/
+length_anomaly_analysis/full_scan/
+length_anomaly_analysis/*_outliers_*.csv
+
+# Generated figures
+ig_split_prototype/figures/
+
 # Database backups
 backups/
 
