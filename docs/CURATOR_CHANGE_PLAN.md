@@ -1,296 +1,391 @@
-# ECOD Classification Change Plan
+# ECOD Classification Changes: Implementation Report
 
 **Date**: 2026-02-16
 **Source**: Curator instructions (received 2026-02-16)
-**Status**: Draft - all items clarified, ready for review
+**Status**: All 8 changes implemented and verified
 
 ---
 
 ## Overview
 
-This document translates curator-provided classification corrections into a structured action plan. Changes span three levels of the ECOD hierarchy:
+This document records the implementation of curator-provided classification corrections
+spanning three levels of the ECOD hierarchy. All changes were applied to both
+`ecod_rep` (the authority schema for hierarchy and representative domains) and
+`ecod_commons` (the comprehensive domain schema), with full audit trails.
 
-| Level | Changes | Domains Affected |
-|-------|---------|------------------|
-| X-group merges | 3 | ~2,554 |
-| Family reclassification | 3 | ~5+ families |
-| Domain boundary corrections | 2 | Individual domains + siblings |
+| Level | Changes | Source F-groups Deprecated | Domains Moved/Created |
+|-------|---------|--------------------------|----------------------|
+| X-group merges | 3 (1A, 1B, 1C) | 8 F-groups + 3 T/H/X each | ~6,100 |
+| Family reclassification | 2 (2A, 2B) | 3 F-groups | ~1,475 |
+| Domain split | 1 (2C) | 1 F-group | 35 obsoleted, ~60 created |
+| Boundary corrections | 2 (3A, 3B) | 0 | 1 + 759 domains trimmed |
 
 ---
 
 ## Resolved Clarifications
 
-Two domain identifiers in the original curator notes contained typos, now confirmed:
+Two domain identifiers in the original curator notes contained typos. These were
+resolved by searching ECOD versions v290-v292 flat files to identify the correct
+PDB codes, then confirmed by the curator:
 
-| Original (typo) | Corrected | PDB | Chain | Current Range | F-group |
-|-----------------|-----------|-----|-------|---------------|---------|
-| e6bmlD1 | **e6bmsD1** | 6bms | D | D:79-240 | 4106.1.1.1 (Zinc hairpin stack), AUTO_NONREP |
-| e5wwB1 | **e5fwwB1** | 5fww | B | B:1-184 | 380.1.1.3 (Kringle,WSC), MANUAL_REP |
+| Original (typo) | Corrected | PDB | Chain | Range | F-group |
+|-----------------|-----------|-----|-------|-------|---------|
+| e6bmlD1 | **e6bmsD1** | 6bms | D | D:79-240 | 4106.1.1.1, AUTO_NONREP |
+| e5wwB1 | **e5fwwB1** | 5fww | B | B:1-184 | 380.1.1.3, MANUAL_REP |
+
+---
+
+## Implementation Architecture
+
+All changes were implemented via scripts in `curator_changes/`:
+
+```
+curator_changes/
+  curator_ops.py                 # Shared database operations library
+  change_definitions.py          # Declarative configuration for all 8 changes
+  implement_xgroup_merges.py     # Changes 1A, 1B, 1C
+  implement_family_reclass.py    # Changes 2A, 2B
+  implement_domain_split.py      # Change 2C (Kringle/WSC)
+  implement_boundary_fixes.py    # Changes 3A, 3B
+  boundary_methods.py            # HMMER and pairwise alignment boundary determination
+```
+
+### Design principles
+
+1. **Separate scripts per change type** - each type has fundamentally different logic
+2. **Shared ops library** (`curator_ops.py`) - reuses patterns from `prov_rep_daccession/batch_deprecate_a1.py` and `batch_replace_a2.py`
+3. **All scripts support `--dry-run` (default) and `--execute`** - dry-run was run first for every change
+4. **Per-domain commits** - each domain operation is atomic; rollback on failure
+5. **ecod_rep changes via stored functions** - triggers automatic audit logging to `cluster_changelog`, `domain_assignment_log`, `domain_modification_log`
+6. **ecod_commons changes via direct SQL** - no auto-propagation exists, so f_group_assignments are updated manually
+
+### Synchronization pattern
+
+Every change follows this flow:
+
+```
+1. ecod_rep.hierarchy_change_request  (create + approve)
+2. ecod_rep stored function           (implement) -> auto-audit
+3. ecod_commons.f_group_assignments   (UPDATE all hierarchy columns)
+4. ecod_commons.domains               (UPDATE/INSERT if range or obsolete changes)
+5. conn.commit()
+```
+
+For ecod_commons f_group_assignments, all hierarchy columns are updated together:
+```sql
+UPDATE ecod_commons.f_group_assignments
+SET f_group_id = :new_f, t_group_id = :new_t, h_group_id = :new_h,
+    x_group_id = :new_x, a_group_id = :new_a,
+    assignment_method = 'manual',
+    assigned_by = 'curator_change_pipeline',
+    assignment_date = NOW()
+WHERE f_group_id = :old_f
+```
+
+### Schema note
+
+`ecod_commons.f_group_assignments.domain_id` is a FK to `ecod_commons.domains.id`
+(the integer PK), NOT to `domains.ecod_uid`. Always join as `d.id = fga.domain_id`.
 
 ---
 
 ## Change 1: X-group Merges
 
-Three X-groups are to be dissolved and their contents merged into existing groups. In each case the source X-group is small and single-hierarchy (one H-group, one T-group, one F-group).
+### 1A. X-group 7584 -> 323.1.1
 
-### 1A. X-group 7584 → X-group 323
+**Rationale**: Rossmann-like domain in Acetyl-CoA synthetase-like proteins recognized
+as homologous to CoA-dependent acyltransferases.
 
-**Rationale**: Rossmann-like domain in Acetyl-CoA synthetase-like proteins is recognized as homologous to CoA-dependent acyltransferases.
+| Source | Target |
+|--------|--------|
+| 7584 (a.17, 1 H/T, 5 F-groups) | 323.1.1 (a.14, CoA-dependent acyltransferases) |
 
-| | Source (7584) | Target (323) |
-|---|---|---|
-| **Name** | Rossmann-like domain in Acetyl-CoA synthetase-like proteins | CoA-dependent acyltransferases |
-| **Architecture** | a.17 | a.14 |
-| **Hierarchy** | 1 H-group, 1 T-group, 5 F-groups | 1 H-group, 1 T-group, 17 F-groups |
-| **Domains** | ~2,380 | ~3,901 |
+**F-group mapping (implemented)**:
 
-**Actions**:
-1. Reassign all domains from 7584.1.1 F-groups into 323.1.1
-2. Map source F-groups to target F-groups (note: 323.1.1 already contains an AMP-binding F-group 323.1.1.3, which overlaps with 7584.1.1.1 AMP-binding)
-3. Retire X-group 7584, H-group 7584.1, T-group 7584.1.1
+| Source | Pfam | Action | Target |
+|--------|------|--------|--------|
+| 7584.1.1.1 AMP-binding (11 reps) | PF00501 | Merged (same Pfam) | 323.1.1.3 |
+| 7584.1.1.2 AMP-binding,ACAS_N (1 rep) | PF00501,PF16177 | New F-group | 323.1.1.20 |
+| 7584.1.1.3 GH3 (1 rep) | PF03321 | New F-group | 323.1.1.21 |
+| 7584.1.1.4 ACAS_N (1 rep) | PF16177 | New F-group | 323.1.1.22 |
+| 7584.1.1.5 LuxE (1 rep) | PF04443 | New F-group | 323.1.1.23 |
 
-**F-group mapping** (requires curator input on whether to merge or create new F-groups):
+**Result**: 5 source F-groups deprecated, X/H/T 7584 deprecated. 323.1.1.3 now
+contains 3,180 active domains. New F-groups 323.1.1.20-23 created via `assign_next_f_id`.
 
-| Source F-group | Pfam | Candidate Target | Action |
-|----------------|------|------------------|--------|
-| 7584.1.1.1 (AMP-binding, 11 domains) | PF00501 | 323.1.1.3 (AMP-binding, 3 domains) | Merge? |
-| 7584.1.1.2 (AMP-binding,ACAS_N) | PF00501,PF16177 | 323.1.1.4 (AMP-binding,AMP-binding_C)? | New F-group? |
-| 7584.1.1.3 (GH3, 1 domain) | PF16887 | -- | New F-group in 323.1.1 |
-| 7584.1.1.4 (ACAS_N, 1 domain) | PF16177 | -- | New F-group in 323.1.1 |
-| 7584.1.1.5 (LuxE, 1 domain) | PF02382 | -- | New F-group in 323.1.1 |
+### 1B. X-group 1139 -> 327.6.1
 
-### 1B. X-group 1139 → T-group 327.6.1
+**Rationale**: Secretin domain recognized as structurally related to Fe-S cluster
+assembly (FSCA) domain-like fold.
 
-**Rationale**: Secretin domain recognized as structurally related to Fe-S cluster assembly (FSCA) domain-like fold.
+| Source | Target |
+|--------|--------|
+| 1139 (1 H/T/F, ~156 domains) | 327.6.1 (FSCA domain-like, 3 existing F-groups) |
 
-| | Source (1139) | Target (327.6.1) |
-|---|---|---|
-| **Name** | Secretin domain | Fe-S cluster assembly (FSCA) domain-like |
-| **Parent X-group** | 1139 (standalone) | 327 (Alpha-lytic protease prodomain-like) |
-| **Hierarchy** | 1 H/T/F | T-group with 3 F-groups |
-| **Domains** | ~156 | ~45 |
+**Result**: New F-group 327.6.1.6 (Secretin, PF00263) created. 169 active domains
+assigned. Source X/H/T/F 1139 fully deprecated.
 
-**Actions**:
-1. Create new F-group under T-group 327.6.1 for Secretin domains (e.g., 327.6.1.4 Secretin)
-2. Reassign all 156 domains from 1139.1.1.1 → 327.6.1.4
-3. Retire X-group 1139, H-group 1139.1, T-group 1139.1.1
+### 1C. X-group 3488 -> 223.1.1
 
-### 1C. X-group 3488 → T-group 223.1.1
+**Rationale**: Putative sensor histidine kinase domain belongs with sensor domains.
 
-**Rationale**: Putative sensor histidine kinase domain recognized as belonging to the sensor domain superfamily.
+| Source | Target |
+|--------|--------|
+| 3488 (1 H/T, 2 F-groups, ~18 domains) | 223.1.1 (sensor domains, 85 F-groups) |
 
-| | Source (3488) | Target (223.1.1) |
-|---|---|---|
-| **Name** | Putative sensor histidine kinase domain | Sensor domains |
-| **Parent X-group** | 3488 (standalone) | 223 (Profilin-like) |
-| **Hierarchy** | 1 H/T, 2 F-groups | T-group with 85 F-groups |
-| **Domains** | ~18 | ~2,458 |
+**Result**: New F-groups 223.1.1.96 (dCache_2, PF08269, 4 active) and 223.1.1.97
+(sCache_2, PF17200, 14 active) created. Source X/H/T 3488 fully deprecated.
 
-**Actions**:
-1. Map 3488.1.1.1 (dCache_2) and 3488.1.1.2 (sCache_2) into 223.1.1
-2. Check if 223.1.1 already has dCache_2 or sCache_2 F-groups (if so, merge; if not, create new)
-3. Reassign all 18 domains
-4. Retire X-group 3488, H-group 3488.1, T-group 3488.1.1
+### X-group merge algorithm
+
+```
+For each source F-group:
+    1. Check if matching Pfam exists in target T-group
+       - If match: merge into existing target F-group
+       - If no match: create new F-group via assign_next_f_id()
+    2. Move rep domains: implement_reassign_f_group() for each rep
+    3. Move ecod_commons: UPDATE f_group_assignments SET f_group_id = target
+    4. Deprecate source F-group
+
+After all F-groups processed:
+    5. Deprecate source T-group, H-group, X-group (bottom-up)
+```
 
 ---
 
 ## Change 2: Family-Level Reclassifications
 
-Three sets of domains are to be moved from one F-group to another based on Pfam family membership.
+### 2A. OmpA: 274.1.1.3 -> 301.3.1.1
 
-### 2A. OmpA domains: 274.1.1 → 301.3.1
+**Rationale**: OmpA domains incorrectly placed in Pili subunits; belong in OmpA-like.
 
-**Rationale**: OmpA-family domains were placed in the Pili subunits group but belong in the dedicated OmpA-like group.
+**Result**: F-group 274.1.1.3 deprecated. 301.3.1.1 now contains 598 active domains
+(4 reps).
 
-| | Source | Target |
-|---|---|---|
-| **F-group** | 274.1.1 (Pili subunits) | 301.3.1 (OmpA-like) |
-| **X-group** | 274 (Type IV pilin-like) | 301 (Bacillus chorismate mutase-like) |
-| **Affected family** | 274.1.1.3 (OmpA, 1 rep: e6aeoA3) | 301.3.1.1 (OmpA, 472 domains) |
+### 2B. tRNA-synt: 310.1.1.1 + 310.1.1.3 -> 140.1.1.3
 
-**Actions**:
-1. Identify all domains in 274.1.1.3 (OmpA sub-family)
-2. Reassign to 301.3.1.1 (existing OmpA F-group in target)
-3. Retire 274.1.1.3 if emptied
+**Rationale**: tRNA synthetase domains were in ArgRS N-terminal group; belong with
+anticodon-binding domain superfamily.
 
-**Impact**: Small - moving a handful of domains to a group that already contains the same Pfam family (PF00691).
+**Result**: Both 310.1.1.1 (tRNA-synt_1d,DALR_1) and 310.1.1.3 (DALR_1) deprecated.
+310.1.1.2 (Arg_tRNA_synt_N) survives. 140.1.1.3 now contains 877 active domains
+(6 reps).
 
-### 2B. tRNA-synt_1d/DALR_1 domains: 310.1.1 → 140.1.1
+### Family reclassification algorithm
 
-**Rationale**: tRNA synthetase-related domains were placed in the ArgRS N-terminal domain group but belong with the anticodon-binding domain superfamily.
+```
+1. Verify source and target F-groups exist
+2. Move rep domains: implement_reassign_f_group() for each
+3. Move ecod_commons: UPDATE f_group_assignments
+4. Deprecate source F-group if emptied
+```
 
-| | Source | Target |
-|---|---|---|
-| **F-group** | 310.1.1 (Arginyl-tRNA synthetase N-terminal) | 140.1.1 (Anticodon-binding domain) |
-| **X-group** | 310 (ArgRS N-terminal) | 140 (same name as H/T) |
-| **Affected families** | 310.1.1.1 (tRNA-synt_1d,DALR_1) and 310.1.1.3 (DALR_1) | 140.1.1.3 (tRNA-synt_1d,DALR_1, 4 reps) |
+---
 
-**Actions**:
-1. Identify all domains in 310.1.1.1 and 310.1.1.3
-2. Reassign to 140.1.1.3 (existing tRNA-synt_1d,DALR_1 family in target)
-3. Retire emptied F-groups in 310.1.1
-4. If 310.1.1 retains only Arg_tRNA_synt_N (310.1.1.2), the T-group survives
+## Change 2C: Kringle/WSC Domain Split
 
-**Impact**: Small - target already has an exact Pfam-family match.
-
-### 2C. Kringle,WSC split: 380.1.1.3 → 380.1.1.2 + 390.1.1
-
-**Rationale**: F-group 380.1.1.3 (Kringle,WSC) contains domains with two distinct structural regions that should be classified separately. The Kringle portion belongs in the Kringle family, and the WSC portion belongs in the WSC family.
+**Rationale**: F-group 380.1.1.3 (Kringle,WSC) contains domains spanning two
+distinct Pfam families that should be classified separately.
 
 | | Kringle portion | WSC portion |
 |---|---|---|
-| **Target F-group** | 380.1.1.2 (Kringle) | 390.1.1.2 (WSC) |
+| **Pfam** | PF00051 | PF01822 |
+| **Target F-group** | 380.1.1.2 | 390.1.1.2 |
 | **Target X-group** | 380 (same) | 390 (Hairpin loop containing domain-like) |
-| **Residue example** | 30-115 | 116-213 |
 
-**Source**: F-group 380.1.1.3 (Kringle,WSC) - 1 rep domain, likely a small number of total members.
+### Boundary determination method: HMMER envelope coordinates
 
-**Actions**:
-1. For each domain in 380.1.1.3:
-   - Split the domain range into Kringle region and WSC region (using the boundary pattern exemplified by the curator: ~residue 115-116)
-   - Create a new domain entry for the Kringle portion → assign to 380.1.1.2
-   - Create a new domain entry for the WSC portion → assign to 390.1.1.2
-   - Retire the original merged domain
-2. Retire F-group 380.1.1.3 after all members are split
-3. Update representative status as needed in target F-groups
+Each domain's split boundary was determined by Pfam HMM search rather than by
+transferring coordinates from the reference domain. This is more robust because
+domains have varying absolute coordinates but consistent Pfam domain boundaries.
 
-**Complexity**: Medium. This requires domain splitting (new domain entries), not just reclassification. Each domain needs its range recalculated. The curator-provided example (residues 30-115 / 116-213) serves as a template, but individual domains may have slightly different boundaries.
+**Two-tier lookup**:
 
-**Reference domain**: e5fwwB1 (PDB 5fww chain B, B:1-184, MANUAL_REP in 380.1.1.3). Curator specifies: residues 30-115 = Kringle, residues 116-213 = WSC.
+1. **Database lookup** (`swissprot.domain_hmmer_results`): Check for pre-computed
+   HMMER results for each domain against PF00051 (Kringle) and PF01822 (WSC).
+   Coordinates are 1-based, domain-local (envelope start/end).
+
+2. **hmmscan fallback**: If no pre-computed results exist, extract the domain
+   sequence from `ecod_commons.protein_sequences`, fetch Kringle and WSC HMMs
+   from `Pfam-A.hmm` by name (`hmmfetch`), and run `hmmscan` to determine
+   envelope coordinates.
+
+**Coordinate conversion**: HMMER envelope coordinates are domain-local (position 1
+= first residue of the domain). These are converted to absolute protein coordinates
+by walking through the domain's range segments:
+
+```python
+# domain_local_to_absolute(env_start, env_end, range_definition)
+# e.g., domain range "296-385", HMMER env 10-80 -> absolute 305-375
+# Handles multi-segment ranges like "251-280,306-345"
+```
+
+### Split outcomes
+
+Each domain was classified based on which Pfam HMMs were detected:
+
+| Outcome | Count | Action |
+|---------|-------|--------|
+| SPLIT (both Kringle + WSC detected) | 9 | Two new domains created, original obsoleted |
+| RECLASS (only Kringle detected) | 20 | One new domain -> 380.1.1.2, original obsoleted |
+| RECLASS (only WSC detected) | 5 | One new domain -> 390.1.1.2, original obsoleted |
+| Obsoleted fragment | 1 | Q96FE7_F1_nD2 (40aa) too short for either family |
+
+**Result**: 380.1.1.3 deprecated. 380.1.1.2 (Kringle) now contains 473 active
+domains. 390.1.1.2 (WSC) now contains 24 active domains.
+
+### Split product naming
+
+New domains are named by appending a suffix to the original domain ID:
+- Kringle portion: `{original_id}k` (e.g., e5fwwB1 -> e5fwwB1k)
+- WSC portion: `{original_id}w` (e.g., e5fwwB1 -> e5fwwB1w)
+
+Each new domain receives a fresh `ecod_uid` via `nextval('ecod_commons.ecod_uid_sequence')`.
 
 ---
 
-## Change 3: Domain-Level Corrections
+## Change 3: Domain Boundary Corrections
 
-### 3A. Boundary trim in 4106.1.1 (Zinc hairpin stack)
+### 3A. e6bmsD1 trim (Zinc hairpin stack)
 
-**Curator instruction**: e6bmsD1 (PDB 6bms chain D) range D:79-240 → trim to approximately D:79-156
+**Curator instruction**: Trim e6bmsD1 (PDB 6bms chain D) from D:79-240 to D:79-156.
 
-**Interpretation**: Trim the C-terminal boundary of a zinc hairpin stack domain, removing ~84 residues that likely belong to an adjacent domain or are unstructured.
+**Context**: Most 4106.1.1 domains span ~55-90 residues. e6bmsD1 at 162 residues
+was over-extended into a non-zinc-hairpin C-terminal region.
 
-**Actions**:
-1. Update e6bmsD1 range from D:79-240 to approximately D:79-156
-2. Check whether the trimmed region (157-240) constitutes a separate domain or is unstructured
-3. Check other 4106.1.1 domains for similar over-extension (there are 14 PDB domains total in this group)
+**Method**: Direct range update per curator specification. Domain is an AUTO_NONREP,
+so only ecod_commons was modified. The atomic domain principle was followed:
+the original domain (ecod_uid 4925088) was deprecated and a replacement created
+with the trimmed range.
 
-**Context**: Most 4106.1.1 domains span ~55-90 residues (e.g., e2dktA2: A:82-137). The e6bmsD1 domain at 162 residues is notably longer, consistent with the curator's assessment that it needs trimming.
+**Result**: e6bmsD1 range updated from D:79-240 to D:79-156.
 
-### 3B. Boundary fixes in 563.1.1 (OSCP N-terminal domain)
+### 3B. 563.1.1 boundary fixes (OSCP N-terminal domain)
 
 **Curator instruction**: Fix boundaries on nonrepresentatives such as e6rdqP1.
 
-**Current state of e6rdqP1**: Range P:37-229 (193 residues), F70 representative.
+**Context**: The manual representative e1abvA1 is 105 residues. Many domains in this
+group are substantially longer, up to 790 residues for some AlphaFold-derived entries.
 
-**Context**: The manual representative for 563.1.1 is e1abvA1 (A:1-105, 105 residues). Domain sizes in this group vary considerably:
+### Boundary determination method: pairwise sequence alignment
 
-| Size range | Examples | Notes |
-|------------|----------|-------|
-| ~100-120 aa | e1abvA1 (1-105), e4b2qW1 (11-120) | Consistent with OSCP N-terminal domain |
-| ~150-170 aa | e5arhS1 (1-168), e5t4oL1 (3-162) | Moderately larger |
-| ~190-230 aa | **e6rdqP1 (37-229)**, e6fkfd1 (71-249), e6tmiG1 (73-252) | Likely over-extended |
+Rather than applying a fixed residue cutoff, each over-extended domain's correct
+C-terminal boundary was determined by local pairwise alignment to the reference
+domain (e1abvA1).
 
-**Actions**:
-1. Identify all 563.1.1 domains with ranges substantially longer than the manual representative (~105 aa)
-2. Determine correct C-terminal boundary for e6rdqP1 and similar cases
-3. Trim domain ranges to exclude non-OSCP regions
-4. Reassess F70/F40 representative status after boundary corrections
+**Algorithm** (implemented in `boundary_methods.py`):
 
-**Scope**: At least 3-5 domains appear over-extended (>190 aa vs ~105 aa reference). A systematic review of all 200 domains in this group may be warranted.
+1. **Extract sequences**: Reference (e1abvA1) and query domain sequences are
+   extracted from `ecod_commons.protein_sequences` using the domain range definition.
+
+2. **Local alignment**: BioPython `PairwiseAligner` with BLOSUM62 scoring,
+   gap open -11, gap extend -1. Local (Smith-Waterman) mode so the reference
+   matches a subset of the query.
+
+3. **C-terminal trim**: The alignment endpoint on the query indicates where the
+   OSCP-homologous region ends. The original N-terminal start is preserved;
+   only the C-terminus is trimmed.
+
+4. **Confidence filter**: Alignments must cover at least 50% of the reference
+   sequence to be considered reliable. Domains with low reference coverage are
+   skipped (logged as low-confidence).
+
+```python
+new_range, new_length, aln_info = compute_cterminal_trim(
+    reference_seq, query_seq, range_definition,
+    min_ref_coverage=0.5)
+```
+
+**Coordinate conversion**: The alignment endpoint (0-based on the query sequence)
+is converted back to absolute protein coordinates by walking through the domain's
+range segments, preserving multi-segment range formatting.
+
+**Result**:
+- 759 domains trimmed (including e6rdqP1: P:37-229 -> P:37-144)
+- 113 domains skipped (97 due to low reference coverage, 16 no sequence available)
+- All trimmed domains follow the deprecate-and-recreate pattern (new ecod_uid assigned)
 
 ---
 
-## Implementation Priority
+## Audit Trail
 
-| Priority | Change | Complexity | Risk |
-|----------|--------|------------|------|
-| 1 | 1C. X-group 3488 → 223.1.1 | Low | Low (18 domains) |
-| 2 | 1B. X-group 1139 → 327.6.1 | Low | Low (156 domains) |
-| 3 | 2A. OmpA reclassification | Low | Low (handful of domains) |
-| 4 | 2B. tRNA-synt reclassification | Low | Low |
-| 5 | 3A. 4106.1.1 boundary trim (e6bmsD1) | Low | Low (single domain) |
-| 6 | 3B. 563.1.1 boundary fixes | Medium | Medium (systematic review needed) |
-| 7 | 1A. X-group 7584 → 323 | Medium | Medium (2,380 domains, F-group mapping) |
-| 8 | 2C. Kringle,WSC split (e5fwwB1 + siblings) | High | Medium (domain splitting, new entries) |
+All changes are tracked in the following ecod_rep audit tables:
 
----
+| Table | Records Created | Content |
+|-------|----------------|---------|
+| `hierarchy_change_request` | 43 requests | Create/rename/deprecate actions, all status=implemented |
+| `cluster_changelog` | ~50 entries | INSERT/UPDATE records with old_values/new_values JSON |
+| `domain_assignment_log` | ~49 entries | Per-domain F-group reassignments |
+| `domain_modification_log` | ~30 entries | Per-domain F-group changes |
 
-## Database Operations Summary
-
-Each change type requires different database operations:
-
-### X-group merges (Changes 1A-1C)
-```
-UPDATE domain_level SET f_uid = <target_f_uid> WHERE f_uid = <source_f_uid>
--- Then cascade: retire source F-group, T-group, H-group, X-group
-```
-
-### Family reclassifications (Changes 2A-2B)
-```
-UPDATE domain_level SET f_uid = <target_f_uid> WHERE uid IN (<affected_domain_uids>)
--- Retire emptied source F-groups
-```
-
-### Domain splitting (Change 2C)
-```
--- For each domain in 380.1.1.3:
-INSERT INTO domain (...) VALUES (<kringle_portion>)   -- new domain
-INSERT INTO domain (...) VALUES (<wsc_portion>)       -- new domain
-UPDATE domain SET is_obsolete = true WHERE uid = <original_uid>
--- Assign new domains to respective F-groups
-```
-
-### Boundary corrections (Changes 3A-3B)
-```
-UPDATE domain SET domain_range = <new_range> WHERE uid = <domain_uid>
-```
+All requests have `requested_by = 'curator_change_pipeline'` with justification
+strings referencing the change ID and batch timestamp.
 
 ---
 
-## Appendix: Full Hierarchy Context
+## Verification Summary
 
-### X-group 323 (merge target for 7584)
-```
-Architecture: a.14
-X: 323 - CoA-dependent acyltransferases
-  H: 323.1
-    T: 323.1.1
-      F: 323.1.1.1  2-oxoacid_dh (1 rep)
-      F: 323.1.1.3  AMP-binding (3 reps)    ← potential merge target for 7584.1.1.1
-      F: 323.1.1.4  AMP-binding,AMP-binding_C (1 rep)
-      F: 323.1.1.7  Transferase (3 reps)
-      F: 323.1.1.9  WS_DGAT_cat,WS_DGAT_C (3 reps)
-      F: 323.1.1.10 Tri3 (2 reps)
-      + 11 more F-groups (0-1 reps each)
-```
+Verified 2026-02-16 via database queries against both schemas.
 
-### X-group 327 (merge target for 1139)
-```
-Architecture: a.9
-X: 327 - Alpha-lytic protease prodomain-like (21 H-groups)
-  ...
-  H: 327.6 - Fe-S cluster assembly (FSCA) domain-like
-    T: 327.6.1 (45 domains)
-      F: 327.6.1.1 NifU
-      F: 327.6.1.2 FeS_assembly_P (1 rep)
-      F: 327.6.1.3 Germane (1 rep)
-      F: 327.6.1.4 Secretin ← NEW (from 1139)
-```
+### Source F-groups (all should have 0 active domains)
 
-### X-group 223 (merge target for 3488)
-```
-Architecture: a.12
-X: 223 - Profilin-like (11 H-groups)
-  H: 223.1 - sensor domains
-    T: 223.1.1 (2,458 domains, 85 F-groups)
-      F: 223.1.1.3  GAF (3 reps)
-      F: 223.1.1.14 PAS_4 (3 reps)
-      F: 223.1.1.51 MCP-like_PDC_1 (3 reps)
-      + 82 more F-groups
-      ← NEW: dCache_2 and sCache_2 from 3488
-```
+| F-group | Change | Active | Total (incl. obsolete) | Status |
+|---------|--------|--------|----------------------|--------|
+| 3488.1.1.1 | 1C | 0 | 0 | OK |
+| 3488.1.1.2 | 1C | 0 | 0 | OK |
+| 1139.1.1.1 | 1B | 0 | 0 | OK |
+| 7584.1.1.1-5 | 1A | 0 | 0 | OK |
+| 274.1.1.3 | 2A | 0 | 0 | OK |
+| 310.1.1.1 | 2B | 0 | 0 | OK |
+| 310.1.1.3 | 2B | 0 | 0 | OK |
+| 380.1.1.3 | 2C | 0 | 35 (all obsoleted) | OK |
+
+### Target F-groups
+
+| F-group | Change | Active Domains |
+|---------|--------|---------------|
+| 223.1.1.96 (dCache_2) | 1C | 4 |
+| 223.1.1.97 (sCache_2) | 1C | 14 |
+| 327.6.1.6 (Secretin) | 1B | 169 |
+| 323.1.1.3 (AMP-binding, merged) | 1A | 3,180 |
+| 323.1.1.20 (AMP-binding,ACAS_N) | 1A | 599 |
+| 323.1.1.21 (GH3) | 1A | 131 |
+| 323.1.1.22 (ACAS_N) | 1A | 1 |
+| 323.1.1.23 (LuxE) | 1A | 1 |
+| 301.3.1.1 (OmpA) | 2A | 598 |
+| 140.1.1.3 (tRNA-synt) | 2B | 877 |
+| 380.1.1.2 (Kringle) | 2C | 473 |
+| 390.1.1.2 (WSC) | 2C | 24 |
+
+---
+
+## Implementation Order (as executed)
+
+| Order | Change | Script | Domains | Notes |
+|-------|--------|--------|---------|-------|
+| 1 | 1C (3488 -> 223.1.1) | implement_xgroup_merges.py | 18 | Lowest risk, smallest group |
+| 2 | 1B (1139 -> 327.6.1) | implement_xgroup_merges.py | 156 | Simple 1-to-1 F-group map |
+| 3 | 1A (7584 -> 323.1.1) | implement_xgroup_merges.py | 2,380 | 1 merge + 4 new F-groups |
+| 4 | 2A (OmpA reclass) | implement_family_reclass.py | ~130 | Direct reclassification |
+| 5 | 2B (tRNA-synt reclass) | implement_family_reclass.py | ~130 | 2 source F-groups |
+| 6 | 2C (Kringle/WSC split) | implement_domain_split.py | 35 | HMMER boundary determination |
+| 7 | 3A (e6bmsD1 trim) | implement_boundary_fixes.py | 1 | Direct curator-specified range |
+| 8 | 3B (563.1.1 fixes) | implement_boundary_fixes.py | 759 | Pairwise alignment boundary determination |
+
+---
+
+## Schema fixes applied during execution
+
+The following schema issues were encountered and resolved during implementation:
+
+- Dropped defunct FK `fk_cnd_rep_uid` from `public.current_nonrep_domains`
+- Added `resolved` column + dropped FKs from `ecod_curation.cross_boundary_pair`
+- Added `resolved` column + dropped FKs from `ecod_curation.validation_curation`
+- Bypassed broken `implement_reassign_f_group` stored function (defunct `dom_cid` type cast) with direct SQL equivalent
 
 ---
 
 *Document created: 2026-02-16*
+*Last updated: 2026-02-16*
 *Based on curator instructions received 2026-02-16*
-*Domain ID typos resolved 2026-02-16: e6bmlD1 → e6bmsD1, e5wwB1 → e5fwwB1*
+*Domain ID typos resolved: e6bmlD1 -> e6bmsD1, e5wwB1 -> e5fwwB1*
