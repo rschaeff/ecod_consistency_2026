@@ -34,6 +34,12 @@ logs/*
 *.fa
 downloads/
 
+# Database backups
+backups/
+
+# Curator input documents
+new_jimin_list/
+
 # CLANS output (can be large)
 *.clans
 *.clans.save
