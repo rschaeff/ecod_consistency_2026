@@ -236,9 +236,19 @@ domains. 390.1.1.2 (WSC) now contains 24 active domains.
 
 ### Split product naming
 
-New domains are named by appending a suffix to the original domain ID:
-- Kringle portion: `{original_id}k` (e.g., e5fwwB1 -> e5fwwB1k)
-- WSC portion: `{original_id}w` (e.g., e5fwwB1 -> e5fwwB1w)
+Split products were initially created with `k`/`w` suffixes (e.g., `e5fwwB1k`,
+`e5fwwB1w`) to identify the Kringle and WSC portions during implementation. These
+were subsequently renamed to follow standard ECOD N-to-C-terminal numbering:
+
+- **Kringle (N-terminal)**: Inherits the original domain number (e.g., `e5fwwB1k` -> `e5fwwB1`)
+- **WSC (C-terminal)**: Assigned the next available domain number for that protein/chain
+  (e.g., `e5fwwB1w` -> `e5fwwB3`, because `e5fwwB2` already existed as a separate domain)
+- **Single-product reclassifications**: Suffix simply dropped (e.g., `Q96FE7_F1_nD1k` -> `Q96FE7_F1_nD1`)
+
+43 domains were renamed in total (28 Kringle, 15 WSC). In 9 split-pair cases, the
+C-terminal WSC product required a non-consecutive number to avoid colliding with
+existing active domains on the same protein (e.g., `nD1` + `nD3` where `nD2` was
+already occupied).
 
 Each new domain receives a fresh `ecod_uid` via `nextval('ecod_commons.ecod_uid_sequence')`.
 
