@@ -144,7 +144,7 @@ def get_hmmer_boundaries_from_db(conn, domain_id, pfam_accs):
         return results
 
 
-def run_hmmscan_for_domain(sequence, pfam_names, domain_id='query'):
+def run_hmmscan_for_domain(sequence, pfam_names, domain_id='query', use_ga=False):
     """Run hmmscan against specific Pfam HMMs for a single sequence.
 
     Fetches individual HMMs from Pfam-A.hmm by name and scans the sequence.
@@ -195,10 +195,15 @@ def run_hmmscan_for_domain(sequence, pfam_names, domain_id='query'):
 
         # Run hmmscan
         domtbl_file = os.path.join(tmpdir, 'domtbl.out')
+        if use_ga:
+            hmmscan_args = [HMMSCAN, '--domtblout', domtbl_file, '--noali',
+                            '--cut_ga', hmm_file, seq_file]
+        else:
+            hmmscan_args = [HMMSCAN, '--domtblout', domtbl_file, '--noali',
+                            '-E', '1e-3', '--domE', '1e-3',
+                            hmm_file, seq_file]
         result = subprocess.run(
-            [HMMSCAN, '--domtblout', domtbl_file, '--noali',
-             '-E', '1e-3', '--domE', '1e-3',
-             hmm_file, seq_file],
+            hmmscan_args,
             capture_output=True, text=True,
         )
 

@@ -334,6 +334,143 @@ def update_domain_range(conn, domain_uid, new_range, request_id,
 
 
 # ============================================================
+# X/H/T hierarchy creation
+# ============================================================
+
+def create_xht_hierarchy(conn, x_name, a_group_id, justification,
+                         h_name=None, t_name=None):
+    """Create a new X-group with matching H-group and T-group.
+
+    By convention, H and T inherit the X-group name unless specified.
+    Uses the change-request workflow for each level (X -> H -> T).
+
+    Returns dict with 'x_id', 'h_id', 't_id' and their request IDs.
+    """
+    h_name = h_name or x_name
+    t_name = t_name or x_name
+
+    result = {}
+
+    # Create X-group under A-group
+    with conn.cursor() as cur:
+        cur.execute("""
+            SELECT COALESCE(MAX(id::int), 0) + 1
+            FROM ecod_rep.cluster WHERE type = 'X'
+        """)
+        new_x_id = str(cur.fetchone()[0])
+
+    req_id = create_change_request(
+        conn, 'create', 'X',
+        new_id=new_x_id, new_name=x_name,
+        justification=justification,
+    )
+    approve_change_request(conn, req_id)
+    implement_create_group(conn, req_id)
+
+    # Set parent to A-group
+    with conn.cursor() as cur:
+        cur.execute("UPDATE ecod_rep.cluster SET parent = %s WHERE id = %s AND type = 'X'",
+                    (a_group_id, new_x_id))
+
+    result['x_id'] = new_x_id
+    result['x_request_id'] = req_id
+    logger.info("Created X-group %s (%s) under A:%s", new_x_id, x_name, a_group_id)
+
+    # Create H-group under X-group
+    new_h_id = f"{new_x_id}.1"
+    req_id = create_change_request(
+        conn, 'create', 'H',
+        new_id=new_h_id, new_name=h_name,
+        justification=justification,
+    )
+    approve_change_request(conn, req_id)
+    implement_create_group(conn, req_id)
+    result['h_id'] = new_h_id
+    result['h_request_id'] = req_id
+    logger.info("Created H-group %s (%s)", new_h_id, h_name)
+
+    # Create T-group under H-group
+    new_t_id = f"{new_h_id}.1"
+    req_id = create_change_request(
+        conn, 'create', 'T',
+        new_id=new_t_id, new_name=t_name,
+        justification=justification,
+    )
+    approve_change_request(conn, req_id)
+    implement_create_group(conn, req_id)
+    result['t_id'] = new_t_id
+    result['t_request_id'] = req_id
+    logger.info("Created T-group %s (%s)", new_t_id, t_name)
+
+    # Populate cluster_relation (required for hierarchy lookups)
+    with conn.cursor() as cur:
+        cur.execute("""
+            INSERT INTO ecod_rep.cluster_relation (t_id, hid, xid)
+            VALUES (%s, %s, %s)
+            ON CONFLICT DO NOTHING
+        """, (new_t_id, new_h_id, new_x_id))
+
+    return result
+
+
+def rename_group(conn, group_id, group_type, new_name, justification):
+    """Rename a cluster (X/H/T/F) with audit trail.
+
+    Returns request_id.
+    """
+    request_id = create_change_request(
+        conn, 'rename', group_type,
+        original_id=group_id,
+        new_name=new_name,
+        justification=justification,
+    )
+    approve_change_request(conn, request_id)
+
+    with conn.cursor() as cur:
+        cur.execute("""
+            UPDATE ecod_rep.cluster SET name = %s
+            WHERE id = %s AND type = %s
+        """, (new_name, group_id, group_type))
+
+        cur.execute("""
+            UPDATE ecod_rep.hierarchy_change_request
+            SET status = 'implemented', implementation_date = NOW()
+            WHERE id = %s
+        """, (request_id,))
+
+    logger.info("Renamed %s-group %s to '%s' [request #%d]",
+                group_type, group_id, new_name, request_id)
+    return request_id
+
+
+def reassign_xgroup_architecture(conn, x_group_id, new_a_group_id, justification):
+    """Move an X-group to a different architecture (A-group).
+
+    Updates ecod_rep.cluster parent and all ecod_commons f_group_assignments.
+    Returns count of commons assignments updated.
+    """
+    # Update cluster parent
+    with conn.cursor() as cur:
+        cur.execute("""
+            UPDATE ecod_rep.cluster SET parent = %s
+            WHERE id = %s AND type = 'X'
+        """, (new_a_group_id, x_group_id))
+
+    # Update all commons assignments for this X-group
+    with conn.cursor() as cur:
+        cur.execute("""
+            UPDATE ecod_commons.f_group_assignments
+            SET a_group_id = %s
+            WHERE x_group_id = %s
+        """, (new_a_group_id, x_group_id))
+        count = cur.rowcount
+
+    logger.info("Moved X-group %s to A-group %s (%d commons assignments updated)",
+                x_group_id, new_a_group_id, count)
+    return count
+
+
+# ============================================================
 # F-group creation (assign_next_f_id + create_group)
 # ============================================================
 
