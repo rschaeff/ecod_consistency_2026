@@ -259,10 +259,17 @@ the right interim state pending an eventual split into single domains.
 >   fresh `--cut_ga` validation → **252 propagated** (213 reassign + 39 create, `requested_by='v294_t2'`).
 >   Relaxed-Pfam rescan (no `cut_ga`) on the 236 no-arch/ambiguous recovered **190** (commons Pfam
 >   present ≥GA but missed by the architecture pass) → **153 more propagated** (122 reassign + 31
->   create, `requested_by='v294_t2b'`); 34 sub-GA borderline + 12 Pfam-absent held. **405/674 placed.**
->   Held: 107 stranding (70+37), 34 borderline, 12 structural, 116 points-other/supports-old.
->   Backups `ecod_rep_backup_20260608_pre_tranche2{,b}.dump`.
-> - **Net:** repless active F-groups **14,255 → 13,588** (−667 across both tranches).
+>   create, `requested_by='v294_t2b'`); 34 sub-GA borderline + 12 Pfam-absent held.
+>   Then the **107 ecod_rep-stranding movers** (mover was old_f's only ecod_rep rep) were **all
+>   reassigned** (`requested_by='v294_t2c'`) — pure rep placement, **0 deprecations**, no commons
+>   writes; old_f kept as repless real F-groups (temporal stability). **512/674 placed.**
+>   Held: 34 borderline, 12 structural, 116 points-other/supports-old.
+>   Backups `ecod_rep_backup_20260608_pre_tranche2{,b,c}.dump`.
+> - **Authority model:** ecod_rep is authoritative and **separate**; commons is a **separate
+>   reconciliation pass**. ecod_rep stores only reps, so "stranding" = old_f losing its last *ecod_rep*
+>   rep (commons membership irrelevant here). Commons carries its own large inversion debt — **93,265**
+>   non-reps in a different F-group than their named rep, **174,186** with no rep pointer — for that pass.
+> - **Net:** repless active F-groups **14,255 → 13,586** (−669 across all tranches).
 > - **Held for curator:** Lsr2; 44 REROUTE; 21 REVIEW; 13 HOLD; tranche-2 held (above); 27 ECOD-wide
 >   "(DEPRECATED)"-in-name-but-active F-groups; the lone `is_representative`/designation inconsistency.
 > - **Data note:** commons `is_representative` = `is_manual ∨ is_provisional` (verified: 0 reps without
