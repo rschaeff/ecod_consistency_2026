@@ -105,6 +105,31 @@ was 13,557, not 13,586. `implement_domain_create` correctly refuses these (its
 `cluster_relation` membership (or an ancestor `is_deprecated` traversal) as the live-branch gate**
 in all rep-selection tiers; quarantine the orphans for curator dead-branch cleanup.
 
+## Tier-2/3 ranker PROTOTYPED (2026-06-08) — validated on 300 multi-member groups
+Sampled 300 live-branch multi-member repless F-groups (150 with a PDB candidate, 150 AF2-only;
+6,656 candidates), array-scanned domain sequences, ranked.
+
+**Final ranking key (lexicographic, higher better):**
+1. concordant (domain Pfam ∩ F-group `pfam_acc`) — gate
+2. **complete** (HMM coverage ≥ 0.8) — *outranks source*
+3. source experimental (PDB) > computed
+4. HMM coverage (fraction of the Pfam model spanned)
+5. domain match score
+6. sequence_length; then −ecod_uid (stable)
+
+**Why completeness outranks source:** the v1 key (source before coverage) picked **PDB fragments over
+full-length AF2** in 5/150 PDB groups (e.g. LRR `207.1.1.147`: a 30%-coverage crystal fragment over a
+100%-coverage AF2, among 48 candidates). Repeat/propeller families (LRR, WD40) crystallize partially,
+so a complete predicted model is the better *representative*. Putting `complete` above `source` fixed
+all of them (0 fragment-over-full) while keeping full PDBs when present.
+
+**Results:** 300/300 concordant picks; median pick HMM coverage **0.97**; PDB chosen in 140/150
+(93%) PDB-bearing groups (the other 10 correctly defer to a complete AF2). **38/300 picks still
+<0.5 coverage** — groups where *every* candidate is partial (often the Pfam model spans more than the
+ECOD domain); promote as provisional but **flag low-coverage** for curator awareness.
+
+Scaling note: ~65K candidate domains across all multi-member groups — array-scan with ~64+ chunks.
+
 ## Open questions for the curator
 1. **Pfam gate strictness** — require above-GA concordance, or allow sub-GA (relaxed) for provisional?
 2. **Single-member misfits** (member's Pfam ≠ F-group pfam_acc) — promote anyway (provisional) or hold?
