@@ -81,6 +81,30 @@ Conclusions:
 - **Refined gate:** PASS if member Pfams ∩ F-group `pfam_acc` ≠ ∅. FLAG only if the member has Pfams
   that wholly disagree (discordant) or none at all (→ try relaxed rescan before flagging).
 
+## Tier-1 EXECUTED (2026-06-08) — 7,146 provisional reps
+Scanned all 7,195 single-member domain sequences (20-way SLURM array; a single-node run was killed
+at the 1 hr limit and gave a misleading 73% no_pfam — **always array-scan at this scale**). Verdict:
+**7,193/7,195 PASS (99.97%)**, 2 discordant (near-miss superfamily variants). Created **7,146**
+provisional reps via `implement_domain_create` (`requested_by='v294_repsel_t1'`); **repless 13,586 →
+6,440**. Whole effort to date: **14,255 → 6,440** (more than halved).
+
+Excluded / quarantined (pre-flight catches, not in the batch):
+- **10 dead-branch orphans** — F-groups whose **T-group is deprecated** (e.g. 8 under `10.1.2`
+  "GOLD domain-like", deprecated 2025-07-23; the 2025-04-25 F-group reorg "left orphaned F-group
+  references"). See the methodology fix below.
+- **3 `ecod_domain_id` collisions** — domain already a prov rep of another F-group (commons
+  double-assignment): `P09820_nD1`, `Q9DE14_nD3`, `Q50288_nD1` → curator.
+- **2 discordant** (`2004.1.1.1092`, `4333.1.1.8`) → curator.
+- **34 already-in-ecod_rep** under a *different* `f_id` → defer (tranche-2-style reassign).
+
+### Methodology fix: repless must exclude deprecated *ancestors*, not just the F-group's own flag
+The repless query filtered `F.is_deprecated` only, so it included **29** F-groups hanging under a
+deprecated **T/H/X** ancestor (dead-branch orphans the cleanup script missed). True **live**-repless
+was 13,557, not 13,586. `implement_domain_create` correctly refuses these (its
+`cluster_relation` H/X lookup excludes deprecated T-groups → "Could not determine H/X"). **Use
+`cluster_relation` membership (or an ancestor `is_deprecated` traversal) as the live-branch gate**
+in all rep-selection tiers; quarantine the orphans for curator dead-branch cleanup.
+
 ## Open questions for the curator
 1. **Pfam gate strictness** — require above-GA concordance, or allow sub-GA (relaxed) for provisional?
 2. **Single-member misfits** (member's Pfam ≠ F-group pfam_acc) — promote anyway (provisional) or hold?

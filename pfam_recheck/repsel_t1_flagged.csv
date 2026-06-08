@@ -1,0 +1,3 @@
+fid,pfam_acc,ecod_uid,domain_id,source_type,member_pfams,verdict
+2004.1.1.1092,"PF00158,PF13401",4548123,Q5V385_nD1,afdb,PF13191,discordant
+4333.1.1.8,PF02384,5078789,UPI0032FE0826_nD1,uniparc,PF07669,discordant
