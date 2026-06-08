@@ -1,0 +1,457 @@
+ecod_uid	ecod_domain_id	pdb_chain	exclude_fgroup	commons_target	t_group	final_class	final_action
+118927	e1auiB2	1aui_B	108.1.1.29	108.1.1.97	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9677	e1b0uA1	1b0u_A	2004.1.1.5	2004.1.1.417	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+11057	e1cjwA1	1cjw_A	213.1.1.1	213.1.1.72	213.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+10781	e1dx4A1	1dx4_A	7579.1.1.1	7579.1.1.89	7579.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+10780	e1ea5A1	1ea5_A	7579.1.1.1	7579.1.1.89	7579.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9036	e1ek6A1	1ek6_A	2003.1.1.72	2003.1.1.152	2003.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+3761	e1ewqA1	1ewq_A	601.23.1.1	601.23.1.4	601.23.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+118943	e1exrA2	1exr_A	108.1.1.29	108.1.1.96	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9996	e1f4pA1	1f4p_A	2007.2.1.1	2007.2.1.9	2007.2.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9294	e1gteA5	1gte_A	2003.1.3.3	2003.1.3.15	2003.1.3	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9015	e1hk8A1	1hk8_A	2500.1.1.5	2500.1.1.7	2500.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+118952	e1hqvA2	1hqv_A	108.1.1.29	108.1.1.99	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9356	e1i1nA1	1i1n_A	2003.1.5.4	2003.1.5.153	2003.1.5	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+118964	e1jbaA2	1jba_A	108.1.1.29	108.1.1.97	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+118965	e1jfjA1	1jfj_A	108.1.1.29	108.1.1.99	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9355	e1jg1A1	1jg1_A	2003.1.5.4	2003.1.5.153	2003.1.5	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+10804	e1k8qA1	1k8q_A	7579.1.1.6	7579.1.1.93	7579.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+7073	e1kobA1	1kob_A	206.1.1.1	206.1.1.70	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1107957	e1kqfB3	1kqf_B	205.1.1.17	205.1.1.48	205.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9777	e1lv7A2	1lv7_A	2004.1.1.1	2004.1.1.420	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9608	e1mkyA3	1mky_A	2004.1.1.73	2004.1.1.414	2004.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1088763	e1mppA1	1mpp_A	1.1.1.1	1.1.1.27	1.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+7079	e1o6yA1	1o6y_A	206.1.1.1	206.1.1.70	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1088767	e1oewA2	1oew_A	1.1.1.1	1.1.1.27	1.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+119003	e1omrA2	1omr_A	108.1.1.29	108.1.1.97	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+3161	e1oqpA1	1oqp_A	108.1.1.29	108.1.1.96	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+4922	e1orqC1	1orq_C	5054.1.1.2	5054.1.1.59	5054.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9044	e1orrA1	1orr_A	2003.1.1.72	2003.1.1.141	2003.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+3152	e1ozsA1	1ozs_A	108.1.1.29	108.1.1.96	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+4234	e1ppjC2	1ppj_C	5069.1.1.1	5069.1.1.54	5069.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+7437	e1prtA1	1prt_A	237.1.1.7	237.1.1.33	237.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2827	e1q08A1	1q08_A	101.1.9.14	101.1.9.82	101.1.9	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1514546	e1qamA3	1qam_A	2003.1.5.2	2003.1.5.182	2003.1.5	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9690	e1qhlA1	1qhl_A	2004.1.1.113	2004.1.1.1172	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+7425	e1qsaA2	1qsa_A	235.1.1.9	235.1.1.32	235.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+10163	e1r3nA2	1r3n_A	2011.1.1.6	2011.1.1.20	2011.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2825	e1r8dA1	1r8d_A	101.1.9.17	101.1.9.82	101.1.9	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+9227	e1ryiA2	1ryi_A	2003.1.2.12	2003.1.2.60	2003.1.2	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+119032	e1s6cA1	1s6c_A	108.1.1.29	108.1.1.98	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+7096	e1s9jA1	1s9j_A	206.1.1.1	206.1.1.70	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1088769	e1smrA2	1smr_A	1.1.1.1	1.1.1.27	1.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1141779	e1tedA2	1ted_A	7581.1.1.4	7581.1.1.24	7581.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+11071	e1u6mA1	1u6m_A	213.1.1.1	213.1.1.72	213.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9698	e1uaaA2	1uaa_A	2004.1.1.195	2004.1.1.508	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+10839	e1ukcA1	1ukc_A	7579.1.1.1	7579.1.1.89	7579.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9693	e1vplA1	1vpl_A	2004.1.1.5	2004.1.1.417	2004.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+586	e1vqoT1	1vqo_T	4.1.1.95	4.1.1.295	4.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9688	e1w1wA1	1w1w_A	2004.1.1.87	2004.1.1.481	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2198	e1w8oA3	1w8o_A	5.1.3.26	5.1.3.134	5.1.3	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+3762	e1wb9A1	1wb9_A	601.23.1.1	601.23.1.4	601.23.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+10875	e1wdkC2	1wdk_C	7581.1.1.1	7581.1.1.22	7581.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2075048	e1x42A3	1x42_A	2006.1.1.1	2006.1.1.44	2006.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+119099	e1xo5A1	1xo5_A	108.1.1.29	108.1.1.103	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+7095	e1xwsA1	1xws_A	206.1.1.1	206.1.1.71	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1684052	e1y5iA4	1y5i_A	2003.2.1.1	2003.2.1.8	2003.2.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+7078	e1yhwA1	1yhw_A	206.1.1.1	206.1.1.72	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9109	e1yo6A1	1yo6_A	2003.1.1.3	2003.1.1.148	2003.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9877	e1zd3A1	1zd3_A	2006.1.1.1	2006.1.1.46	2006.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+8696	e1zfjA2	1zfj_A	2002.1.1.23	2002.1.1.263	2002.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1514550	e1zq9A3	1zq9_A	2003.1.5.2	2003.1.5.155	2003.1.5	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9626	e1zunB3	1zun_B	2004.1.1.14	2004.1.1.414	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+4936	e2aalA1	2aal_A	315.1.1.5	315.1.1.9	315.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+9644	e2afhE1	2afh_E	2004.1.1.20	2004.1.1.419	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1568669	e2aprA2	2apr_A	1.1.1.1	1.1.1.27	1.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9878	e2b0cA1	2b0c_A	2006.1.1.1	2006.1.1.44	2006.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9093	e2b69A1	2b69_A	2003.1.1.72	2003.1.1.141	2003.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+10782	e2bceA1	2bce_A	7579.1.1.1	7579.1.1.89	7579.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9624	e2cxxA1	2cxx_A	2004.1.1.73	2004.1.1.414	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9601	e2dy1A5	2dy1_A	2004.1.1.14	2004.1.1.414	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9184	e2f1kA2	2f1k_A	2003.1.1.27	2003.1.1.147	2003.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9382	e2fk8A1	2fk8_A	2003.1.5.21	2003.1.5.152	2003.1.5	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9871	e2gfhA1	2gfh_A	2006.1.1.1	2006.1.1.44	2006.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+7063	e2gfsA1	2gfs_A	206.1.1.1	206.1.1.70	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9406	e2gh1A1	2gh1_A	2003.1.5.82	2003.1.5.201	2003.1.5	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2192	e2hqsA1	2hqs_A	5.1.3.20	5.1.3.136	5.1.3	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+10852	e2hu7A2	2hu7_A	7579.1.1.3	7579.1.1.94	7579.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9230	e2iidA2	2iid_A	2003.1.2.17	2003.1.2.73	2003.1.2	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+10862	e2jbwA1	2jbw_A	7579.1.1.32	7579.1.1.118	7579.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+7099	e2jflA1	2jfl_A	206.1.1.1	206.1.1.70	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1145809	e2lhiA1	2lhi_A	108.1.1.29	108.1.1.97	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+10975	e2o3iA2	2o3i_A	4176.1.1.1	4176.1.1.2	4176.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1148095	e2o5vA1	2o5v_A	2004.1.1.87	2004.1.1.433	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+3163	e2obhA2	2obh_A	108.1.1.29	108.1.1.96	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+4575	e2ooeA1	2ooe_A	109.4.1.83	109.4.1.1316	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+8457	e2p3uA1	2p3u_A	389.1.1.17	389.1.1.97	389.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+3148	e2pvbA1	2pvb_A	108.1.1.29	108.1.1.99	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1870438	e2vglA1	2vgl_A	109.4.1.22	109.4.1.1255	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9237	e2vouA2	2vou_A	2003.1.2.15	2003.1.2.99	2003.1.2	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2033698	e2vpzB2	2vpz_B	205.1.1.17	205.1.1.44	205.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+7065	e3bqcA1	3bqc_A	206.1.1.1	206.1.1.73	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9695	e3dhwC2	3dhw_C	2004.1.1.5	2004.1.1.417	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+185234	e3f6kA1	3f6k_A	5.1.7.2	5.1.7.4	5.1.7	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1551400	e3j6bQ1	3j6b_Q	4.1.1.146	4.1.1.314	4.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1498230	e3lm3A2	3lm3_A	12.1.1.20	12.1.1.117	12.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+223873	e3n71A1	3n71_A	70.3.1.1	70.3.1.11	70.3.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+119500	e3nnqA1	3nnq_A	101.1.1.73	101.1.1.301	101.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1843702	e3q3qA1	3q3q_A	7515.1.1.6	7515.1.1.15	7515.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1005523	e3u44B2	3u44_B	2004.1.1.195	2004.1.1.654	2004.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1841007	e4bepB3	4bep_B	109.3.1.8	109.3.1.176	109.3.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1088849	e4bkyA1	4bky_A	206.1.1.1	206.1.1.70	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1145884	e4cfeA1	4cfe_A	206.1.1.1	206.1.1.70	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1145908	e4cfhA1	4cfh_A	206.1.1.1	206.1.1.70	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1031124	e4e3cB1	4e3c_B	206.1.1.1	206.1.1.72	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1147811	e4g23A1	4g23_A	109.4.1.240	109.4.1.1384	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1549037	e4lgdB1	4lgd_B	206.1.1.1	206.1.1.70	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1121969	e4m8oA3	4m8o_A	2484.1.1.34	2484.1.1.197	2484.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1144179	e4o1pC2	4o1p_C	206.1.1.1	206.1.1.71	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1495179	e4pj3A3	4pj3_A	2004.1.1.184	2004.1.1.473	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1322288	e4qfgA1	4qfg_A	206.1.1.1	206.1.1.70	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1723255	e4r04A5	4r04_A	1033.1.1.1	1033.1.1.3	1033.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1447958	e4ux3A1	4ux3_A	2004.1.1.87	2004.1.1.429	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1731077	e4ww4B1	4ww4_B	2004.1.1.137	2004.1.1.436	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1723258	e4xhhA1	4xhh_A	206.1.1.1	206.1.1.72	206.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1555749	e4ydhA1	4ydh_A	109.4.1.89	109.4.1.1299	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1716688	e4z87A1	4z87_A	2002.1.1.23	2002.1.1.263	2002.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1889998	e5d08A3	5d08_A	109.4.1.207	109.4.1.1259	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1933284	e5f0pA1	5f0p_A	109.4.1.44	109.4.1.1333	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1866768	e5fifD2	5fif_D	2486.1.1.3	2486.1.1.15	2486.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1779592	e5frpA1	5frp_A	109.4.1.257	109.4.1.1620	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1870486	e5g53C1	5g53_C	2004.1.1.47	2004.1.1.431	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2044878	e5h68A1	5h68_A	2004.1.1.87	2004.1.1.480	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1885547	e5kokA1	5kok_A	2003.1.5.21	2003.1.5.152	2003.1.5	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2072472	e5t77A1	5t77_A	1075.5.1.2	1075.5.1.12	1075.5.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1933321	e5tj6A1	5tj6_A	5054.1.1.2	5054.1.1.59	5054.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2084847	e5ve9B1	5ve9_B	108.1.1.29	108.1.1.97	108.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+8800	e1a0cA1	1a0c_A	2002.1.1.60	2002.1.1.266	2002.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+4549	e1a17A1	1a17_A	109.4.1.6	109.4.1.1802	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+4585	e1b3uA1	1b3u_A	109.4.1.35	109.4.1.1321	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+9709	e1c4oA1	1c4o_A	2004.1.1.120	2004.1.1.489	2004.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+4550	e1elwA1	1elw_A	109.4.1.5	109.4.1.1288	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1594	e1f00I2	1f00_I	11.1.1.38	11.1.1.870	11.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+9835	e1gpmA2	1gpm_A	2005.1.1.18	2005.1.1.47	2005.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+7190	e1jl5A1	1jl5_A		207.1.1.199	207.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+5482	e1jnrB1	1jnr_B	205.1.1.13	205.1.1.47	205.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2205	e1k3iA3	1k3i_A	5.1.4.10	5.1.4.291	5.1.4	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+2225	e1l0qA2	1l0q_A	5.1.4.64	5.1.4.405	5.1.4	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+3263	e1l9lA1	1l9l_A	198.1.1.1	198.1.1.13	198.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+4604	e1m8zA1	1m8z_A	109.4.1.16	109.4.1.1265	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+3262	e1nklA1	1nkl_A	198.1.1.3	198.1.1.26	198.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+4537	e1ouvA1	1ouv_A	109.4.1.109	109.4.1.1793	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+4606	e1oyzA1	1oyz_A	109.4.1.207	109.4.1.1283	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+7191	e1p9aG1	1p9a_G	207.1.1.11	207.1.1.165	207.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2826	e1q06A1	1q06_A	101.1.9.17	101.1.9.82	101.1.9	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+6236	e1q33A1	1q33_A	221.4.1.1	221.4.1.23	221.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+10820	e1qo7A1	1qo7_A	7579.1.1.31	7579.1.1.97	7579.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+2224	e1tyeA1	1tye_A	5.1.4.13	5.1.4.257	5.1.4	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1291890	e1vw4J1	1vw4_J	2490.3.1.1	2490.3.1.3	2490.3.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+2200	e1w0pA3	1w0p_A	5.1.3.26	5.1.3.134	5.1.3	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9623	e1wxqA2	1wxq_A	2004.1.1.74	2004.1.1.597	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+7388	e1x3zA1	1x3z_A	219.1.1.13	219.1.1.111	219.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+7939	e1xu6A1	1xu6_A		4986.1.1.4	4986.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+5389	e1zavA1	1zav_A	304.60.1.2	304.60.1.8	304.60.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+2187	e1zgkA1	1zgk_A	5.1.3.6	5.1.3.117	5.1.3	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+7227	e2bm5A1	2bm5_A	207.9.1.2	207.9.1.7	207.9.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+4616	e2bnxA1	2bnx_A	109.4.1.89	109.4.1.1299	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+9843	e2d13A1	2d13_A	2005.1.1.16	2005.1.1.54	2005.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+7389	e2f4mA1	2f4m_A	219.1.1.13	219.1.1.111	219.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1145793	e2gw1A1	2gw1_A		109.4.1.1438	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1842535	e2iw3A2	2iw3_A	109.4.1.955	109.4.1.1442	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+11511	e2j01P1	2j01_P	2490.3.1.1	2490.3.1.3	2490.3.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+2218	e2ovrB1	2ovr_B	5.1.4.1	5.1.4.310	5.1.4	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+185295	e3h09A3	3h09_A	207.2.1.7	207.2.1.75	207.2.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1148107	e3j65q2	3j65_q	5.1.5.1	5.1.5.78	5.1.5	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1951795	e3j9zLH1	3j9z_LH	2490.3.1.1	2490.3.1.3	2490.3.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1411386	e3kv4A2	3kv4_A	10.12.1.9	10.12.1.101	10.12.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+147021	e3n54B1	3n54_B	3234.1.1.1	3234.1.1.2	3234.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+185457	e3p8cF1	3p8c_F	3305.1.1.1	3305.1.1.7	3305.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1031089	e3sfzA6	3sfz_A	5.1.5.1	5.1.5.75	5.1.5	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+2066777	e3wpcA1	3wpc_A	207.1.1.24	207.1.1.210	207.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+185635	e4a53A1	4a53_A	4.1.1.67	4.1.1.391	4.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1124192	e4adyA2	4ady_A	109.35.1.1	109.35.1.10	109.35.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1126564	e4bujF1	4buj_F	109.4.1.255	109.4.1.2094	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1019409	e4gcwA1	4gcw_A	247.1.1.11	247.1.1.29	247.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1291870	e4hnwA1	4hnw_A	109.4.1.173	109.4.1.1389	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1291871	e4hnxA1	4hnx_A	109.4.1.173	109.4.1.1389	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1820968	e4j0mA1	4j0m_A	207.1.1.1	207.1.1.323	207.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1180304	e4lxrA1	4lxr_A	207.1.1.24	207.1.1.158	207.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1141025	e4n5cD1	4n5c_D		109.4.1.1575	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1348265	e4pjuA1	4pju_A	109.4.1.117	109.4.1.1350	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1721533	e4qo5A1	4qo5_A	139.2.1.7	139.2.1.17	139.2.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1487349	e4rfsA1	4rfs_A	2004.1.1.5	2004.1.1.417	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1487350	e4rfsB1	4rfs_B	2004.1.1.5	2004.1.1.445	2004.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1676519	e4ui9I1	4ui9_I	5.1.4.39	5.1.4.283	5.1.4	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1676526	e4ui9Y1	4ui9_Y	109.4.1.118	109.4.1.1264	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1310610	e4upcA1	4upc_A	2011.1.1.12	2011.1.1.35	2011.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1503129	e4wwxB2	4wwx_B	2484.1.1.64	2484.1.1.195	2484.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1555748	e4yc7B1	4yc7_B	109.4.1.89	109.4.1.1299	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1713369	e4zlhB1	4zlh_B	109.4.1.210	109.4.1.1555	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1563569	e5aioA1	5aio_A	109.4.1.118	109.4.1.1264	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1828347	e5ctqA1	5ctq_A	109.4.1.83	109.4.1.1303	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1820986	e5dfzB2	5dfz_B	109.4.1.298	109.4.1.1594	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1718749	e5dseC1	5dse_C	109.4.1.99	109.4.1.1798	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1723271	e5ekeC1	5eke_C	7516.1.1.2	7516.1.1.106	7516.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1736252	e5ganJ1	5gan_J		109.4.1.1573	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+2075105	e5h28A1	5h28_A		109.3.1.170	109.3.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1954217	e5hl3A2	5hl3_A	207.1.1.20	207.1.1.144	207.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+1779594	e5hx2A2	5hx2_A		1047.1.1.1	1047.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1824186	e5igoC1	5igo_C	5.1.4.1	5.1.4.254	5.1.4	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1830979	e5jpzB1	5jpz_B	109.4.1.83	109.4.1.1303	109.4.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+1891442	e5t8vA1	5t8v_A	109.4.1.183	109.4.1.1739	109.4.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2323934	e5teeA1	5tee_A	5.1.4.6	5.1.4.620	5.1.4	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+2084854	e5w1fD1	5w1f_D	108.1.1.8	108.1.1.102	108.1.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+2057238	e5x3xA1	5x3x_A	2004.1.1.5	2004.1.1.417	2004.1.1	APPLY	APPLY: composite Pfam-justified (extra Pfam above GA)
+2526320	e6iczZ1	6icz_Z	396.3.1.2	396.3.1.7	396.3.1	APPLY	APPLY: composite Pfam-confirmed (architecture==target)
+2240	e1a12A1	1a12_A	5.1.4.7	5.1.4.255	5.1.4	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+7423	e1am7A1	1am7_A		235.1.1.33	235.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+215	e1arbA1	1arb_A	1.1.17.1	1.1.17.9	1.1.17	APPLY	APPLY (batch1): reassign f_id -> commons_f
+118926	e1auiB1	1aui_B	108.1.1.1	108.1.1.98	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+10811	e1c4xA1	1c4x_A	7579.1.1.6	7579.1.1.92	7579.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+3155	e1c7vA1	1c7v_A	108.1.1.1	108.1.1.97	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1070	e1dypA1	1dyp_A	10.1.1.11	10.1.1.74	10.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+5723	e1ecsA1	1ecs_A		211.1.1.41	211.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+118942	e1exrA1	1exr_A	108.1.1.1	108.1.1.97	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+7424	e1gbsA1	1gbs_A	235.1.1.9	235.1.1.31	235.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+5472	e1h98A1	1h98_A	205.1.1.1	205.1.1.80	205.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+5479	e1hfeL2	1hfe_L	205.1.1.1	205.1.1.41	205.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1184	e1hx6A2	1hx6_A	10.2.1.45	10.2.1.87	10.2.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+118966	e1jfjA2	1jfj_A	108.1.1.1	108.1.1.98	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+10833	e1jfrA1	1jfr_A		7579.1.1.98	7579.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2235	e1k32A3	1k32_A	5.1.4.29	5.1.4.279	5.1.4	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+8462	e1k36A1	1k36_A	389.1.1.1	389.1.1.101	389.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+3139	e1k8uA1	1k8u_A	108.1.1.8	108.1.1.102	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+9346	e1l3iA1	1l3i_A	2003.1.5.82	2003.1.5.179	2003.1.5	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2750	e1ldjA2	1ldj_A	101.1.2.13	101.1.2.493	101.1.2	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+2373	e1lshA1	1lsh_A	5087.2.1.1	5087.2.1.2	5087.2.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+8461	e1moxC1	1mox_C		389.1.1.99	389.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+118995	e1nyaA2	1nya_A	108.1.1.1	108.1.1.98	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1072	e1o4yA1	1o4y_A	10.1.1.11	10.1.1.74	10.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+8441	e1ozzA1	1ozz_A		387.1.5.28	387.1.5	APPLY	APPLY (batch1): reassign f_id -> commons_f
+9291	e1ps9A3	1ps9_A	2003.1.3.5	2003.1.3.15	2003.1.3	APPLY	APPLY (batch1): reassign f_id -> commons_f
+185943	e1qexA3	1qex_A	3386.1.1.1	3386.1.1.4	3386.1.1	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+119019	e1qv0A1	1qv0_A	108.1.1.1	108.1.1.97	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+3138	e1qx2A1	1qx2_A	108.1.1.1	108.1.1.97	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+119034	e1s6iA1	1s6i_A	108.1.1.1	108.1.1.97	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+119035	e1s6iA2	1s6i_A	108.1.1.1	108.1.1.96	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+177	e1t62A1	1t62_A	1.1.9.9	1.1.9.35	1.1.9	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2206	e1tbgA1	1tbg_A	5.1.4.1	5.1.4.253	5.1.4	APPLY	APPLY (batch1): reassign f_id -> commons_f
+3174	e1tizA1	1tiz_A	108.1.1.1	108.1.1.97	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+5091	e1welA1	1wel_A	304.9.1.1	304.9.1.77	304.9.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+8128	e1wepA1	1wep_A	376.1.3.1	376.1.3.56	376.1.3	APPLY	APPLY (batch1): reassign f_id -> commons_f
+5049	e1wg5A1	1wg5_A	304.9.1.1	304.9.1.77	304.9.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+3085	e1wj7A1	1wj7_A	103.1.1.14	103.1.1.84	103.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+9395	e1wznA1	1wzn_A	2003.1.5.81	2003.1.5.151	2003.1.5	APPLY	APPLY (batch1): reassign f_id -> commons_f
+7608	e1x0hA1	1x0h_A		4075.1.1.2	4075.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+8463	e1xdtR1	1xdt_R	389.1.1.1	389.1.1.99	389.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+9388	e1xxlA1	1xxl_A	2003.1.5.66	2003.1.5.154	2003.1.5	APPLY	APPLY (batch1): reassign f_id -> commons_f
+119101	e1y1xA1	1y1x_A	108.1.1.3	108.1.1.98	108.1.1	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+9393	e1y8cA1	1y8c_A	2003.1.5.81	2003.1.5.151	2003.1.5	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1141837	e1yleA2	1yle_A	1.13.1.1	1.13.1.2	1.13.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+9727	e1z3iX1	1z3i_X	2004.1.1.24	2004.1.1.428	2004.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+7186	e2astB2	2ast_B		207.1.1.162	207.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+5092	e2cpyA1	2cpy_A	304.9.1.1	304.9.1.77	304.9.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1539	e2cspA1	2csp_A	11.1.1.2	11.1.1.862	11.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+185910	e2e87A1	2e87_A	2004.1.1.147	2004.1.1.453	2004.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2038	e2f2hA3	2f2h_A		4178.1.1.4	4178.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+607	e2f5tX1	2f5t_X	4.15.1.1	4.15.1.2	4.15.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+185951	e2fgtA2	2fgt_A	3425.2.1.1	3425.2.1.3	3425.2.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+6542	e2ftxA1	2ftx_A		4099.1.1.25	4099.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+9911	e2gmwA1	2gmw_A	2006.1.1.15	2006.1.1.44	2006.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+3264	e2gtgA1	2gtg_A	198.1.1.2	198.1.1.10	198.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1821879	e2gv9B7	2gv9_B		1058.1.1.1	1058.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2751	e2hyeC2	2hye_C	101.1.2.13	101.1.2.493	101.1.2	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+11490	e2i47A1	2i47_A	2498.1.1.45	2498.1.1.90	2498.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+184739	e2kngA1	2kng_A	130.1.1.9	130.1.1.33	130.1.1	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+119222	e2knjA1	2knj_A		3090.1.1.2	3090.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1851163	e2n8yA1	2n8y_A	108.1.1.1	108.1.1.103	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1144732	e2nykA2	2nyk_A	11.1.1.149	11.1.1.1155	11.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+9910	e2o2xA1	2o2x_A	2006.1.1.15	2006.1.1.44	2006.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+7243	e2oi5A1	2oi5_A	208.1.1.1	208.1.1.20	208.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+3146	e2opoA1	2opo_A	108.1.1.1	108.1.1.99	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+48960	e2opoB1	2opo_B	108.1.1.1	108.1.1.99	108.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+608	e2qi2A1	2qi2_A	4.23.1.1	4.23.1.2	4.23.1	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+609	e2vgnA1	2vgn_A	4.23.1.1	4.23.1.2	4.23.1	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+1734343	e2wteA2	2wte_A	101.1.2.93	101.1.2.530	101.1.2	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+1826881	e2xb0X2	2xb0_X	101.1.1.3	101.1.1.288	101.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1005465	e2xidB4	2xid_B	11.1.4.39	11.1.4.97	11.1.4	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+7316	e3bznA1	3bzn_A	880.1.1.1	880.1.1.4	880.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1144822	e3f83A1	3f83_A	11.1.5.26	11.1.5.96	11.1.5	APPLY	APPLY (batch1): reassign f_id -> commons_f
+185292	e3gs9A2	3gs9_A	3070.1.1.3	3070.1.1.18	3070.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+146895	e3h2yA1	3h2y_A	2004.1.1.73	2004.1.1.422	2004.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1145817	e3h94A2	3h94_A	1.1.7.38	1.1.7.87	1.1.7	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1005491	e3hbzA1	3hbz_A	6082.1.1.2	6082.1.1.3	6082.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1546393	e3k2oB1	3k2o_B	10.12.1.9	10.12.1.101	10.12.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1891399	e3k6rA1	3k6r_A	513.2.1.1	513.2.1.2	513.2.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1295900	e3lazA1	3laz_A	70.3.1.3	70.3.1.12	70.3.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1145751	e3lnnA2	3lnn_A	1.1.7.38	1.1.7.87	1.1.7	APPLY	APPLY (batch1): reassign f_id -> commons_f
+146239	e3ml3A1	3ml3_A	207.2.1.10	207.2.1.74	207.2.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1840991	e3mwyW4	3mwy_W	2004.1.1.24	2004.1.1.428	2004.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1002475	e3ne5B2	3ne5_B	1.1.7.38	1.1.7.87	1.1.7	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1716676	e3nklB1	3nkl_B	2003.1.1.71	2003.1.1.260	2003.1.1	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+146868	e3nsjA2	3nsj_A		389.1.1.110	389.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+147022	e3p8cD1	3p8c_D	3235.1.1.1	3235.1.1.26	3235.1.1	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+1806521	e3tgoC1	3tgo_C	331.3.1.8	331.3.1.50	331.3.1	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+223972	e4ak1A2	4ak1_A	11.1.1.200	11.1.1.1383	11.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+223973	e4ak1A3	4ak1_A	11.1.1.200	11.1.1.1157	11.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+223974	e4ak1A4	4ak1_A	11.1.1.200	11.1.1.1158	11.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1291898	e4ci8A1	4ci8_A	5.1.4.2	5.1.4.269	5.1.4	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1291899	e4ci8A2	4ci8_A	5.1.4.2	5.1.4.293	5.1.4	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1031125	e4e3cB2	4e3c_B	221.1.1.2	221.1.1.164	221.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+224012	e4ei0A2	4ei0_A	3077.1.1.2	3077.1.1.3	3077.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+224022	e4fe9A2	4fe9_A	3597.1.1.2	3597.1.1.5	3597.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+185748	e4fmwA1	4fmw_A	2488.1.1.3	2488.1.1.19	2488.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2323779	e4fweA5	4fwe_A		1194.1.1.1	1194.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+185755	e4g1gA2	4g1g_A	54.1.1.1	54.1.1.6	54.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1108116	e4je3A1	4je3_A		3435.1.1.7	3435.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1288513	e4jp0A3	4jp0_A		101.1.1.364	101.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1108122	e4k17A2	4k17_A	207.1.1.22	207.1.1.161	207.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1096987	e4kksA2	4kks_A	1.1.7.38	1.1.7.87	1.1.7	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1070876	e4kq7A1	4kq7_A	10.2.1.48	10.2.1.89	10.2.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1088877	e4kxfK5	4kxf_K		207.1.1.157	207.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1124210	e4lp7B2	4lp7_B	54.1.1.2	54.1.1.7	54.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1310586	e4nsxA1	4nsx_A	5.1.4.39	5.1.4.280	5.1.4	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1310587	e4nsxA2	4nsx_A	5.1.4.1	5.1.4.270	5.1.4	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1313622	e4tkoB1	4tko_B	1.1.7.3	1.1.7.88	1.1.7	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1676515	e4ui9A2	4ui9_A	109.35.1.1	109.35.1.11	109.35.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1676525	e4ui9R1	4ui9_R	5.1.4.1	5.1.4.259	5.1.4	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1841022	e4uxeB3	4uxe_B		1088.1.1.1	1088.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1503130	e4wwxB3	4wwx_B	3948.1.1.1	3948.1.1.3	3948.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1680001	e4ytkA1	4ytk_A	4.1.1.3	4.1.1.299	4.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1688243	e4z8qB1	4z8q_B		1010.1.1.1	1010.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1688245	e4zmkA1	4zmk_A		1009.1.1.1	1009.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1681454	e5c2uA1	5c2u_A		304.166.1.9	304.166.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1736241	e5cowA1	5cow_A		1041.1.1.1	1041.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1687171	e5cwwB1	5cww_B		5.1.4.331	5.1.4	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1790181	e5d0qC1	5d0q_C	331.22.1.1	331.22.1.2	331.22.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1843715	e5dlqB1	5dlq_B	109.4.1.125	109.4.1.1463	109.4.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1916704	e5evfA1	5evf_A		872.12.1.1	872.12.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1933300	e5h9dC1	5h9d_C	141.1.1.6	141.1.1.33	141.1.1	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+1824183	e5hb7A1	5hb7_A		304.9.1.92	304.9.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1779600	e5hx2D2	5hx2_D		11.41.1.1	11.41.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1885533	e5ijlA2	5ijl_A	375.1.1.24	375.1.1.204	375.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1885536	e5ijlA5	5ijl_A	1.3.1.1	1.3.1.2	1.3.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1839971	e5iv5I2	5iv5_I	3386.2.1.1	3386.2.1.4	3386.2.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1842586	e5ja4D1	5ja4_D	109.3.1.1	109.3.1.162	109.3.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2076897	e5kzfJ4	5kzf_J		148.1.3.203	148.1.3	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2066817	e5mzhB2	5mzh_B	5.1.5.1	5.1.5.80	5.1.5	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2323862	e5n0sA3	5n0s_A		1201.1.1.1	1201.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2323924	e5oqdC2	5oqd_C		101.1.2.500	101.1.2	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2323935	e5teeA2	5tee_A	5.1.4.6	5.1.4.285	5.1.4	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2080138	e5ucgA2	5ucg_A	327.21.1.1	327.21.1.2	327.21.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2323952	e5ud5A1	5ud5_A		4.29.1.1	4.29.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2323967	e5vbnA1	5vbn_A		2.1.1.224	2.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2323974	e5vhvA2	5vhv_A		11.1.1.987	11.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2323987	e5w2lB1	5w2l_B	2.1.1.66	2.1.1.243	2.1.1	APPLY	APPLY + reseed/deprecate old group (see reseed_suggestions)
+2485644	e5w4aB1	5w4a_B		7030.1.1.1	7030.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2084857	e5x90D1	5x90_D		1164.1.1.2	1164.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2324026	e5xfoA4	5xfo_A		101.1.2.500	101.1.2	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2387804	e5xllA1	5xll_A		9.30.1.1	9.30.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2324037	e5xynD1	5xyn_D		1195.1.1.2	1195.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2485650	e5yclA2	5ycl_A		633.16.2.2	633.16.2	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2617272	e5ym0A1	5ym0_A	2007.1.20.1	2007.1.20.2	2007.1.20	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2485656	e6a29E1	6a29_E		7052.1.1.1	7052.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2485657	e6a29E2	6a29_E		7053.1.1.1	7053.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2526309	e6a9sA2	6a9s_A		7083.1.1.1	7083.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2324055	e6b39A1	6b39_A	101.1.2.155	101.1.2.543	101.1.2	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2623804	e6bxrA1	6bxr_A		7529.1.1.14	7529.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2324072	e6bzfB1	6bzf_B		2008.1.1.149	2008.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2324073	e6bzfB2	6bzf_B		102.1.1.111	102.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2526314	e6d7yA1	6d7y_A		1205.2.1.1	1205.2.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2526315	e6d7yB1	6d7y_B		7075.1.1.1	7075.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2502890	e6dnmA1	6dnm_A		7059.1.1.1	7059.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2485680	e6ebnA3	6ebn_A		7035.1.1.1	7035.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2324093	e6f1sA1	6f1s_A		2008.8.1.1	2008.8.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2322965	e6f5dL1	6f5d_L		109.4.1.1284	109.4.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2387865	e6f7jB1	6f7j_B		304.9.1.78	304.9.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2387867	e6fb3A2	6fb3_A	3735.1.1.3	3735.1.1.14	3735.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2485693	e6ghcB1	6ghc_B		7040.1.1.1	7040.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2502901	e6gjeC1	6gje_C		207.16.1.1	207.16.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2576194	e6h1wA2	6h1w_A		7103.1.1.1	7103.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2526318	e6hq6A4	6hq6_A		7093.1.1.1	7093.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2576204	e6iwvA1	6iwv_A		558.1.1.19	558.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2576208	e6j2pA2	6j2p_A		906.2.1.1	906.2.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2526330	e6jdeB3	6jde_B		375.15.1.1	375.15.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2526331	e6jdeB4	6jde_B		7091.1.1.1	7091.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2526332	e6jl2A2	6jl2_A		7092.1.1.1	7092.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2576209	e6jq1B2	6jq1_B		7112.1.1.1	7112.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2526352	e6qixA1	6qix_A		922.1.1.21	922.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+2526353	e6qixA2	6qix_A		7084.1.1.2	7084.1.1	APPLY	APPLY (batch1): reassign f_id -> commons_f
+1693513	e1ihmA2	1ihm_A	1.2.1.2	1.2.1.4	1.2.1	HOLD	HOLD: composite over-reach (extra Pfam absent - keep old)
+1870442	e3cmmA1	3cmm_A	2003.1.9.1	2003.1.9.8	2003.1.9	HOLD	HOLD: composite over-reach (extra Pfam absent - keep old)
+223848	e3iddA1	3idd_A	7515.1.1.8	7515.1.1.14	7515.1.1	HOLD	HOLD: composite over-reach (extra Pfam absent - keep old)
+1117696	e3vkhA3	3vkh_A	2004.1.1.156	2004.1.1.500	2004.1.1	HOLD	HOLD: composite over-reach (extra Pfam absent - keep old)
+1556802	e4ad8A1	4ad8_A	2004.1.1.87	2004.1.1.433	2004.1.1	HOLD	HOLD: composite over-reach (extra Pfam absent - keep old)
+1447873	e4rh7A4	4rh7_A	2004.1.1.156	2004.1.1.500	2004.1.1	HOLD	HOLD: composite over-reach (extra Pfam absent - keep old)
+2041636	e5ulmA1	5ulm_A	109.4.1.193	2007.15.1.11	109.4.1	HOLD	HOLD: architecture matches old group
+1145819	e3h94A4	3h94_A	6119.1.1.1	6119.1.1.2	6119.1.1	HOLD	HOLD: Pfam matches no F-group in this T
+1916683	e3mmcB1	3mmc_B	205.1.1.1	205.1.1.41	205.1.1	HOLD	HOLD: Pfam matches no F-group in this T
+1002477	e3ne5B4	3ne5_B	6119.1.1.1	6119.1.1.2	6119.1.1	HOLD	HOLD: Pfam matches no F-group in this T
+9749	e1qvrC4	1qvr_C	2004.1.1.1	2004.1.1.462	2004.1.1	HOLD	HOLD: Pfam contradicts move (keep current)
+3190	e1snlA1	1snl_A	108.1.1.29	108.1.1.121	108.1.1	HOLD	HOLD: Pfam contradicts move (keep current)
+224055	e4hg6B3	4hg6_B	10.32.1.10	10.32.1.215	10.32.1	HOLD	HOLD: Pfam contradicts move (keep current)
+9774	e1iqpA3	1iqp_A	2004.1.1.1	2004.1.1.415	2004.1.1	REROUTE	REROUTE: architecture fits a different F-group
+9224	e1kdgA2	1kdg_A	2003.1.2.3	2003.1.2.63	2003.1.2	REROUTE	REROUTE: architecture fits a different F-group
+4607	e1te4A1	1te4_A	109.4.1.207	109.4.1.1283	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+6742	e1cc1L3	1cc1_L	244.4.1.2	244.4.1.3	244.4.1	REROUTE	REROUTE: architecture fits a different F-group
+7198	e1dceA3	1dce_A	207.1.1.29	207.1.1.197	207.1.1	REROUTE	REROUTE: architecture fits a different F-group
+4551	e1elrA1	1elr_A	109.4.1.5	109.4.1.1394	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+4554	e1fchA1	1fch_A	109.4.1.5	109.4.1.1263	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+1030869	e1h6tA3	1h6t_A	207.1.1.20	207.1.1.142	207.1.1	REROUTE	REROUTE: architecture fits a different F-group
+4520	e1iknD1	1ikn_D	109.3.1.8	109.3.1.162	109.3.1	REROUTE	REROUTE: architecture fits a different F-group
+4516	e1n11A1	1n11_A	109.3.1.1	109.3.1.165	109.3.1	REROUTE	REROUTE: architecture fits a different F-group
+9485	e1nriA1	1nri_A	2007.6.1.12	2007.6.1.17	2007.6.1	REROUTE	REROUTE: architecture fits a different F-group
+7192	e1oznA1	1ozn_A	207.1.1.24	207.1.1.130	207.1.1	REROUTE	REROUTE: architecture fits a different F-group
+4580	e1qbkB1	1qbk_B	109.4.1.204	109.4.1.1313	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+4578	e1qgrA1	1qgr_A	109.4.1.55	109.4.1.1345	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+4586	e1u6gC1	1u6g_C	109.4.1.34	109.4.1.1501	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+6738	e1ublL5	1ubl_L	244.4.1.2	244.4.1.3	244.4.1	REROUTE	REROUTE: architecture fits a different F-group
+4560	e1w3bA1	1w3b_A	109.4.1.5	109.4.1.3572	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+9280	e1w4xA1	1w4x_A	2003.1.2.29	2003.1.2.69	2003.1.2	REROUTE	REROUTE: architecture fits a different F-group
+7193	e1w8aA1	1w8a_A	207.1.1.11	207.1.1.164	207.1.1	REROUTE	REROUTE: architecture fits a different F-group
+6740	e1wuiL3	1wui_L	244.4.1.2	244.4.1.3	244.4.1	REROUTE	REROUTE: architecture fits a different F-group
+5474	e1xerA1	1xer_A	205.1.1.1	205.1.1.41	205.1.1	REROUTE	REROUTE: architecture fits a different F-group
+7194	e1xkuA1	1xku_A	207.1.1.24	207.1.1.140	207.1.1	REROUTE	REROUTE: architecture fits a different F-group
+4562	e1xnfA1	1xnf_A	109.4.1.95	109.4.1.1264	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+4613	e1xqrA1	1xqr_A		109.4.1.1413	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+2266	e2bibA1	2bib_A	702.1.1.1	702.1.1.9	702.1.1	REROUTE	REROUTE: architecture fits a different F-group
+4579	e2bptA1	2bpt_A	109.4.1.55	109.4.1.1345	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+4563	e2c2lA1	2c2l_A	109.4.1.9	109.4.1.1707	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+2233	e2ebsA1	2ebs_A	5.1.4.52	5.1.4.406	5.1.4	REROUTE	REROUTE: architecture fits a different F-group
+1316581	e2ru4B1	2ru4_B	109.4.1.2	109.4.1.1332	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+185442	e3ojaB1	3oja_B	207.1.1.24	207.1.1.130	207.1.1	REROUTE	REROUTE: architecture fits a different F-group
+1031088	e3sfzA5	3sfz_A	5.1.4.1	5.1.4.274	5.1.4	REROUTE	REROUTE: architecture fits a different F-group
+1487475	e4rg6A1	4rg6_A	109.4.1.7	109.4.1.1294	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+1482703	e4rlvA1	4rlv_A	109.3.1.1	109.3.1.164	109.3.1	REROUTE	REROUTE: architecture fits a different F-group
+1673889	e4ui9O2	4ui9_O	109.4.1.185	109.4.1.1398	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+1411819	e4uw0A1	4uw0_A	206.1.1.11	206.1.1.73	206.1.1	REROUTE	REROUTE: architecture fits a different F-group
+1722652	e5a6cB1	5a6c_B	109.4.1.198	109.4.1.1315	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+1779584	e5dnyB1	5dny_B	2004.1.1.198	2004.1.1.514	2004.1.1	REROUTE	REROUTE: architecture fits a different F-group
+1866774	e5hzrA2	5hzr_A	2004.1.1.24	2004.1.1.428	2004.1.1	REROUTE	REROUTE: architecture fits a different F-group
+2080125	e5jqyA1	5jqy_A	109.4.1.118	109.4.1.1287	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+2082640	e5jzuA1	5jzu_A	109.4.1.118	109.4.1.1287	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+2095496	e5o01A1	5o01_A	109.4.1.198	109.4.1.1304	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+2036593	e5tqbB1	5tqb_B	109.4.1.118	109.4.1.1264	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+2323971	e5ve8B1	5ve8_B		109.4.1.1697	109.4.1	REROUTE	REROUTE: architecture fits a different F-group
+2576201	e6i5bA2	6i5b_A	139.2.1.2	139.2.1.18	139.2.1	REROUTE	REROUTE: architecture fits a different F-group
+9290	e1djqA3	1djq_A	2003.1.3.3	2003.1.3.15	2003.1.3	REVIEW	REVIEW: no Pfam architecture (structural/DPAM)
+2298	e1dq3A1	1dq3_A	69.1.1.4	69.1.1.11	69.1.1	REVIEW	REVIEW: no Pfam architecture (structural/DPAM)
+11106	e1lrzA3	1lrz_A	213.1.1.7	213.1.1.75	213.1.1	REVIEW	REVIEW: no Pfam architecture (structural/DPAM)
+9602	e1n0uA5	1n0u_A	2004.1.1.14	2004.1.1.414	2004.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+119021	e1r7rA6	1r7r_A	2004.1.1.1	2004.1.1.415	2004.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+9605	e1wf3A2	1wf3_A	2004.1.1.73	2004.1.1.474	2004.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+9600	e2bv3A5	2bv3_A	2004.1.1.14	2004.1.1.414	2004.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+9183	e2g5cA2	2g5c_A	2003.1.1.27	2003.1.1.147	2003.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+10114	e2shpA3	2shp_A	2007.2.3.1	2007.2.3.21	2007.2.3	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+184980	e2x58A2	2x58_A	2003.1.1.36	2003.1.1.155	2003.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+5478	e3c8yA3	3c8y_A	205.1.1.16	205.1.1.42	205.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+1389177	e3izq11	3izq_1	2004.1.1.14	2004.1.1.414	2004.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+1031105	e3zztA4	3zzt_A	2004.1.1.14	2004.1.1.414	2004.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+1125473	e4ij2F1	4ij2_F	11.1.1.72	11.1.1.861	11.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+1108126	e4kc5A1	4kc5_A	7581.1.1.2	7581.1.1.22	7581.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+1407180	e4rcnA6	4rcn_A	2486.1.1.3	2486.1.1.15	2486.1.1	REVIEW	REVIEW: no Pfam architecture (structural/DPAM)
+8818	e1gcyA2	1gcy_A	2002.1.1.5	2002.1.1.301	2002.1.1	REVIEW	REVIEW: no Pfam architecture (structural/DPAM)
+1107951	e1h0hB2	1h0h_B	205.1.1.17	205.1.1.71	205.1.1	REVIEW	REVIEW: no Pfam architecture (structural/DPAM)
+10878	e1hnjA1	1hnj_A	7581.1.1.13	7581.1.1.23	7581.1.1	REVIEW	REVIEW: borderline composite (extra Pfam sub-GA)
+1565411	e2vf7B2	2vf7_B	2004.1.1.5	2004.1.1.417	2004.1.1	REVIEW	REVIEW: no Pfam architecture (structural/DPAM)
+2323923	e5oqdC1	5oqd_C		376.1.3.56	376.1.3	REVIEW	REVIEW: no Pfam architecture (structural/DPAM)

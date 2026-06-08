@@ -1,0 +1,10 @@
+old_f,oldf_pfam,n_candidates,n_confirmed,suggested_ecod_uid,suggested_domain_id,source_type,seq_len,is_discontinuous,is_multidomain,dom_pfam,dom_pfam_name,cov_pct,score,pfam_confirmed
+101.1.2.13,PF00888,78,18,4874389,e8vvyA02,pdb,96,f,t,PF00888,Cullin,100.0,516.6,True
+101.1.2.93,PF08280,13,11,2088877,e5wayA2,pdb,79,f,t,PF08280,HTH_Mga,75.9,72.8,True
+108.1.1.3,"PF00036,PF13405",4,0,1038373,e2hf5A1,pdb,68,f,f,,,0,0,False
+2.1.1.66,PF15489,5,5,3750531,D4A261_F1_nD1,afdb,160,f,t,PF15489,CTC1_1st,95.6,321.8,True
+2003.1.1.71,PF13727,6,5,3988514,Q8DRJ2_F1_nD2,afdb,120,f,t,PF13727,CoA_binding_3,82.5,60.2,True
+3235.1.1.1,PF02205,14,7,4770304,e2a40C01,pdb,33,f,f,PF02205,WH2,87.5,38.2,True
+331.3.1.8,PF06804,23,23,420629,e2yh5A1,pdb,119,f,f,PF06804,BamC_C,95.0,138.6,True
+5.1.4.29,PF07676,11,5,4655555,Q39PS9_nD2,afdb,264,f,t,PF07676,PD40,100.0,277.1,True
+5.1.4.7,PF00415,11,0,3231016,G5EEZ1_F1_nD1,afdb,389,f,f,,,0,0,False

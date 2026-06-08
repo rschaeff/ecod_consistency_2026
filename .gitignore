@@ -49,6 +49,15 @@ backups/
 # Curator input documents
 new_jimin_list/
 
+# hmmscan / pipeline scratch (regenerable raw scan output + logs)
+*.domtbl
+pfam_recheck/*.stdout
+pfam_recheck/*.out
+pfam_recheck/*.err
+pfam_recheck/.jobid*
+pfam_recheck/_*
+pfam_recheck/pyecod_pilot/
+
 # CLANS output (can be large)
 *.clans
 *.clans.save
