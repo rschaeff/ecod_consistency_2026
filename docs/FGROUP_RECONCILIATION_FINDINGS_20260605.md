@@ -255,9 +255,17 @@ the right interim state pending an eventual split into single domains.
 >   rehomed to the T-group `.0`) + **7 provisional reps re-seeded** (via the now-repaired
 >   `create_domain_change_request`/`implement_domain_create`, mechanism A — they had ~6 bugs and
 >   had never run). Lsr2 (`e2kngA1`) **held** (target `130.1.1.33` is curator-flagged deprecated).
-> - **Net:** repless active F-groups **14,255 → 13,993**.
-> - **Held for curator:** Lsr2; 44 REROUTE; 21 REVIEW; 13 HOLD; plus 27 ECOD-wide
->   "(DEPRECATED)"-in-name-but-active F-groups (incl. the Lsr2 `130.1.1.32/.33/.35` corner).
+> - **Tranche 2 (the 674 non-manual propagation candidates — 621 provisional + 52 manual reps):**
+>   fresh `--cut_ga` validation → **252 propagated** (213 reassign + 39 create, `requested_by='v294_t2'`);
+>   held: 70 stranding, 236 no-arch/ambiguous (refinable via relaxed-Pfam), 116 points-other/supports-old.
+>   Backup `ecod_rep_backup_20260608_pre_tranche2.dump`.
+> - **Net:** repless active F-groups **14,255 → 13,741** (−514 across both tranches).
+> - **Held for curator:** Lsr2; 44 REROUTE; 21 REVIEW; 13 HOLD; tranche-2 held (above); 27 ECOD-wide
+>   "(DEPRECATED)"-in-name-but-active F-groups; the lone `is_representative`/designation inconsistency.
+> - **Data note:** commons `is_representative` = `is_manual ∨ is_provisional` (verified: 0 reps without
+>   a designation, 1 designation-without-rep). Use `is_manual ∨ is_provisional` as the rep test.
+> - **Bigger remainder:** ~13,316 repless F-groups have members but **no representative at all** —
+>   a rep-*selection* project (not propagation), out of scope for this effort.
 
 After all evidence layers (fresh `--cut_ga` verdict → composite-architecture rule →
 non-circular relaxed-Pfam rescan), the 456 movers consolidate as
