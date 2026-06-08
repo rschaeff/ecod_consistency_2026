@@ -1,0 +1,15 @@
+old_f,old_f_name,commons_members,n_movers,movers,commons_target,disposition,reseed_rep,reseed_rep_src
+101.1.2.13,Cullin,200,2,e1ldjA2;e2hyeC2,101.1.2.493,RESEED (experimental Pfam-confirmed),e8vvyA02,pdb
+331.3.1.8,Lipoprotein_18,23,1,e3tgoC1,331.3.1.50,RESEED (experimental Pfam-confirmed),e2yh5A1,pdb
+3235.1.1.1,WH2,19,1,e3p8cD1,3235.1.1.26,RESEED (experimental Pfam-confirmed),e2a40C01,pdb
+101.1.2.93,HTH_Mga,13,1,e2wteA2,101.1.2.530,RESEED (experimental Pfam-confirmed),e5wayA2,pdb
+5.1.4.29,PD40,11,1,e1k32A3,5.1.4.279,RESEED (predicted-only — curator flag),Q39PS9_nD2,afdb
+2003.1.1.71,CoA_binding_3,6,1,e3nklB1,2003.1.1.260,RESEED (predicted-only — curator flag),Q8DRJ2_F1_nD2,afdb
+2.1.1.66,CTC1,5,1,e5w2lB1,2.1.1.243,RESEED (predicted-only — curator flag),D4A261_F1_nD1,afdb
+3386.1.1.1,T4_gp9_10,36,1,e1qexA3,3386.1.1.4,RECONSIDER (no reseed candidate),,
+5.1.4.7,RCC1,12,1,e1a12A1,5.1.4.255,RECONSIDER (no Pfam-confirmed rep — vestigial?),G5EEZ1_F1_nD1,afdb
+108.1.1.3,"EF-hand_1,EF-hand_6",4,1,e1y1xA1,108.1.1.98,RECONSIDER (no Pfam-confirmed rep — vestigial?),e2hf5A1,pdb
+4.23.1.1,eRF1_1,2,2,e2qi2A1;e2vgnA1,4.23.1.2,DEPRECATE (vacated; <=2 members all moving),,
+11.1.4.39,DUF5979,2,1,e2xidB4,11.1.4.97,DEPRECATE (vacated; <=2 members all moving),,
+141.1.1.6,HEPPP_synt_1,2,1,e5h9dC1,141.1.1.33,DEPRECATE (vacated; <=2 members all moving),,
+130.1.1.9,Lsr2,0,1,e2kngA1,130.1.1.33,HOLD (Lsr2 oddball; target name-deprecated),,

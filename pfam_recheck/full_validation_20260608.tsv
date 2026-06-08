@@ -1,0 +1,457 @@
+domain_id	query	old_f	commons_f	n_domains	rederived_f	struct_verdict	final_class	concordance	note
+e1auiB2	1aui_B	108.1.1.29	108.1.1.97	2	108.1.1.97;108.1.1.98	supports_commons	APPLY	agree	
+e1b0uA1	1b0u_A	2004.1.1.5	2004.1.1.417	1	2004.1.1.417	supports_commons	APPLY	agree	
+e1cjwA1	1cjw_A	213.1.1.1	213.1.1.72	1	213.1.1.72	supports_commons	APPLY	agree	
+e1dx4A1	1dx4_A	7579.1.1.1	7579.1.1.89	1	7579.1.1.89	supports_commons	APPLY	agree	
+e1ea5A1	1ea5_A	7579.1.1.1	7579.1.1.89	1	7579.1.1.1	supports_old	APPLY	check	
+e1ek6A1	1ek6_A	2003.1.1.72	2003.1.1.152	1	2003.1.1.152	supports_commons	APPLY	agree	
+e1ewqA1	1ewq_A	601.23.1.1	601.23.1.4	4	2004.1.1.45;242.3.1.1;2484.1.1.48;601.23.1.0	other	APPLY	check	
+e1exrA2	1exr_A	108.1.1.29	108.1.1.96	2	108.1.1.96;108.1.1.97	supports_commons	APPLY	agree	
+e1f4pA1	1f4p_A	2007.2.1.1	2007.2.1.9	1	2007.2.1.9	supports_commons	APPLY	agree	
+e1gteA5	1gte_A	2003.1.3.3	2003.1.3.15	5	187.1.1.0;2002.1.1.54;2003.1.2.0;2003.1.3.15;205.1.1.22	supports_commons	APPLY	agree	
+e1hk8A1	1hk8_A	2500.1.1.5	2500.1.1.7	1	2500.1.1.7	supports_commons	APPLY	agree	
+e1hqvA2	1hqv_A	108.1.1.29	108.1.1.99	2	108.1.1.29;108.1.1.98	supports_old	APPLY	check	
+e1i1nA1	1i1n_A	2003.1.5.4	2003.1.5.153	1	2003.1.5.153	supports_commons	APPLY	agree	
+e1jbaA2	1jba_A	108.1.1.29	108.1.1.97	2	108.1.1.4;108.1.1.98	other	APPLY	check	
+e1jfjA1	1jfj_A	108.1.1.29	108.1.1.99	2	108.1.1.98;108.1.1.99	supports_commons	APPLY	agree	
+e1jg1A1	1jg1_A	2003.1.5.4	2003.1.5.153	1	2003.1.5.153	supports_commons	APPLY	agree	
+e1k8qA1	1k8q_A	7579.1.1.6	7579.1.1.93	1	7579.1.1.93	supports_commons	APPLY	agree	
+e1kobA1	1kob_A	206.1.1.1	206.1.1.70	1	206.1.1.72	other	APPLY	check	
+e1kqfB3	1kqf_B	205.1.1.17	205.1.1.48	3	205.1.1.16;205.1.1.48;5023.1.1.1	supports_commons	APPLY	agree	
+e1lv7A2	1lv7_A	2004.1.1.1	2004.1.1.420	2	148.1.3.19;2004.1.1.420	supports_commons	APPLY	agree	
+e1mkyA3	1mky_A	2004.1.1.73	2004.1.1.414	3	2004.1.1.73	supports_old	APPLY	check	
+e1mppA1	1mpp_A	1.1.1.1	1.1.1.27	2	1.1.1.1;1.1.1.27	supports_commons	APPLY	agree	
+e1o6yA1	1o6y_A	206.1.1.1	206.1.1.70	1	206.1.1.70	supports_commons	APPLY	agree	
+e1oewA2	1oew_A	1.1.1.1	1.1.1.27	2	1.1.1.1	supports_old	APPLY	check	
+e1omrA2	1omr_A	108.1.1.29	108.1.1.97	2	108.1.1.0;108.1.1.97	supports_commons	APPLY	agree	
+e1oqpA1	1oqp_A	108.1.1.29	108.1.1.96	1	108.1.1.96	supports_commons	APPLY	agree	
+e1orqC1	1orq_C	5054.1.1.2	5054.1.1.59	1	5054.1.1.59	supports_commons	APPLY	agree	
+e1orrA1	1orr_A	2003.1.1.72	2003.1.1.141	1	2003.1.1.20	other	APPLY	check	
+e1ozsA1	1ozs_A	108.1.1.29	108.1.1.96	1	108.1.1.96	supports_commons	APPLY	agree	
+e1ppjC2	1ppj_C	5069.1.1.1	5069.1.1.54	2	5068.1.1.0;5069.1.1.54	supports_commons	APPLY	agree	
+e1prtA1	1prt_A	237.1.1.7	237.1.1.33	1	237.1.1.33	supports_commons	APPLY	agree	
+e1q08A1	1q08_A	101.1.9.14	101.1.9.82	1	101.1.9.82	supports_commons	APPLY	agree	
+e1qamA3	1qam_A	2003.1.5.2	2003.1.5.182	2	102.2.1.1;2003.1.5.2	supports_old	APPLY	check	
+e1qhlA1	1qhl_A	2004.1.1.113	2004.1.1.1172	0		unclassified	APPLY	no_evidence	
+e1qsaA2	1qsa_A	235.1.1.9	235.1.1.32	2	109.4.1.0;235.1.1.32	supports_commons	APPLY	agree	
+e1r3nA2	1r3n_A	2011.1.1.6	2011.1.1.20	2	2011.1.1.20;304.25.1.1	supports_commons	APPLY	agree	
+e1r8dA1	1r8d_A	101.1.9.17	101.1.9.82	1	101.1.9.82	supports_commons	APPLY	agree	
+e1ryiA2	1ryi_A	2003.1.2.12	2003.1.2.60	2	2003.1.2.60;244.1.1.4	supports_commons	APPLY	agree	
+e1s6cA1	1s6c_A	108.1.1.29	108.1.1.98	2	108.1.1.110;108.1.1.97	other	APPLY	check	
+e1s9jA1	1s9j_A	206.1.1.1	206.1.1.70	1	206.1.1.70	supports_commons	APPLY	agree	
+e1smrA2	1smr_A	1.1.1.1	1.1.1.27	2	1.1.1.1;1.1.1.29	supports_old	APPLY	check	
+e1tedA2	1ted_A	7581.1.1.4	7581.1.1.24	2	7581.1.1.4;7581.1.1.6	supports_old	APPLY	check	
+e1u6mA1	1u6m_A	213.1.1.1	213.1.1.72	1	213.1.1.72	supports_commons	APPLY	agree	
+e1uaaA2	1uaa_A	2004.1.1.195	2004.1.1.508	2	2004.1.1.49;2004.1.1.508	supports_commons	APPLY	agree	
+e1ukcA1	1ukc_A	7579.1.1.1	7579.1.1.89	1	7579.1.1.89	supports_commons	APPLY	agree	
+e1vplA1	1vpl_A	2004.1.1.5	2004.1.1.417	1	2004.1.1.5	supports_old	APPLY	check	
+e1vqoT1	1vqo_T	4.1.1.95	4.1.1.295	1	4.1.1.295	supports_commons	APPLY	agree	
+e1w1wA1	1w1w_A	2004.1.1.87	2004.1.1.481	2	2004.1.1.429;3922.1.1.0	other	APPLY	check	
+e1w8oA3	1w8o_A	5.1.3.26	5.1.3.134	3	10.32.1.2;11.1.1.138;5.1.3.134	supports_commons	APPLY	agree	
+e1wb9A1	1wb9_A	601.23.1.1	601.23.1.4	4	2004.1.1.45;242.3.1.1;2484.1.1.48;601.23.1.0	other	APPLY	check	
+e1wdkC2	1wdk_C	7581.1.1.1	7581.1.1.22	2	7581.1.1.22;7581.1.1.9	supports_commons	APPLY	agree	
+e1x42A3	1x42_A	2006.1.1.1	2006.1.1.44	1	2006.1.1.44	supports_commons	APPLY	agree	
+e1xo5A1	1xo5_A	108.1.1.29	108.1.1.103	2	108.1.1.0;108.1.1.103	supports_commons	APPLY	agree	
+e1xwsA1	1xws_A	206.1.1.1	206.1.1.71	1	206.1.1.1	supports_old	APPLY	check	
+e1y5iA4	1y5i_A	2003.2.1.1	2003.2.1.8	4	1.1.2.4;1001.1.1.3;2003.2.1.1;2003.2.1.8	supports_commons	APPLY	agree	
+e1yhwA1	1yhw_A	206.1.1.1	206.1.1.72	1	206.1.1.1	supports_old	APPLY	check	
+e1yo6A1	1yo6_A	2003.1.1.3	2003.1.1.148	1	2003.1.1.3	supports_old	APPLY	check	
+e1zd3A1	1zd3_A	2006.1.1.1	2006.1.1.46	2	2006.1.1.46;7579.1.1.6	supports_commons	APPLY	agree	
+e1zfjA2	1zfj_A	2002.1.1.23	2002.1.1.263	2	2002.1.1.23;282.1.1.1	supports_old	APPLY	check	
+e1zq9A3	1zq9_A	2003.1.5.2	2003.1.5.155	2	102.2.1.0;2003.1.5.2	supports_old	APPLY	check	
+e1zunB3	1zun_B	2004.1.1.14	2004.1.1.414	3	1.1.7.19;1.1.8.11;2004.1.1.14	supports_old	APPLY	check	
+e2aalA1	2aal_A	315.1.1.5	315.1.1.9	1	315.1.1.9	supports_commons	APPLY	agree	
+e2afhE1	2afh_E	2004.1.1.20	2004.1.1.419	1	2004.1.1.419	supports_commons	APPLY	agree	
+e2aprA2	2apr_A	1.1.1.1	1.1.1.27	2	1.1.1.1;1.1.1.27	supports_commons	APPLY	agree	
+e2b0cA1	2b0c_A	2006.1.1.1	2006.1.1.44	1	2006.1.1.46	other	APPLY	check	
+e2b69A1	2b69_A	2003.1.1.72	2003.1.1.141	1	2003.1.1.150	other	APPLY	check	
+e2bceA1	2bce_A	7579.1.1.1	7579.1.1.89	1	7579.1.1.89	supports_commons	APPLY	agree	
+e2cxxA1	2cxx_A	2004.1.1.73	2004.1.1.414	1	2004.1.1.414	supports_commons	APPLY	agree	
+e2dy1A5	2dy1_A	2004.1.1.14	2004.1.1.414	5	1.1.7.50;2004.1.1.414;212.1.1.17;304.24.1.1;304.24.1.3	supports_commons	APPLY	agree	
+e2f1kA2	2f1k_A	2003.1.1.27	2003.1.1.147	2	129.1.1.18;2003.1.1.147	supports_commons	APPLY	agree	
+e2fk8A1	2fk8_A	2003.1.5.21	2003.1.5.152	1	2003.1.5.152	supports_commons	APPLY	agree	
+e2gfhA1	2gfh_A	2006.1.1.1	2006.1.1.44	1	2006.1.1.44	supports_commons	APPLY	agree	
+e2gfsA1	2gfs_A	206.1.1.1	206.1.1.70	1	206.1.1.70	supports_commons	APPLY	agree	
+e2gh1A1	2gh1_A	2003.1.5.82	2003.1.5.201	1	2003.1.5.201	supports_commons	APPLY	agree	
+e2hqsA1	2hqs_A	5.1.3.20	5.1.3.136	2	5.1.3.136;7503.1.1.3	supports_commons	APPLY	agree	
+e2hu7A2	2hu7_A	7579.1.1.3	7579.1.1.94	2	5.1.4.65;7579.1.1.3	supports_old	APPLY	check	
+e2iidA2	2iid_A	2003.1.2.17	2003.1.2.73	2	244.1.1.6	other	APPLY	check	
+e2jbwA1	2jbw_A	7579.1.1.32	7579.1.1.118	1	7579.1.1.118	supports_commons	APPLY	agree	
+e2jflA1	2jfl_A	206.1.1.1	206.1.1.70	1	206.1.1.1	supports_old	APPLY	check	
+e2lhiA1	2lhi_A	108.1.1.29	108.1.1.97	2	108.1.1.96;108.1.1.97	supports_commons	APPLY	agree	
+e2o3iA2	2o3i_A	4176.1.1.1	4176.1.1.2	0		unclassified	APPLY	no_evidence	
+e2o5vA1	2o5v_A	2004.1.1.87	2004.1.1.433	1	2004.1.1.0	other	APPLY	check	
+e2obhA2	2obh_A	108.1.1.29	108.1.1.96	2	108.1.1.28;108.1.1.96	supports_commons	APPLY	agree	
+e2ooeA1	2ooe_A	109.4.1.83	109.4.1.1316	2	109.4.1.83	supports_old	APPLY	check	
+e2p3uA1	2p3u_A	389.1.1.17	389.1.1.97	1	389.1.1.97	supports_commons	APPLY	agree	
+e2pvbA1	2pvb_A	108.1.1.29	108.1.1.99	1	108.1.1.99	supports_commons	APPLY	agree	
+e2vglA1	2vgl_A	109.4.1.22	109.4.1.1255	1	109.4.1.1255	supports_commons	APPLY	agree	
+e2vouA2	2vou_A	2003.1.2.15	2003.1.2.99	2	2003.1.2.16;244.1.1.0	other	APPLY	check	
+e2vpzB2	2vpz_B	205.1.1.17	205.1.1.44	2	205.1.1.17;205.1.1.44	supports_commons	APPLY	agree	
+e3bqcA1	3bqc_A	206.1.1.1	206.1.1.73	1	206.1.1.73	supports_commons	APPLY	agree	
+e3dhwC2	3dhw_C	2004.1.1.5	2004.1.1.417	2	2004.1.1.5;304.8.1.5	supports_old	APPLY	check	
+e3f6kA1	3f6k_A	5.1.7.2	5.1.7.4	3	5.1.7.4;6070.1.1.1	supports_commons	APPLY	agree	
+e3j6bQ1	3j6b_Q	4.1.1.146	4.1.1.314	1	4.1.1.314	supports_commons	APPLY	agree	
+e3lm3A2	3lm3_A	12.1.1.20	12.1.1.117	0		unclassified	APPLY	no_evidence	
+e3n71A1	3n71_A	70.3.1.1	70.3.1.11	2	109.4.1.0;70.3.1.11	supports_commons	APPLY	agree	
+e3nnqA1	3nnq_A	101.1.1.73	101.1.1.301	1	101.1.1.301	supports_commons	APPLY	agree	
+e3q3qA1	3q3q_A	7515.1.1.6	7515.1.1.15	2	304.131.1.0;7515.1.1.15	supports_commons	APPLY	agree	
+e3u44B2	3u44_B	2004.1.1.195	2004.1.1.654	3	2004.1.1.226;2004.1.1.654;2008.1.1.59	supports_commons	APPLY	agree	
+e4bepB3	4bep_B	109.3.1.8	109.3.1.176	3	109.3.1.166;4040.1.1.0;6175.1.1.1	other	APPLY	check	
+e4bkyA1	4bky_A	206.1.1.1	206.1.1.70	2	103.1.1.26;206.1.1.1	supports_old	APPLY	check	
+e4cfeA1	4cfe_A	206.1.1.1	206.1.1.70	2	206.1.1.0;331.4.1.3	other	APPLY	check	
+e4cfhA1	4cfh_A	206.1.1.1	206.1.1.70	2	206.1.1.0;331.4.1.3	other	APPLY	check	
+e4e3cB1	4e3c_B	206.1.1.1	206.1.1.72	3	206.1.1.72;221.1.1.164;4177.2.1.2	supports_commons	APPLY	agree	
+e4g23A1	4g23_A	109.4.1.240	109.4.1.1384	3	109.4.1.1384;2006.1.4.11;3850.1.1.0	supports_commons	APPLY	agree	
+e4lgdB1	4lgd_B	206.1.1.1	206.1.1.70	2	206.1.1.70;4096.1.1.2	supports_commons	APPLY	agree	
+e4m8oA3	4m8o_A	2484.1.1.34	2484.1.1.197	6	2.1.1.0;2484.1.1.197;304.114.1.0;304.48.1.0;4969.1.1.2;4970.1.1.0	supports_commons	APPLY	agree	
+e4o1pC2	4o1p_C	206.1.1.1	206.1.1.71	3	109.3.1.96;206.1.1.71;601.7.1.4	supports_commons	APPLY	agree	
+e4pj3A3	4pj3_A	2004.1.1.184	2004.1.1.473	5	1.1.7.47;109.4.1.223;2004.1.1.186;2004.1.1.473;3940.1.1.1	supports_commons	APPLY	agree	
+e4qfgA1	4qfg_A	206.1.1.1	206.1.1.70	1	206.1.1.70	supports_commons	APPLY	agree	
+e4r04A5	4r04_A	1033.1.1.1	1033.1.1.3	5	1032.1.1.1;1033.1.1.3;633.16.1.2;7516.1.1.25;7575.1.1.6	supports_commons	APPLY	agree	
+e4ux3A1	4ux3_A	2004.1.1.87	2004.1.1.429	3	2004.1.1.87;3922.1.1.0	supports_old	APPLY	check	
+e4ww4B1	4ww4_B	2004.1.1.137	2004.1.1.436	3	148.1.3.18;2.1.1.32	other	APPLY	check	
+e4xhhA1	4xhh_A	206.1.1.1	206.1.1.72	1	206.1.1.72	supports_commons	APPLY	agree	
+e4ydhA1	4ydh_A	109.4.1.89	109.4.1.1299	1	109.4.1.1299	supports_commons	APPLY	agree	
+e4z87A1	4z87_A	2002.1.1.23	2002.1.1.263	2	2002.1.1.263;282.1.1.1	supports_commons	APPLY	agree	
+e5d08A3	5d08_A	109.4.1.207	109.4.1.1259	2	109.4.1.0;205.1.1.0	other	APPLY	check	
+e5f0pA1	5f0p_A	109.4.1.44	109.4.1.1333	1	109.4.1.1333	supports_commons	APPLY	agree	
+e5fifD2	5fif_D	2486.1.1.3	2486.1.1.15	3	2486.1.1.15;2486.1.1.3;325.1.7.1	supports_commons	APPLY	agree	
+e5frpA1	5frp_A	109.4.1.257	109.4.1.1620	1	109.4.1.1620	supports_commons	APPLY	agree	
+e5g53C1	5g53_C	2004.1.1.47	2004.1.1.431	1	2004.1.1.431	supports_commons	APPLY	agree	
+e5h68A1	5h68_A	2004.1.1.87	2004.1.1.480	1	2004.1.1.442	other	APPLY	check	
+e5kokA1	5kok_A	2003.1.5.21	2003.1.5.152	1	2003.1.5.152	supports_commons	APPLY	agree	
+e5t77A1	5t77_A	1075.5.1.2	1075.5.1.12	2	1075.5.1.12;1075.5.1.2	supports_commons	APPLY	agree	
+e5tj6A1	5tj6_A	5054.1.1.2	5054.1.1.59	4	2003.1.1.82;4261.1.1.2;5054.1.1.59	supports_commons	APPLY	agree	
+e5ve9B1	5ve9_B	108.1.1.29	108.1.1.97	1	108.1.1.97	supports_commons	APPLY	agree	
+e1a0cA1	1a0c_A	2002.1.1.60	2002.1.1.266	1	2002.1.1.271	other	APPLY	check	
+e1a17A1	1a17_A	109.4.1.6	109.4.1.1802	1	109.4.1.192	other	APPLY	check	
+e1b3uA1	1b3u_A	109.4.1.35	109.4.1.1321	1	109.4.1.1321	supports_commons	APPLY	agree	
+e1c4oA1	1c4o_A	2004.1.1.120	2004.1.1.489	3	2004.1.1.32;2004.1.1.489;506.2.1.2	supports_commons	APPLY	agree	
+e1elwA1	1elw_A	109.4.1.5	109.4.1.1288	1	109.4.1.202	other	APPLY	check	
+e1f00I2	1f00_I	11.1.1.38	11.1.1.870	3	11.1.1.39;11.1.1.870;209.1.1.10	supports_commons	APPLY	agree	
+e1gpmA2	1gpm_A	2005.1.1.18	2005.1.1.47	3	2005.1.1.18;2007.1.1.1;327.3.1.1	supports_old	APPLY	check	
+e1jl5A1	1jl5_A		207.1.1.199	1	207.1.1.199	supports_commons	APPLY	agree	
+e1jnrB1	1jnr_B	205.1.1.13	205.1.1.47	1	205.1.1.47	supports_commons	APPLY	agree	
+e1k3iA3	1k3i_A	5.1.4.10	5.1.4.291	3	10.32.1.2;11.1.1.122;5.1.4.291	supports_commons	APPLY	agree	
+e1l0qA2	1l0q_A	5.1.4.64	5.1.4.405	2	11.1.1.284;5.1.4.64	supports_old	APPLY	check	
+e1l9lA1	1l9l_A	198.1.1.1	198.1.1.13	1	198.1.1.26	other	APPLY	check	
+e1m8zA1	1m8z_A	109.4.1.16	109.4.1.1265	1	109.4.1.0	other	APPLY	check	
+e1nklA1	1nkl_A	198.1.1.3	198.1.1.26	1	198.1.1.13	other	APPLY	check	
+e1ouvA1	1ouv_A	109.4.1.109	109.4.1.1793	1	109.4.1.109	supports_old	APPLY	check	
+e1oyzA1	1oyz_A	109.4.1.207	109.4.1.1283	1	109.4.1.1283	supports_commons	APPLY	agree	
+e1p9aG1	1p9a_G	207.1.1.11	207.1.1.165	1	207.1.1.165	supports_commons	APPLY	agree	
+e1q06A1	1q06_A	101.1.9.17	101.1.9.82	1	101.1.9.82	supports_commons	APPLY	agree	
+e1q33A1	1q33_A	221.4.1.1	221.4.1.23	1	221.4.1.23	supports_commons	APPLY	agree	
+e1qo7A1	1qo7_A	7579.1.1.31	7579.1.1.97	1	7579.1.1.97	supports_commons	APPLY	agree	
+e1tyeA1	1tye_A	5.1.4.13	5.1.4.257	1	5.1.4.13	supports_old	APPLY	check	
+e1vw4J1	1vw4_J	2490.3.1.1	2490.3.1.3	1	2490.3.1.3	supports_commons	APPLY	agree	
+e1w0pA3	1w0p_A	5.1.3.26	5.1.3.134	3	10.1.1.32;5.1.3.134	supports_commons	APPLY	agree	
+e1wxqA2	1wxq_A	2004.1.1.74	2004.1.1.597	2	2004.1.1.73;221.1.1.27	other	APPLY	check	
+e1x3zA1	1x3z_A	219.1.1.13	219.1.1.111	1	219.1.1.111	supports_commons	APPLY	agree	
+e1xu6A1	1xu6_A		4986.1.1.4	0		unclassified	APPLY	no_evidence	
+e1zavA1	1zav_A	304.60.1.2	304.60.1.8	1	304.60.1.8	supports_commons	APPLY	agree	
+e1zgkA1	1zgk_A	5.1.3.6	5.1.3.117	1	5.1.3.117	supports_commons	APPLY	agree	
+e2bm5A1	2bm5_A	207.9.1.2	207.9.1.7	1	207.9.1.6	other	APPLY	check	
+e2bnxA1	2bnx_A	109.4.1.89	109.4.1.1299	1	109.4.1.1299	supports_commons	APPLY	agree	
+e2d13A1	2d13_A	2005.1.1.16	2005.1.1.54	1	2005.1.1.54	supports_commons	APPLY	agree	
+e2f4mA1	2f4m_A	219.1.1.13	219.1.1.111	1	219.1.1.111	supports_commons	APPLY	agree	
+e2gw1A1	2gw1_A		109.4.1.1438	1	109.4.1.1421	other	APPLY	check	
+e2iw3A2	2iw3_A	109.4.1.955	109.4.1.1442	5	109.4.1.1442;2004.1.1.5;4.8.1.0;6088.1.1.1	supports_commons	APPLY	agree	
+e2j01P1	2j01_P	2490.3.1.1	2490.3.1.3	1	2490.3.1.3	supports_commons	APPLY	agree	
+e2ovrB1	2ovr_B	5.1.4.1	5.1.4.310	2	145.1.1.3;5.1.4.310	supports_commons	APPLY	agree	
+e3h09A3	3h09_A	207.2.1.7	207.2.1.75	2	1.1.5.13;207.2.1.75	supports_commons	APPLY	agree	
+e3j65q2	3j65_q	5.1.5.1	5.1.5.78	2	221.1.1.31;5.1.5.78	supports_commons	APPLY	agree	
+e3j9zLH1	3j9z_LH	2490.3.1.1	2490.3.1.3	1	2490.3.1.3	supports_commons	APPLY	agree	
+e3kv4A2	3kv4_A	10.12.1.9	10.12.1.101	3	10.12.1.101;376.1.3.56;6171.1.1.1	supports_commons	APPLY	agree	
+e3n54B1	3n54_B	3234.1.1.1	3234.1.1.2	0		unclassified	APPLY	no_evidence	
+e3p8cF1	3p8c_F	3305.1.1.1	3305.1.1.7	1	3305.1.1.7	supports_commons	APPLY	agree	
+e3sfzA6	3sfz_A	5.1.5.1	5.1.5.75	7	101.1.2.197;110.1.1.2;148.1.3.0;2004.1.1.56;3704.1.1.1;5.1.4.274;5.1.5.1	supports_old	APPLY	check	
+e3wpcA1	3wpc_A	207.1.1.24	207.1.1.210	2	207.1.1.145;207.1.1.55	other	APPLY	check	
+e4a53A1	4a53_A	4.1.1.67	4.1.1.391	1	4.1.1.476	other	APPLY	check	
+e4adyA2	4ady_A	109.35.1.1	109.35.1.10	3	109.34.1.2;109.35.1.13;3792.1.1.1	other	APPLY	check	
+e4bujF1	4buj_F	109.4.1.255	109.4.1.2094	1	109.4.1.2094	supports_commons	APPLY	agree	
+e4gcwA1	4gcw_A	247.1.1.11	247.1.1.29	1	247.1.1.11	supports_old	APPLY	check	
+e4hnwA1	4hnw_A	109.4.1.173	109.4.1.1389	1	109.4.1.1389	supports_commons	APPLY	agree	
+e4hnxA1	4hnx_A	109.4.1.173	109.4.1.1389	1	109.4.1.1389	supports_commons	APPLY	agree	
+e4j0mA1	4j0m_A	207.1.1.1	207.1.1.323	2	207.1.1.2;207.1.1.35	other	APPLY	check	
+e4lxrA1	4lxr_A	207.1.1.24	207.1.1.158	1	207.1.1.158	supports_commons	APPLY	agree	
+e4n5cD1	4n5c_D		109.4.1.1575	0		unclassified	APPLY	no_evidence	
+e4pjuA1	4pju_A	109.4.1.117	109.4.1.1350	1	109.4.1.1350	supports_commons	APPLY	agree	
+e4qo5A1	4qo5_A	139.2.1.7	139.2.1.17	1	139.2.1.7	supports_old	APPLY	check	
+e4rfsA1	4rfs_A	2004.1.1.5	2004.1.1.417	1	2004.1.1.5	supports_old	APPLY	check	
+e4rfsB1	4rfs_B	2004.1.1.5	2004.1.1.445	1	2004.1.1.445	supports_commons	APPLY	agree	
+e4ui9I1	4ui9_I	5.1.4.39	5.1.4.283	2	5.1.4.283;601.44.1.1	supports_commons	APPLY	agree	
+e4ui9Y1	4ui9_Y	109.4.1.118	109.4.1.1264	1	109.4.1.1300	other	APPLY	check	
+e4upcA1	4upc_A	2011.1.1.12	2011.1.1.35	2	2011.1.1.12;2487.1.1.13	supports_old	APPLY	check	
+e4wwxB2	4wwx_B	2484.1.1.64	2484.1.1.195	3	101.1.11.18;2484.1.1.195;3948.1.1.3	supports_commons	APPLY	agree	
+e4yc7B1	4yc7_B	109.4.1.89	109.4.1.1299	1	109.4.1.1299	supports_commons	APPLY	agree	
+e4zlhB1	4zlh_B	109.4.1.210	109.4.1.1555	2	109.4.1.210;375.1.1.59	supports_old	APPLY	check	
+e5aioA1	5aio_A	109.4.1.118	109.4.1.1264	1	109.4.1.1264	supports_commons	APPLY	agree	
+e5ctqA1	5ctq_A	109.4.1.83	109.4.1.1303	2	109.3.1.2;109.4.1.1303	supports_commons	APPLY	agree	
+e5dfzB2	5dfz_B	109.4.1.298	109.4.1.1594	3	109.4.1.1594;206.1.1.1;5.1.4.0	supports_commons	APPLY	agree	
+e5dseC1	5dse_C	109.4.1.99	109.4.1.1798	2	109.4.1.1798;109.4.1.202	supports_commons	APPLY	agree	
+e5ekeC1	5eke_C	7516.1.1.2	7516.1.1.106	1	7516.1.1.106	supports_commons	APPLY	agree	
+e5ganJ1	5gan_J		109.4.1.1573	1	109.4.1.1573	supports_commons	APPLY	agree	
+e5h28A1	5h28_A		109.3.1.170	1	109.3.1.1	other	APPLY	check	
+e5hl3A2	5hl3_A	207.1.1.20	207.1.1.144	3	108.1.1.24;11.1.1.0;207.1.1.144	supports_commons	APPLY	agree	
+e5hx2A2	5hx2_A		1047.1.1.1	7	1.15.1.1;102.7.1.0;1047.1.1.1;1048.1.1.1;1049.1.1.1;11.1.1.0;5.1.3.0	supports_commons	APPLY	agree	
+e5igoC1	5igo_C	5.1.4.1	5.1.4.254	1	5.1.4.254	supports_commons	APPLY	agree	
+e5jpzB1	5jpz_B	109.4.1.83	109.4.1.1303	1	109.4.1.1303	supports_commons	APPLY	agree	
+e5t8vA1	5t8v_A	109.4.1.183	109.4.1.1739	1	109.4.1.180	other	APPLY	check	
+e5teeA1	5tee_A	5.1.4.6	5.1.4.620	2	5.1.4.285;5.1.4.290	other	APPLY	check	
+e5w1fD1	5w1f_D	108.1.1.8	108.1.1.102	1	108.1.1.8	supports_old	APPLY	check	
+e5x3xA1	5x3x_A	2004.1.1.5	2004.1.1.417	1	2004.1.1.417	supports_commons	APPLY	agree	
+e6iczZ1	6icz_Z	396.3.1.2	396.3.1.7	2	396.3.1.7;7101.1.1.1	supports_commons	APPLY	agree	
+e1a12A1	1a12_A	5.1.4.7	5.1.4.255	1	5.1.4.255	supports_commons	APPLY	agree	
+e1am7A1	1am7_A		235.1.1.33	1	235.1.1.33	supports_commons	APPLY	agree	
+e1arbA1	1arb_A	1.1.17.1	1.1.17.9	1	1.1.17.9	supports_commons	APPLY	agree	
+e1auiB1	1aui_B	108.1.1.1	108.1.1.98	2	108.1.1.97;108.1.1.98	supports_commons	APPLY	agree	
+e1c4xA1	1c4x_A	7579.1.1.6	7579.1.1.92	1	7579.1.1.6	supports_old	APPLY	check	
+e1c7vA1	1c7v_A	108.1.1.1	108.1.1.97	1	108.1.1.96	other	APPLY	check	
+e1dypA1	1dyp_A	10.1.1.11	10.1.1.74	1	10.1.1.74	supports_commons	APPLY	agree	
+e1ecsA1	1ecs_A		211.1.1.41	2	211.1.1.0;211.1.1.41	supports_commons	APPLY	agree	
+e1exrA1	1exr_A	108.1.1.1	108.1.1.97	2	108.1.1.96;108.1.1.97	supports_commons	APPLY	agree	
+e1gbsA1	1gbs_A	235.1.1.9	235.1.1.31	1	235.1.1.31	supports_commons	APPLY	agree	
+e1h98A1	1h98_A	205.1.1.1	205.1.1.80	1	205.1.1.4	other	APPLY	check	
+e1hfeL2	1hfe_L	205.1.1.1	205.1.1.41	2	205.1.1.42;7556.1.1.1	other	APPLY	check	
+e1hx6A2	1hx6_A	10.2.1.45	10.2.1.87	2	10.2.1.45;10.2.1.87	supports_commons	APPLY	agree	
+e1jfjA2	1jfj_A	108.1.1.1	108.1.1.98	2	108.1.1.98;108.1.1.99	supports_commons	APPLY	agree	
+e1jfrA1	1jfr_A		7579.1.1.98	1	7579.1.1.46	other	APPLY	check	
+e1k32A3	1k32_A	5.1.4.29	5.1.4.279	5	2486.1.1.7;3694.1.1.2;5.1.3.127;5.1.4.279;7.1.1.6	supports_commons	APPLY	agree	
+e1k36A1	1k36_A	389.1.1.1	389.1.1.101	1	389.1.1.101	supports_commons	APPLY	agree	
+e1k8uA1	1k8u_A	108.1.1.8	108.1.1.102	1	108.1.1.102	supports_commons	APPLY	agree	
+e1l3iA1	1l3i_A	2003.1.5.82	2003.1.5.179	1	2003.1.5.179	supports_commons	APPLY	agree	
+e1ldjA2	1ldj_A	101.1.2.13	101.1.2.493	5	101.1.2.127;101.1.2.493;109.4.1.17;4001.1.1.4	supports_commons	APPLY	agree	
+e1lshA1	1lsh_A	5087.2.1.1	5087.2.1.2	0		unclassified	APPLY	no_evidence	
+e1moxC1	1mox_C		389.1.1.99	1	389.1.1.99	supports_commons	APPLY	agree	
+e1nyaA2	1nya_A	108.1.1.1	108.1.1.98	2	108.1.1.0;108.1.1.99	other	APPLY	check	
+e1o4yA1	1o4y_A	10.1.1.11	10.1.1.74	1	10.1.1.74	supports_commons	APPLY	agree	
+e1ozzA1	1ozz_A		387.1.5.28	1	387.1.5.28	supports_commons	APPLY	agree	
+e1ps9A3	1ps9_A	2003.1.3.5	2003.1.3.15	3	2002.1.1.32;2003.1.2.24;2003.1.3.15	supports_commons	APPLY	agree	
+e1qexA3	1qex_A	3386.1.1.1	3386.1.1.4	2	3386.1.1.4;520.1.1.1	supports_commons	APPLY	agree	
+e1qv0A1	1qv0_A	108.1.1.1	108.1.1.97	2	108.1.1.0;108.1.1.73	other	APPLY	check	
+e1qx2A1	1qx2_A	108.1.1.1	108.1.1.97	1	108.1.1.2	other	APPLY	check	
+e1s6iA1	1s6i_A	108.1.1.1	108.1.1.97	2	108.1.1.96;108.1.1.97	supports_commons	APPLY	agree	
+e1s6iA2	1s6i_A	108.1.1.1	108.1.1.96	2	108.1.1.96;108.1.1.97	supports_commons	APPLY	agree	
+e1t62A1	1t62_A	1.1.9.9	1.1.9.35	1	1.1.9.35	supports_commons	APPLY	agree	
+e1tbgA1	1tbg_A	5.1.4.1	5.1.4.253	1	5.1.4.253	supports_commons	APPLY	agree	
+e1tizA1	1tiz_A	108.1.1.1	108.1.1.97	1	108.1.1.97	supports_commons	APPLY	agree	
+e1welA1	1wel_A	304.9.1.1	304.9.1.77	1	304.9.1.77	supports_commons	APPLY	agree	
+e1wepA1	1wep_A	376.1.3.1	376.1.3.56	1	376.1.3.1	supports_old	APPLY	check	
+e1wg5A1	1wg5_A	304.9.1.1	304.9.1.77	1	304.9.1.77	supports_commons	APPLY	agree	
+e1wj7A1	1wj7_A	103.1.1.14	103.1.1.84	0		unclassified	APPLY	no_evidence	
+e1wznA1	1wzn_A	2003.1.5.81	2003.1.5.151	1	2003.1.5.81	supports_old	APPLY	check	
+e1x0hA1	1x0h_A		4075.1.1.2	1	4075.1.1.2	supports_commons	APPLY	agree	
+e1xdtR1	1xdt_R	389.1.1.1	389.1.1.99	1	389.1.1.1	supports_old	APPLY	check	
+e1xxlA1	1xxl_A	2003.1.5.66	2003.1.5.154	1	2003.1.5.154	supports_commons	APPLY	agree	
+e1y1xA1	1y1x_A	108.1.1.3	108.1.1.98	2	108.1.1.28;108.1.1.99	other	APPLY	check	
+e1y8cA1	1y8c_A	2003.1.5.81	2003.1.5.151	1	2003.1.5.81	supports_old	APPLY	check	
+e1yleA2	1yle_A	1.13.1.1	1.13.1.2	0		unclassified	APPLY	no_evidence	
+e1z3iX1	1z3i_X	2004.1.1.24	2004.1.1.428	2	2004.1.1.23	other	APPLY	check	
+e2astB2	2ast_B		207.1.1.162	2	145.1.1.3;207.1.1.162	supports_commons	APPLY	agree	
+e2cpyA1	2cpy_A	304.9.1.1	304.9.1.77	1	304.9.1.77	supports_commons	APPLY	agree	
+e2cspA1	2csp_A	11.1.1.2	11.1.1.862	1	11.1.1.2	supports_old	APPLY	check	
+e2e87A1	2e87_A	2004.1.1.147	2004.1.1.453	2	2004.1.1.453;601.30.1.1	supports_commons	APPLY	agree	
+e2f2hA3	2f2h_A		4178.1.1.4	4	12.1.1.50;12.3.1.19;2002.1.1.45;4178.1.1.4	supports_commons	APPLY	agree	
+e2f5tX1	2f5t_X	4.15.1.1	4.15.1.2	2	300.1.1.6;4.15.1.2	supports_commons	APPLY	agree	
+e2fgtA2	2fgt_A	3425.2.1.1	3425.2.1.3	0		unclassified	APPLY	no_evidence	
+e2ftxA1	2ftx_A		4099.1.1.25	1	4099.1.1.25	supports_commons	APPLY	agree	
+e2gmwA1	2gmw_A	2006.1.1.15	2006.1.1.44	1	2006.1.1.44	supports_commons	APPLY	agree	
+e2gtgA1	2gtg_A	198.1.1.2	198.1.1.10	1	198.1.1.10	supports_commons	APPLY	agree	
+e2gv9B7	2gv9_B		1058.1.1.1	6	1058.1.1.1;2.1.1.25;2484.1.1.34;304.114.1.2;304.48.1.3;4969.1.1.1	supports_commons	APPLY	agree	
+e2hyeC2	2hye_C	101.1.2.13	101.1.2.493	5	101.1.2.127;101.1.2.493;109.4.1.17;4001.1.1.4	supports_commons	APPLY	agree	
+e2i47A1	2i47_A	2498.1.1.45	2498.1.1.90	1	2498.1.1.4	other	APPLY	check	
+e2kngA1	2kng_A	130.1.1.9	130.1.1.33	1	130.1.1.33	supports_commons	APPLY	agree	
+e2knjA1	2knj_A		3090.1.1.2	0		unclassified	APPLY	no_evidence	
+e2n8yA1	2n8y_A	108.1.1.1	108.1.1.103	2	108.1.1.103;108.1.1.16	supports_commons	APPLY	agree	
+e2nykA2	2nyk_A	11.1.1.149	11.1.1.1155	2	11.1.1.1155;233.1.1.4	supports_commons	APPLY	agree	
+e2o2xA1	2o2x_A	2006.1.1.15	2006.1.1.44	1	2006.1.1.44	supports_commons	APPLY	agree	
+e2oi5A1	2oi5_A	208.1.1.1	208.1.1.20	2	208.1.1.20;7516.1.1.24	supports_commons	APPLY	agree	
+e2opoA1	2opo_A	108.1.1.1	108.1.1.99	1	108.1.1.96	other	APPLY	check	
+e2opoB1	2opo_B	108.1.1.1	108.1.1.99	1	108.1.1.96	other	APPLY	check	
+e2qi2A1	2qi2_A	4.23.1.1	4.23.1.2	3	2484.1.1.38;301.1.1.2;4.23.1.2	supports_commons	APPLY	agree	
+e2vgnA1	2vgn_A	4.23.1.1	4.23.1.2	3	2484.1.1.38;301.1.1.2;4.23.1.2	supports_commons	APPLY	agree	
+e2wteA2	2wte_A	101.1.2.93	101.1.2.530	2	101.1.2.530;7592.1.1.6	supports_commons	APPLY	agree	
+e2xb0X2	2xb0_X	101.1.1.3	101.1.1.288	2	101.1.1.288;101.1.1.81	supports_commons	APPLY	agree	
+e2xidB4	2xid_B	11.1.4.39	11.1.4.97	4	11.1.4.36;11.1.4.97;2.22.1.0;3678.1.1.1	supports_commons	APPLY	agree	
+e3bznA1	3bzn_A	880.1.1.1	880.1.1.4	1	880.1.1.4	supports_commons	APPLY	agree	
+e3f83A1	3f83_A	11.1.5.26	11.1.5.96	3	11.1.5.17;11.1.5.26;11.1.5.96	supports_commons	APPLY	agree	
+e3gs9A2	3gs9_A	3070.1.1.3	3070.1.1.18	0		unclassified	APPLY	no_evidence	
+e3h2yA1	3h2y_A	2004.1.1.73	2004.1.1.422	1	2004.1.1.422	supports_commons	APPLY	agree	
+e3h94A2	3h94_A	1.1.7.38	1.1.7.87	3	1.1.7.87;325.1.7.22;6119.1.1.2	supports_commons	APPLY	agree	
+e3hbzA1	3hbz_A	6082.1.1.2	6082.1.1.3	2	10.32.1.39;6082.1.1.3	supports_commons	APPLY	agree	
+e3k2oB1	3k2o_B	10.12.1.9	10.12.1.101	1	10.12.1.101	supports_commons	APPLY	agree	
+e3k6rA1	3k6r_A	513.2.1.1	513.2.1.2	2	2003.1.5.24;513.2.1.2	supports_commons	APPLY	agree	
+e3lazA1	3laz_A	70.3.1.3	70.3.1.12	1	70.3.1.12	supports_commons	APPLY	agree	
+e3lnnA2	3lnn_A	1.1.7.38	1.1.7.87	3	1.1.7.79;325.1.7.0;5086.1.1.84	other	APPLY	check	
+e3ml3A1	3ml3_A	207.2.1.10	207.2.1.74	1	207.2.1.38	other	APPLY	check	
+e3mwyW4	3mwy_W	2004.1.1.24	2004.1.1.428	5	2004.1.1.23;4.8.1.1	other	APPLY	check	
+e3ne5B2	3ne5_B	1.1.7.38	1.1.7.87	4	1.1.7.0;1.1.7.87;325.1.7.22;6119.1.1.2	supports_commons	APPLY	agree	
+e3nklB1	3nkl_B	2003.1.1.71	2003.1.1.260	0		unclassified	APPLY	no_evidence	
+e3nsjA2	3nsj_A		389.1.1.110	3	11.2.1.1;389.1.1.110;5089.1.1.2	supports_commons	APPLY	agree	
+e3p8cD1	3p8c_D	3235.1.1.1	3235.1.1.26	1	3235.1.1.26	supports_commons	APPLY	agree	
+e3tgoC1	3tgo_C	331.3.1.8	331.3.1.50	2	331.22.1.1;331.22.1.2	other	APPLY	check	
+e4ak1A2	4ak1_A	11.1.1.200	11.1.1.1383	0		unclassified	APPLY	no_evidence	
+e4ak1A3	4ak1_A	11.1.1.200	11.1.1.1157	0		unclassified	APPLY	no_evidence	
+e4ak1A4	4ak1_A	11.1.1.200	11.1.1.1158	0		unclassified	APPLY	no_evidence	
+e4ci8A1	4ci8_A	5.1.4.2	5.1.4.269	2	5.1.4.274;5.1.4.6	other	APPLY	check	
+e4ci8A2	4ci8_A	5.1.4.2	5.1.4.293	2	5.1.4.274;5.1.4.6	other	APPLY	check	
+e4e3cB2	4e3c_B	221.1.1.2	221.1.1.164	3	206.1.1.72;221.1.1.164;4177.2.1.2	supports_commons	APPLY	agree	
+e4ei0A2	4ei0_A	3077.1.1.2	3077.1.1.3	0		unclassified	APPLY	no_evidence	
+e4fe9A2	4fe9_A	3597.1.1.2	3597.1.1.5	2	3597.1.1.1	other	APPLY	check	
+e4fmwA1	4fmw_A	2488.1.1.3	2488.1.1.19	1	2488.1.1.19	supports_commons	APPLY	agree	
+e4fweA5	4fwe_A		1194.1.1.1	5	101.1.1.28;1194.1.1.1;244.1.1.6;376.1.3.6	supports_commons	APPLY	agree	
+e4g1gA2	4g1g_A	54.1.1.1	54.1.1.6	2	54.1.1.1;54.1.1.6	supports_commons	APPLY	agree	
+e4je3A1	4je3_A		3435.1.1.7	1	3435.1.1.7	supports_commons	APPLY	agree	
+e4jp0A3	4jp0_A		101.1.1.364	2	6.1.1.0;825.1.1.4	other	APPLY	check	
+e4k17A2	4k17_A	207.1.1.22	207.1.1.161	1	207.1.1.22	supports_old	APPLY	check	
+e4kksA2	4kks_A	1.1.7.38	1.1.7.87	3	1.1.7.0;1.1.7.87;325.1.7.0	supports_commons	APPLY	agree	
+e4kq7A1	4kq7_A	10.2.1.48	10.2.1.89	2	10.2.1.48;10.2.1.89	supports_commons	APPLY	agree	
+e4kxfK5	4kxf_K		207.1.1.157	6	101.1.2.235;110.1.1.2;148.1.3.0;2004.1.1.130;207.1.1.157;3736.1.1.2	supports_commons	APPLY	agree	
+e4lp7B2	4lp7_B	54.1.1.2	54.1.1.7	2	54.1.1.2;54.1.1.7	supports_commons	APPLY	agree	
+e4nsxA1	4nsx_A	5.1.4.39	5.1.4.280	2	5.1.4.270;5.1.4.280	supports_commons	APPLY	agree	
+e4nsxA2	4nsx_A	5.1.4.1	5.1.4.270	2	5.1.4.270;5.1.4.280	supports_commons	APPLY	agree	
+e4tkoB1	4tko_B	1.1.7.3	1.1.7.88	0		unclassified	APPLY	no_evidence	
+e4ui9A2	4ui9_A	109.35.1.1	109.35.1.11	3	109.35.1.11;109.44.1.1;5.1.4.38	supports_commons	APPLY	agree	
+e4ui9R1	4ui9_R	5.1.4.1	5.1.4.259	1	5.1.4.259	supports_commons	APPLY	agree	
+e4uxeB3	4uxe_B		1088.1.1.1	1	243.19.1.0	other	APPLY	check	
+e4wwxB3	4wwx_B	3948.1.1.1	3948.1.1.3	3	101.1.11.18;2484.1.1.195;3948.1.1.3	supports_commons	APPLY	agree	
+e4ytkA1	4ytk_A	4.1.1.3	4.1.1.299	1	4.1.1.299	supports_commons	APPLY	agree	
+e4z8qB1	4z8q_B		1010.1.1.1	1	1010.1.1.1	supports_commons	APPLY	agree	
+e4zmkA1	4zmk_A		1009.1.1.1	0		unclassified	APPLY	no_evidence	
+e5c2uA1	5c2u_A		304.166.1.9	1	304.166.1.9	supports_commons	APPLY	agree	
+e5cowA1	5cow_A		1041.1.1.1	1	1041.1.1.1	supports_commons	APPLY	agree	
+e5cwwB1	5cww_B		5.1.4.331	0		unclassified	APPLY	no_evidence	
+e5d0qC1	5d0q_C	331.22.1.1	331.22.1.2	2	331.22.1.2;331.3.1.8	supports_commons	APPLY	agree	
+e5dlqB1	5dlq_B	109.4.1.125	109.4.1.1463	0		unclassified	APPLY	no_evidence	
+e5evfA1	5evf_A		872.12.1.1	1	872.12.1.1	supports_commons	APPLY	agree	
+e5h9dC1	5h9d_C	141.1.1.6	141.1.1.33	0		unclassified	APPLY	no_evidence	
+e5hb7A1	5hb7_A		304.9.1.92	1	304.9.1.92	supports_commons	APPLY	agree	
+e5hx2D2	5hx2_D		11.41.1.1	6	1.16.1.1;1049.2.1.1;11.41.1.1;3228.1.1.1;327.20.1.1;3941.1.1.1	supports_commons	APPLY	agree	
+e5ijlA2	5ijl_A	375.1.1.24	375.1.1.204	7	1.1.2.23;1.3.1.2;101.45.1.0;242.4.1.0;3349.1.1.1;375.1.1.0;375.1.1.204	supports_commons	APPLY	agree	
+e5ijlA5	5ijl_A	1.3.1.1	1.3.1.2	7	1.1.2.23;1.3.1.2;101.45.1.0;242.4.1.0;3349.1.1.1;375.1.1.0;375.1.1.204	supports_commons	APPLY	agree	
+e5iv5I2	5iv5_I	3386.2.1.1	3386.2.1.4	4	3386.2.1.2;3386.2.1.4;520.1.1.1;877.1.1.5	supports_commons	APPLY	agree	
+e5ja4D1	5ja4_D	109.3.1.1	109.3.1.162	1	109.3.1.165	other	APPLY	check	
+e5kzfJ4	5kzf_J		148.1.3.203	4	148.1.3.203;2.1.1.70;2.1.1.84;2004.1.1.1	supports_commons	APPLY	agree	
+e5mzhB2	5mzh_B	5.1.5.1	5.1.5.80	1	5.1.5.81	other	APPLY	check	
+e5n0sA3	5n0s_A		1201.1.1.1	3	1137.1.1.0;159.1.1.5;7550.1.1.1	other	APPLY	check	
+e5oqdC2	5oqd_C		101.1.2.500	2	101.1.2.500;376.1.3.0	supports_commons	APPLY	agree	
+e5teeA2	5tee_A	5.1.4.6	5.1.4.285	2	5.1.4.285;5.1.4.290	supports_commons	APPLY	agree	
+e5ucgA2	5ucg_A	327.21.1.1	327.21.1.2	1	210.2.1.2	other	APPLY	check	
+e5ud5A1	5ud5_A		4.29.1.1	1	4.29.1.1	supports_commons	APPLY	agree	
+e5vbnA1	5vbn_A		2.1.1.224	2	148.1.3.9;2.1.1.224	supports_commons	APPLY	agree	
+e5vhvA2	5vhv_A		11.1.1.987	2	109.4.1.124;11.1.1.987	supports_commons	APPLY	agree	
+e5w2lB1	5w2l_B	2.1.1.66	2.1.1.243	0		unclassified	APPLY	no_evidence	
+e5w4aB1	5w4a_B		7030.1.1.1	1	7030.1.1.1	supports_commons	APPLY	agree	
+e5x90D1	5x90_D		1164.1.1.2	1	1164.1.1.2	supports_commons	APPLY	agree	
+e5xfoA4	5xfo_A		101.1.2.500	4	101.1.2.500;376.1.3.0;376.1.3.1;4.1.1.101	supports_commons	APPLY	agree	
+e5xllA1	5xll_A		9.30.1.1	1	9.30.1.1	supports_commons	APPLY	agree	
+e5xynD1	5xyn_D		1195.1.1.2	1	1195.1.1.2	supports_commons	APPLY	agree	
+e5yclA2	5ycl_A		633.16.2.2	2	101.1.4.3;633.16.2.2	supports_commons	APPLY	agree	
+e5ym0A1	5ym0_A	2007.1.20.1	2007.1.20.2	2	2487.1.1.19;4303.1.1.1	other	APPLY	check	
+e6a29E1	6a29_E		7052.1.1.1	2	7052.1.1.1;7053.1.1.1	supports_commons	APPLY	agree	
+e6a29E2	6a29_E		7053.1.1.1	2	7052.1.1.1;7053.1.1.1	supports_commons	APPLY	agree	
+e6a9sA2	6a9s_A		7083.1.1.1	0		unclassified	APPLY	no_evidence	
+e6b39A1	6b39_A	101.1.2.155	101.1.2.543	4	101.1.2.457;101.1.2.543;2003.1.5.148;213.1.1.0	supports_commons	APPLY	agree	
+e6bxrA1	6bxr_A		7529.1.1.14	1	7529.1.1.14	supports_commons	APPLY	agree	
+e6bzfB1	6bzf_B		2008.1.1.149	2	102.1.1.111;2008.1.1.149	supports_commons	APPLY	agree	
+e6bzfB2	6bzf_B		102.1.1.111	2	102.1.1.111;2008.1.1.149	supports_commons	APPLY	agree	
+e6d7yA1	6d7y_A		1205.2.1.1	0		unclassified	APPLY	no_evidence	
+e6d7yB1	6d7y_B		7075.1.1.1	0		unclassified	APPLY	no_evidence	
+e6dnmA1	6dnm_A		7059.1.1.1	1	7059.1.1.1	supports_commons	APPLY	agree	
+e6ebnA3	6ebn_A		7035.1.1.1	1	7577.1.1.4	other	APPLY	check	
+e6f1sA1	6f1s_A		2008.8.1.1	0		unclassified	APPLY	no_evidence	
+e6f5dL1	6f5d_L		109.4.1.1284	1	109.4.1.1284	supports_commons	APPLY	agree	
+e6f7jB1	6f7j_B		304.9.1.78	0		unclassified	APPLY	no_evidence	
+e6fb3A2	6fb3_A	3735.1.1.3	3735.1.1.14	6	11.1.1.790;11.1.4.85;211.1.1.37;3735.1.1.14;378.1.2.1;5.1.4.163	supports_commons	APPLY	agree	
+e6ghcB1	6ghc_B		7040.1.1.1	2	378.1.1.2;7040.1.1.1	supports_commons	APPLY	agree	
+e6gjeC1	6gje_C		207.16.1.1	0		unclassified	APPLY	no_evidence	
+e6h1wA2	6h1w_A		7103.1.1.1	1	282.1.1.1	other	APPLY	check	
+e6hq6A4	6hq6_A		7093.1.1.1	4	109.2.1.75;12.3.1.0;12.6.1.0;7093.1.1.1	supports_commons	APPLY	agree	
+e6iwvA1	6iwv_A		558.1.1.19	1	558.1.1.19	supports_commons	APPLY	agree	
+e6j2pA2	6j2p_A		906.2.1.1	1	376.1.3.1	other	APPLY	check	
+e6jdeB3	6jde_B		375.15.1.1	4	2004.1.1.120;2004.1.1.30;375.15.1.1;7091.1.1.1	supports_commons	APPLY	agree	
+e6jdeB4	6jde_B		7091.1.1.1	4	2004.1.1.120;2004.1.1.30;375.15.1.1;7091.1.1.1	supports_commons	APPLY	agree	
+e6jl2A2	6jl2_A		7092.1.1.1	2	2007.5.1.1;7092.1.1.1	supports_commons	APPLY	agree	
+e6jq1B2	6jq1_B		7112.1.1.1	2	101.1.4.3;7112.1.1.1	supports_commons	APPLY	agree	
+e6qixA1	6qix_A		922.1.1.21	0		unclassified	APPLY	no_evidence	
+e6qixA2	6qix_A		7084.1.1.2	0		unclassified	APPLY	no_evidence	
+e1ihmA2	1ihm_A	1.2.1.2	1.2.1.4	3	1.2.1.2;10.2.1.13	supports_old	HOLD	agree	
+e3cmmA1	3cmm_A	2003.1.9.1	2003.1.9.8	6	1.1.7.35;2003.1.9.1;2003.1.9.8;221.7.1.2;6076.1.1.1;6076.1.1.2	supports_commons	HOLD	check	
+e3iddA1	3idd_A	7515.1.1.8	7515.1.1.14	2	304.132.1.1;7515.1.1.14	supports_commons	HOLD	check	
+e3vkhA3	3vkh_A	2004.1.1.156	2004.1.1.500	15	148.1.3.0;148.1.3.10;148.1.3.13;148.1.3.33;148.1.3.45;2004.1.1.180;2004.1.1.181;2004.1.1.182;2004.1.1.183;2004.1.1.500;2004.1.1.93;3187.1.1.1;6110.1.1.1	supports_commons	HOLD	check	
+e4ad8A1	4ad8_A	2004.1.1.87	2004.1.1.433	1	2004.1.1.433	supports_commons	HOLD	check	
+e4rh7A4	4rh7_A	2004.1.1.156	2004.1.1.500	15	148.1.3.10;148.1.3.12;148.1.3.13;148.1.3.16;148.1.3.28;148.1.3.45;2004.1.1.180;2004.1.1.181;2004.1.1.182;2004.1.1.183;2004.1.1.500;2004.1.1.93;271.1.1.1;3187.1.1.1;6110.1.1.1	supports_commons	HOLD	check	
+e5ulmA1	5ulm_A	109.4.1.193	2007.15.1.11	0		unclassified	HOLD	no_evidence	
+e3h94A4	3h94_A	6119.1.1.1	6119.1.1.2	3	1.1.7.87;325.1.7.22;6119.1.1.2	supports_commons	HOLD	check	
+e3mmcB1	3mmc_B	205.1.1.1	205.1.1.41	3	205.1.1.35;296.1.1.1;304.37.1.1	other	HOLD	check	
+e3ne5B4	3ne5_B	6119.1.1.1	6119.1.1.2	4	1.1.7.0;1.1.7.87;325.1.7.22;6119.1.1.2	supports_commons	HOLD	check	
+e1qvrC4	1qvr_C	2004.1.1.1	2004.1.1.462	5	148.1.2.1;148.1.3.204;148.1.3.8;2004.1.1.1;2004.1.1.153	supports_old	HOLD	agree	
+e1snlA1	1snl_A	108.1.1.29	108.1.1.121	1	108.1.1.97	other	HOLD	check	
+e4hg6B3	4hg6_B	10.32.1.10	10.32.1.215	4	10.32.1.10;10.32.1.215;3598.1.1.0;3598.1.1.1	supports_commons	HOLD	check	
+e1iqpA3	1iqp_A	2004.1.1.1	2004.1.1.415	3	138.1.1.2;148.1.3.0;2004.1.1.432	other	REROUTE	agree	
+e1kdgA2	1kdg_A	2003.1.2.3	2003.1.2.63	2	2003.1.2.2;244.1.1.0	other	REROUTE	agree	
+e1te4A1	1te4_A	109.4.1.207	109.4.1.1283	1	109.4.1.1283	supports_commons	REROUTE	check	
+e1cc1L3	1cc1_L	244.4.1.2	244.4.1.3	4	244.4.1.2;244.4.1.3;4025.1.1.2;4046.1.1.1	supports_commons	REROUTE	check	
+e1dceA3	1dce_A	207.1.1.29	207.1.1.197	3	109.4.1.18;11.1.1.104;207.1.1.197	supports_commons	REROUTE	check	
+e1elrA1	1elr_A	109.4.1.5	109.4.1.1394	1	109.4.1.1394	supports_commons	REROUTE	check	
+e1fchA1	1fch_A	109.4.1.5	109.4.1.1263	1	109.4.1.0	other	REROUTE	agree	
+e1h6tA3	1h6t_A	207.1.1.20	207.1.1.142	3	108.1.1.24;11.1.1.106;207.1.1.142	supports_commons	REROUTE	check	
+e1iknD1	1ikn_D	109.3.1.8	109.3.1.162	1	109.3.1.2	other	REROUTE	agree	
+e1n11A1	1n11_A	109.3.1.1	109.3.1.165	1	109.3.1.165	supports_commons	REROUTE	check	
+e1nriA1	1nri_A	2007.6.1.12	2007.6.1.17	1	2007.6.1.0	other	REROUTE	agree	
+e1oznA1	1ozn_A	207.1.1.24	207.1.1.130	1	207.1.1.130	supports_commons	REROUTE	check	
+e1qbkB1	1qbk_B	109.4.1.204	109.4.1.1313	1	109.4.1.1313	supports_commons	REROUTE	check	
+e1qgrA1	1qgr_A	109.4.1.55	109.4.1.1345	1	109.4.1.0	other	REROUTE	agree	
+e1u6gC1	1u6g_C	109.4.1.34	109.4.1.1501	1	109.4.1.1501	supports_commons	REROUTE	check	
+e1ublL5	1ubl_L	244.4.1.2	244.4.1.3	4	244.4.1.2;244.4.1.3;4025.1.1.2;4046.1.1.1	supports_commons	REROUTE	check	
+e1w3bA1	1w3b_A	109.4.1.5	109.4.1.3572	1	109.4.1.3592	other	REROUTE	agree	
+e1w4xA1	1w4x_A	2003.1.2.29	2003.1.2.69	2	2003.1.2.25;2003.1.2.5	other	REROUTE	agree	
+e1w8aA1	1w8a_A	207.1.1.11	207.1.1.164	1	207.1.1.55	other	REROUTE	agree	
+e1wuiL3	1wui_L	244.4.1.2	244.4.1.3	4	244.4.1.2;244.4.1.3;4025.1.1.2;4046.1.1.1	supports_commons	REROUTE	check	
+e1xerA1	1xer_A	205.1.1.1	205.1.1.41	1	205.1.1.41	supports_commons	REROUTE	check	
+e1xkuA1	1xku_A	207.1.1.24	207.1.1.140	1	207.1.1.140	supports_commons	REROUTE	check	
+e1xnfA1	1xnf_A	109.4.1.95	109.4.1.1264	1	109.4.1.1264	supports_commons	REROUTE	check	
+e1xqrA1	1xqr_A		109.4.1.1413	1	109.4.1.0	other	REROUTE	agree	
+e2bibA1	2bib_A	702.1.1.1	702.1.1.9	2	247.1.1.1;702.1.1.1	supports_old	REROUTE	check	
+e2bptA1	2bpt_A	109.4.1.55	109.4.1.1345	1	109.4.1.0	other	REROUTE	agree	
+e2c2lA1	2c2l_A	109.4.1.9	109.4.1.1707	3	109.4.1.186;109.4.1.246;376.1.1.8	other	REROUTE	agree	
+e2ebsA1	2ebs_A	5.1.4.52	5.1.4.406	2	5.1.4.0;5.1.4.406	supports_commons	REROUTE	check	
+e2ru4B1	2ru4_B	109.4.1.2	109.4.1.1332	1	109.4.1.1332	supports_commons	REROUTE	check	
+e3ojaB1	3oja_B	207.1.1.24	207.1.1.130	1	207.1.1.130	supports_commons	REROUTE	check	
+e3sfzA5	3sfz_A	5.1.4.1	5.1.4.274	7	101.1.2.197;110.1.1.2;148.1.3.0;2004.1.1.56;3704.1.1.1;5.1.4.274;5.1.5.1	supports_commons	REROUTE	check	
+e4rg6A1	4rg6_A	109.4.1.7	109.4.1.1294	1	109.4.1.1294	supports_commons	REROUTE	check	
+e4rlvA1	4rlv_A	109.3.1.1	109.3.1.164	2	109.3.1.162;109.3.1.164	supports_commons	REROUTE	check	
+e4ui9O2	4ui9_O	109.4.1.185	109.4.1.1398	2	109.4.1.1398;3252.2.1.1	supports_commons	REROUTE	check	
+e4uw0A1	4uw0_A	206.1.1.11	206.1.1.73	2	2003.1.5.82;206.1.1.73	supports_commons	REROUTE	check	
+e5a6cB1	5a6c_B	109.4.1.198	109.4.1.1315	1	109.4.1.1320	other	REROUTE	agree	
+e5dnyB1	5dny_B	2004.1.1.198	2004.1.1.514	1	2004.1.1.748	other	REROUTE	agree	
+e5hzrA2	5hzr_A	2004.1.1.24	2004.1.1.428	2	2004.1.1.23;2004.1.1.428	supports_commons	REROUTE	check	
+e5jqyA1	5jqy_A	109.4.1.118	109.4.1.1287	2	10.12.1.23;109.4.1.1287	supports_commons	REROUTE	check	
+e5jzuA1	5jzu_A	109.4.1.118	109.4.1.1287	2	10.12.1.23;109.4.1.1287	supports_commons	REROUTE	check	
+e5o01A1	5o01_A	109.4.1.198	109.4.1.1304	1	109.4.1.1286	other	REROUTE	agree	
+e5tqbB1	5tqb_B	109.4.1.118	109.4.1.1264	1	109.4.1.1264	supports_commons	REROUTE	check	
+e5ve8B1	5ve8_B		109.4.1.1697	1	109.4.1.1697	supports_commons	REROUTE	check	
+e6i5bA2	6i5b_A	139.2.1.2	139.2.1.18	1	9.13.1.1	other	REROUTE	agree	
+e1djqA3	1djq_A	2003.1.3.3	2003.1.3.15	3	2002.1.1.32;2003.1.2.32;2003.1.3.15	supports_commons	REVIEW	check	
+e1dq3A1	1dq3_A	69.1.1.4	69.1.1.11	1	69.1.1.4	supports_old	REVIEW	check	
+e1lrzA3	1lrz_A	213.1.1.7	213.1.1.75	2	213.1.1.7;213.1.1.75	supports_commons	REVIEW	check	
+e1n0uA5	1n0u_A	2004.1.1.14	2004.1.1.414	5	1.1.7.19;2004.1.1.414;212.1.1.17;304.24.1.1;304.24.1.3	supports_commons	REVIEW	check	
+e1r7rA6	1r7r_A	2004.1.1.1	2004.1.1.415	6	1.1.2.7;148.1.3.19;148.1.3.6;2004.1.1.1;2004.1.1.415;229.1.1.1	supports_commons	REVIEW	check	
+e1wf3A2	1wf3_A	2004.1.1.73	2004.1.1.474	2	2004.1.1.73;327.11.1.1	supports_old	REVIEW	check	
+e2bv3A5	2bv3_A	2004.1.1.14	2004.1.1.414	5	1.1.7.19;2004.1.1.414;212.1.1.17;304.24.1.1;304.24.1.3	supports_commons	REVIEW	check	
+e2g5cA2	2g5c_A	2003.1.1.27	2003.1.1.147	2	129.1.1.18;2003.1.1.147	supports_commons	REVIEW	check	
+e2shpA3	2shp_A	2007.2.3.1	2007.2.3.21	3	2007.2.3.21;214.1.1.1	supports_commons	REVIEW	check	
+e2x58A2	2x58_A	2003.1.1.36	2003.1.1.155	4	129.1.1.2;2003.1.1.155;2486.1.1.1	supports_commons	REVIEW	check	
+e3c8yA3	3c8y_A	205.1.1.16	205.1.1.42	5	205.1.1.42;221.1.1.48;5100.1.1.2;581.1.1.1;7556.1.1.1	supports_commons	REVIEW	check	
+e3izq11	3izq_1	2004.1.1.14	2004.1.1.414	3	1.1.7.19;103.1.1.9;2004.1.1.14	supports_old	REVIEW	check	
+e3zztA4	3zzt_A	2004.1.1.14	2004.1.1.414	5	1.1.7.19;2004.1.1.14;212.1.1.17;304.24.1.1;304.24.1.3	supports_old	REVIEW	check	
+e4ij2F1	4ij2_F	11.1.1.72	11.1.1.861	3	11.1.1.72;11.1.1.861;3796.1.1.1	supports_commons	REVIEW	check	
+e4kc5A1	4kc5_A	7581.1.1.2	7581.1.1.22	3	6094.1.1.2;7581.1.1.2;7581.1.1.7	supports_old	REVIEW	check	
+e4rcnA6	4rcn_A	2486.1.1.3	2486.1.1.15	6	2003.1.10.1;206.1.3.10;2486.1.1.15;2486.1.1.3;325.1.1.2;325.1.7.1	supports_commons	REVIEW	check	
+e1gcyA2	1gcy_A	2002.1.1.5	2002.1.1.301	3	11.1.4.3;12.1.1.8;2002.1.1.301	supports_commons	REVIEW	check	
+e1h0hB2	1h0h_B	205.1.1.17	205.1.1.71	2	205.1.1.16;205.1.1.48	other	REVIEW	check	
+e1hnjA1	1hnj_A	7581.1.1.13	7581.1.1.23	2	7581.1.1.12;7581.1.1.23	supports_commons	REVIEW	check	
+e2vf7B2	2vf7_B	2004.1.1.5	2004.1.1.417	5	2004.1.1.0;2004.1.1.417;3326.1.1.1;361.1.1.0	supports_commons	REVIEW	check	
+e5oqdC1	5oqd_C		376.1.3.56	2	101.1.2.500;376.1.3.0	other	REVIEW	check	

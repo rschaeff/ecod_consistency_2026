@@ -1,0 +1,11 @@
+domain_id	query	old_f	commons_f	n_domains	rederived_f	verdict	note
+e1auiB2	1aui_B	108.1.1.29	108.1.1.97	2	108.1.1.97;108.1.1.98	supports_commons	
+e1b0uA1	1b0u_A	2004.1.1.5	2004.1.1.417	1	2004.1.1.417	supports_commons	
+e1cjwA1	1cjw_A	213.1.1.1	213.1.1.72	1	213.1.1.72	supports_commons	
+e1dx4A1	1dx4_A	7579.1.1.1	7579.1.1.89	1	7579.1.1.89	supports_commons	
+e1ea5A1	1ea5_A	7579.1.1.1	7579.1.1.89	1	7579.1.1.1	supports_old	
+e1ek6A1	1ek6_A	2003.1.1.72	2003.1.1.152	1	2003.1.1.152	supports_commons	
+e1ewqA1	1ewq_A	601.23.1.1	601.23.1.4	4	2004.1.1.45;242.3.1.1;2484.1.1.48;601.23.1.0	other	
+e1ihmA2	1ihm_A	1.2.1.2	1.2.1.4	3	1.2.1.2;10.2.1.13	supports_old	
+e1iqpA3	1iqp_A	2004.1.1.1	2004.1.1.415	3	138.1.1.2;148.1.3.0;2004.1.1.432	other	
+e1djqA3	1djq_A	2003.1.3.3	2003.1.3.15	3	2002.1.1.32;2003.1.2.32;2003.1.3.15	supports_commons	

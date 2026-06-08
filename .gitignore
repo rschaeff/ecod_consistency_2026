@@ -58,6 +58,11 @@ pfam_recheck/.jobid*
 pfam_recheck/_*
 pfam_recheck/pyecod_pilot/
 
+# large generated reconciliation artifacts (regenerable)
+pfam_recheck/v294_classification_lookup.tsv
+rep_validation/
+rep_validation_full/
+
 # CLANS output (can be large)
 *.clans
 *.clans.save

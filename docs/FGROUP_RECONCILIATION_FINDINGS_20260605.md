@@ -203,9 +203,61 @@ really there, above GA), **6 were over-reach** (extra Pfam absent), and **13 wer
 boundaries. The right gate before trusting/creating a composite is the **non-circular relaxed-Pfam
 test** ("is the extra Pfam present above/near GA in this domain?") — *not* an ECOD self-classifier.
 
+### 6b. Worked example — composite Pkinase F-groups (partner-independence test)
+
+A practical diagnostic for "is a composite real, or is it over-merging two domains?": does each
+non-defining partner Pfam appear **independently** elsewhere in ECOD? Applied to the 14 active
+composite kinase F-groups (all in the kinase T-group `206.1.1`/`206.1.2`):
+
+- **Partners that appear independently are all themselves kinase Pfams** — ABC1 (PF03109, 3
+  F-groups), RIO1 (PF01163), APH (PF01636), Pkinase_fungal (PF17667), IPK, Kdo, Kinase-like —
+  and they appear independently *within the kinase T-group*. So composites like `Pkinase, ABC1`
+  are one kinase domain described by multiple Pfam models (Pfam over-fragmentation), not a merge.
+- **Partners with zero independent occurrences are kinase appendages, not domains:** `Pkinase_C`
+  (PF00433, AGC C-terminal tail), `TGF_beta_GS` (PF08515, GS regulatory motif), `EphA2_TM`
+  (PF14575, a transmembrane region) — only ever seen fused to the kinase.
+
+Conclusion: **no non-kinase partner is a free-standing ECOD domain**, so these composites do not
+merge independent domains — they are the kinase fold under multiple Pfam models plus small
+appendages, and are defensible. Two warrant a curator flag because the partner is non-globular:
+`EphA2_TM` (a transmembrane Pfam should not co-define a globular F-group) in `206.1.1.22`, and
+`TGF_beta_GS` in `206.1.1.4`/`.21`. The mover targets `206.1.1.71` (Pkinase+Kdo) and `206.1.1.72`
+(Pkinase+Pkinase_fungal) are kinase+kinase-variant — keep.
+
+The same test on **Fer4 / iron-sulfur ferredoxin** composites (PF00037 = Fer4, the 4Fe-4S
+cluster-binding domain; 27 composites, all in the ferredoxin T-groups `205.1.1`/`187.1.1`) gives
+the same verdict. Nearly every partner is **another Fer4-family model** (`Fer4_2/3/5/6/7/9/10/11/17/21`,
+`Fer4_RLI`) — Pfam's many overlapping models for one small Fe-S fold, compounded by ferredoxins
+tiling **tandem 4Fe-4S clusters** (genuinely repeat-like). The few non-`Fer4_*` partners
+(`DUF3470`, `APS-reductase_C`, `Fer4_RLI`, `LdpA_Fe-S-bd`), when they occur independently, do so
+**only inside the same `205.1.1` ferredoxin T-group** — none is a free-standing domain in another
+fold, so there is no over-merge of the Fe-S cluster with an unrelated catalytic domain. Watch case:
+`e3mmcB1` (mover, old `205.1.1.1`) is dominated by **NIR_SIR (PF01077)**, not Fer4 — a siroheme/Fe-S
+reductase parked in the ferredoxin T-group (already in the HOLD / `pfam_has_no_fgroup` bucket).
+
+More broadly, **repeat folds** (β-propellers `5.1.*`, TPR/HEAT `109.*`), **EF-hands** (`108.1.1`),
+and **iron-sulfur ferredoxins** (`205.1.1`) are the zones where Pfam and ECOD boundaries genuinely
+don't converge (repeats/tandem modules stymie both); an accurate composite F-group *description* is
+the right interim state pending an eventual split into single domains.
+
 ---
 
 ## 7. Recommendation
+
+> **APPLIED 2026-06-08 (committed to live `ecod_rep`):**
+> - **F-group name fixes:** 3,477 (3,069 single + 408 composite) accession→family-name renames (audited, logged).
+> - **`implement_reassign_f_group` repaired** (the 2-bug fix; committed).
+> - **362 clean APPLY reassignments** (the 245 doubly-confirmed + 117 curator-cleared from the 133)
+>   via the audited `create_domain_update_request → approve → implement_domain_update` path —
+>   all 362 now in their `commons_f` target, 362+362 audit-log rows. Backup
+>   `ecod_rep_backup_20260608_pre_reassign.dump` predates it.
+> - **Stranding (16) resolved:** 15 reassigned + **6 F-groups deprecated** (58 commons members
+>   rehomed to the T-group `.0`) + **7 provisional reps re-seeded** (via the now-repaired
+>   `create_domain_change_request`/`implement_domain_create`, mechanism A — they had ~6 bugs and
+>   had never run). Lsr2 (`e2kngA1`) **held** (target `130.1.1.33` is curator-flagged deprecated).
+> - **Net:** repless active F-groups **14,255 → 13,993**.
+> - **Held for curator:** Lsr2; 44 REROUTE; 21 REVIEW; 13 HOLD; plus 27 ECOD-wide
+>   "(DEPRECATED)"-in-name-but-active F-groups (incl. the Lsr2 `130.1.1.32/.33/.35` corner).
 
 After all evidence layers (fresh `--cut_ga` verdict → composite-architecture rule →
 non-circular relaxed-Pfam rescan), the 456 movers consolidate as
@@ -228,16 +280,85 @@ Sequencing:
 5. **REVIEW (21):** 13 sub-GA borderline + 8 no-arch → curator / leave-F-group-out structural pass.
 6. **HOLD (13):** keep current; do not apply.
 7. **Do not** mint composite F-groups automatically; gate on the relaxed-Pfam test, not a self-classifier.
-8. **Independent structural confirmation (next phase):** re-derive each mover's F-group with the
-   current algorithm (pyecod-mini) **non-circularly** — reps live in the reference and self-hit
-   (pilot: `1gcy_A` matched `e1gcyA2`=itself at 100%/E=0), so this needs a self / leave-F-group-out
-   exclusion that pyecod_mini/prod do not yet have. Spec written for the pyecod repos
-   (`docs/FEATURE_REQUEST_pyecod_self_exclusion.md`); the 456-mover regression batch +
-   per-F-group exclusion lists are exported here for it.
+8. **Independent structural confirmation (DONE — see §8):** re-derived non-circularly with the
+   current algorithm (pyecod-mini self-exclusion). 245 APPLY moves are doubly-confirmed; 133
+   APPLY are structurally unconfirmed and pulled out for curator review.
 
 ---
 
-## 8. Artifacts
+## 8. Independent structural validation (non-circular, pyecod-mini self-exclusion)
+
+The self-exclusion feature shipped in `pyecod_mini` (v2.1.0, `--exclude-self`/`--exclude-fgroups`)
+and `pyecod_prod` (summary `f_group` + classification lookup) per the FR. We generated develop291
+BLAST+HHsearch evidence for all 436 mover chains (injected into a pyecod_prod batch — no repo
+modification), partitioned each mover with **self + old-F-group excluded**, and mapped each
+re-derived `reference_ecod_domain_id` to its **v294** F-group (lookup built from
+`ecod_commons`, 2.97M domains) to verdict against `commons_f`.
+
+**Structural verdicts (456):** supports_commons 294 (65%) · other 84 · supports_old 46 · unclassified 32.
+
+**Structural × Pfam `final_class` (the actionable cut):**
+
+| | supports_commons | other | supports_old | unclassified |
+|---|---|---|---|---|
+| **APPLY (378)** | **245** | 64 | 38 | 31 |
+| REROUTE (44) | 27 | 16 | 1 | 0 |
+| REVIEW (21) | 14 | 2 | 5 | 0 |
+| HOLD (13) | 8 | 2 | 2 | 1 |
+
+- **245 APPLY moves are doubly-confirmed** (Pfam-justified *and* independently structurally
+  re-derived) → the highest-confidence batch.
+- **133 APPLY moves are structurally unconfirmed** (64 other, 38 supports_old, 31 unclassified) →
+  pulled to `pfam_recheck/apply_struct_unconfirmed_133_20260608.csv` for curator review. Only 42
+  of these are composite-Pfam-justified (`Q_above_GA`); many (e.g. EF-hand `108.1.1`) re-derive a
+  *sibling* F-group in the same family — i.e. the composite sub-split is structurally fine-grained.
+- **27 REROUTE + 8 HOLD now re-derive commons structurally** — a second opinion that the migration
+  target may have been right for those.
+
+**Caveats:** `supports_old` is often a Pfam-granularity sub-split of the same structural family
+(structure sees the parent, Pfam adds the composite); `unclassified` (32) means the old F-group was
+structurally isolated so no independent confirmation is *possible*; exclusion is by develop291
+`f_group` while the verdict maps to v294 (aligned for most, matters at the borderline).
+`struct_verdict` / `concordance` are folded into the master curator-review CSV.
+
+---
+
+## 9. Defect found & fixed: F-group names were Pfam accessions, not family names
+
+The v294 migration's Pfam-evidence naming wrote the Pfam **accession** into
+`ecod_rep.cluster.name` instead of the HMM family **NAME** — the classic hmmscan `--acc`
+mistake. It hit two ways, both migration-created (all v293.1/v294, zero from released versions):
+
+- **Single-Pfam F-groups (3,069 active):** `name = pfam_acc` outright (e.g. `name = "PF31211"`).
+- **Composite F-groups (408 active):** component(s) whose name couldn't be resolved were left as
+  accessions inside the name-list (e.g. `"LRR_6, PF29265"`, `"PF29148, PF29151, PF29158"`). These
+  were missed on the first pass (the `", "` separator dodged the single-accession regex).
+
+The unresolved tokens are all **recent ECOD-seeded Pfams** (PF26xxx–PF31xxx) absent from the
+migration's name lookup; **all 3,477 resolve** to a real v38.2 `NAME` (0 unresolved) —
+PF31211→`Taz1_DD`, PF26557→`Cullin_AB`, PF29265→`LRR_CARMIL`, PF29148/151/158→`YPP1_N/_middle/_C`.
+108 single + several composite cases are mover `commons_f` targets — which is how it surfaced.
+
+**Fixed — committed 2026-06-08 in two passes (3,069 single + 408 composite = 3,477; the only
+persisted DB changes in this effort)** via the audited rename pipeline
+(`create_hierarchy_change_request` → `approve` → `implement_rename_group`): each rename logged to
+`hierarchy_change_history` and noted in the cluster `comment`, fully reversible (backup
+`ecod_rep_backup_20260608.dump` predates both). The composite pass replaces **only** the bare-accession
+tokens, preserving already-correct component names. Verified: **0** active F-group names contain a
+bare accession. **`pfam_acc` is untouched**
+— the accession remains authoritative there; only the human-readable `name` changed. Curator CSV
+display names were regenerated to match.
+
+**Root cause (for the migration codebase):** F-group naming — both the single-Pfam path **and**
+per-component in the composite path — must read the HMM `NAME` field, not the `--acc` accession,
+or re-runs reintroduce the defect (esp. for newer Pfams missing from any name lookup). Rename maps:
+`pfam_recheck/fgroup_accession_rename_20260608.csv` (3,069 single) +
+`fgroup_composite_rename_20260608.csv` (408 composite); batches:
+`rename_accession_fgroups_20260608.sql`, `rename_composite_fgroups_20260608.sql`.
+
+---
+
+## 10. Artifacts
 
 | File | Contents |
 |---|---|
@@ -255,6 +376,14 @@ Sequencing:
 | `docs/FEATURE_REQUEST_pyecod_self_exclusion.md` | spec for non-circular rep validation (pyecod_mini/prod + dpam) |
 | `pfam_recheck/mover_validation_manifest_20260605.tsv` | 456-mover regression batch (domain_id, pdb_chain, old_f, commons_f, t_id, final_class) |
 | `pfam_recheck/mover_exclusion_fgroup_members_20260605.tsv` | per-F-group reference domain ids to mask (explicit exclude-list) |
+| `pfam_recheck/full_validation_20260608.tsv` | **structural validation of all 456** (struct_verdict, rederived_f, concordance vs Pfam) |
+| `pfam_recheck/apply_struct_unconfirmed_133_20260608.csv` | the 133 APPLY moves structurally unconfirmed — focused curator list |
+| `pfam_recheck/fgroup_accession_rename_20260608.csv` | rename map for the 3,069 single-Pfam accession-named F-groups |
+| `pfam_recheck/fgroup_composite_rename_20260608.csv` | rename map for the 408 composite F-groups with accession component(s) |
+| `pfam_recheck/rename_accession_fgroups_20260608.sql` | single-Pfam rename batch (**COMMITTED** 2026-06-08, 3,069) |
+| `pfam_recheck/rename_composite_fgroups_20260608.sql` | composite rename batch (**COMMITTED** 2026-06-08, 408) |
+| `pfam_recheck/v294_classification_lookup.tsv` | domain_id→v294 X/H/T/F (2.97M) for verdict mapping |
+| `pfam_recheck/{pilot_evidence,full_evidence,full_run_validation,pilot_run_validation}.py` | evidence-gen + non-circular validation drivers (use pyecod_prod/mini; no repo edits) |
 | `pfam_reconcile_movers_20260605.csv` | earlier stored-hits pass (**superseded**) |
 | `propagate_manual_reps_20260605.sql` | original commons→ecod_rep script (**DO NOT RUN** — backwards authority) |
 | `backups/ecod_rep_backup_20260605.dump` | pre-change schema+function backup |

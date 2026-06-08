@@ -1,0 +1,134 @@
+domain_id,t_id,old_f,old_f_name,commons_f,new_f_name,final_action,relaxed_Q_verdict,composite_outcome,struct_verdict,struct_rederived_f
+e3lnnA2,1.1.7,1.1.7.38,HlyD_D23,1.1.7.87,Beta-barrel_RND_2,APPLY (batch1): reassign f_id -> commons_f,,,other,1.1.7.79;325.1.7.0;5086.1.1.84
+e4jp0A3,101.1.1,,,101.1.1.364,HTH_49,APPLY (batch1): reassign f_id -> commons_f,,,other,6.1.1.0;825.1.1.4
+e1jbaA2,108.1.1,108.1.1.29,EF-hand_7,108.1.1.97,"EF-hand_1, EF-hand_7",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,108.1.1.4;108.1.1.98
+e1s6cA1,108.1.1,108.1.1.29,EF-hand_7,108.1.1.98,"EF-hand_1, EF-hand_5, EF-hand_7",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,108.1.1.110;108.1.1.97
+e1c7vA1,108.1.1,108.1.1.1,EF-hand_1,108.1.1.97,"EF-hand_1, EF-hand_7",APPLY (batch1): reassign f_id -> commons_f,,,other,108.1.1.96
+e1nyaA2,108.1.1,108.1.1.1,EF-hand_1,108.1.1.98,"EF-hand_1, EF-hand_5, EF-hand_7",APPLY (batch1): reassign f_id -> commons_f,,,other,108.1.1.0;108.1.1.99
+e1qv0A1,108.1.1,108.1.1.1,EF-hand_1,108.1.1.97,"EF-hand_1, EF-hand_7",APPLY (batch1): reassign f_id -> commons_f,,,other,108.1.1.0;108.1.1.73
+e1qx2A1,108.1.1,108.1.1.1,EF-hand_1,108.1.1.97,"EF-hand_1, EF-hand_7",APPLY (batch1): reassign f_id -> commons_f,,,other,108.1.1.2
+e1y1xA1,108.1.1,108.1.1.3,"EF-hand_1,EF-hand_6",108.1.1.98,"EF-hand_1, EF-hand_5, EF-hand_7",APPLY + reseed/deprecate old group (see reseed_suggestions),,,other,108.1.1.28;108.1.1.99
+e2opoA1,108.1.1,108.1.1.1,EF-hand_1,108.1.1.99,"EF-hand_5, EF-hand_6, EF-hand_7",APPLY (batch1): reassign f_id -> commons_f,,,other,108.1.1.96
+e2opoB1,108.1.1,108.1.1.1,EF-hand_1,108.1.1.99,"EF-hand_5, EF-hand_6, EF-hand_7",APPLY (batch1): reassign f_id -> commons_f,,,other,108.1.1.96
+e4uxeB3,1088.1.1,,,1088.1.1.1,Gp34_C,APPLY (batch1): reassign f_id -> commons_f,,,other,243.19.1.0
+e4bepB3,109.3.1,109.3.1.8,Ank_2,109.3.1.176,"Ank_2, Ank_3, Ank_4",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,109.3.1.166;4040.1.1.0;6175.1.1.1
+e5h28A1,109.3.1,,,109.3.1.170,"Ank, Ank_4",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,109.3.1.1
+e5ja4D1,109.3.1,109.3.1.1,Ank,109.3.1.162,"Ank, Ank_2, Ank_5",APPLY (batch1): reassign f_id -> commons_f,,,other,109.3.1.165
+e4adyA2,109.35.1,109.35.1.1,PC_rep,109.35.1.10,"PC_rep, HEAT_2",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,109.34.1.2;109.35.1.13;3792.1.1.1
+e5d08A3,109.4.1,109.4.1.207,HEAT_2,109.4.1.1259,"HEAT_PBS, HEAT_2",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,109.4.1.0;205.1.1.0
+e1a17A1,109.4.1,109.4.1.6,"TPR_1,PPP5",109.4.1.1802,"TPR_1, PPP5, TPR_16",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,109.4.1.192
+e1elwA1,109.4.1,109.4.1.5,TPR_1,109.4.1.1288,"TPR_8, TPR_11",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,109.4.1.202
+e1m8zA1,109.4.1,109.4.1.16,PUF,109.4.1.1265,"PUF, PUF_NOP9",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,109.4.1.0
+e2gw1A1,109.4.1,,,109.4.1.1438,"TPR_1, TPR_8, TPR_16, TPR_19",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,109.4.1.1421
+e4ui9Y1,109.4.1,109.4.1.118,"STAG,SCD,SCC3_C",109.4.1.1264,"TPR_8, TPR_16",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,109.4.1.1300
+e5t8vA1,109.4.1,109.4.1.183,"Nipped-B_C,PDS5",109.4.1.1739,"Cohesin_HEAT, Nipped-B_C, PDS5",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,109.4.1.180
+e5n0sA3,1201.1.1,,,1201.1.1.1,Borosin_clasp,APPLY (batch1): reassign f_id -> commons_f,,,other,1137.1.1.0;159.1.1.5;7550.1.1.1
+e1l9lA1,198.1.1,198.1.1.1,SapB_2,198.1.1.13,"SapB_2, GNLY",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,198.1.1.26
+e1nklA1,198.1.1,198.1.1.3,SapB_1,198.1.1.26,GNLY,APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,198.1.1.13
+e1a0cA1,2002.1.1,2002.1.1.60,AP_endonuc_2,2002.1.1.266,XylA2_C,APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,2002.1.1.271
+e1orrA1,2003.1.1,2003.1.1.72,GDP_Man_Dehyd,2003.1.1.141,"Polysacc_synt_2, GDP_Man_Dehyd",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,2003.1.1.20
+e2b69A1,2003.1.1,2003.1.1.72,GDP_Man_Dehyd,2003.1.1.141,"Polysacc_synt_2, GDP_Man_Dehyd",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,2003.1.1.150
+e2iidA2,2003.1.2,2003.1.2.17,Amino_oxidase,2003.1.2.73,"Amino_oxidase, Pyr_redox_2, NAD_binding_8",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,244.1.1.6
+e2vouA2,2003.1.2,2003.1.2.15,FAD_binding_3,2003.1.2.99,"Pyr_redox, FAD_binding_3",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,2003.1.2.16;244.1.1.0
+e1w1wA1,2004.1.1,2004.1.1.87,SMC_N,2004.1.1.481,"SMC_N, AAA_29",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,2004.1.1.429;3922.1.1.0
+e2o5vA1,2004.1.1,2004.1.1.87,SMC_N,2004.1.1.433,"SMC_N, AAA_23",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,2004.1.1.0
+e4ww4B1,2004.1.1,2004.1.1.137,TIP49,2004.1.1.436,"DnaB_C, TIP49",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,148.1.3.18;2.1.1.32
+e5h68A1,2004.1.1,2004.1.1.87,SMC_N,2004.1.1.480,"SMC_N, AAA_21, AAA_29",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,2004.1.1.442
+e1wxqA2,2004.1.1,2004.1.1.74,"MMR_HSR1,YGR210-like_G4",2004.1.1.597,"MMR_HSR1, FeoB_N, YGR210-like_G4",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,2004.1.1.73;221.1.1.27
+e1z3iX1,2004.1.1,2004.1.1.24,"SNF2-rel_dom,Helicase_C",2004.1.1.428,"SNF2-rel_dom, Helicase_C, HDA2-3",APPLY (batch1): reassign f_id -> commons_f,,,other,2004.1.1.23
+e3mwyW4,2004.1.1,2004.1.1.24,"SNF2-rel_dom,Helicase_C",2004.1.1.428,"SNF2-rel_dom, Helicase_C, HDA2-3",APPLY (batch1): reassign f_id -> commons_f,,,other,2004.1.1.23;4.8.1.1
+e2b0cA1,2006.1.1,2006.1.1.1,Hydrolase,2006.1.1.44,"Hydrolase, Hydrolase_like",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,2006.1.1.46
+e5ym0A1,2007.1.20,2007.1.20.1,ILVD_EDD,2007.1.20.2,ILV_EDD_C,APPLY (batch1): reassign f_id -> commons_f,,,other,2487.1.1.19;4303.1.1.1
+e1h98A1,205.1.1,205.1.1.1,Fer4,205.1.1.80,"Fer4, Fer4_7, Fer4_9",APPLY (batch1): reassign f_id -> commons_f,,,other,205.1.1.4
+e1hfeL2,205.1.1,205.1.1.1,Fer4,205.1.1.41,"Fer4, Fer4_10",APPLY (batch1): reassign f_id -> commons_f,,,other,205.1.1.42;7556.1.1.1
+e1kobA1,206.1.1,206.1.1.1,Pkinase,206.1.1.70,"Pkinase, ABC1",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,206.1.1.72
+e4cfeA1,206.1.1,206.1.1.1,Pkinase,206.1.1.70,"Pkinase, ABC1",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,206.1.1.0;331.4.1.3
+e4cfhA1,206.1.1,206.1.1.1,Pkinase,206.1.1.70,"Pkinase, ABC1",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,206.1.1.0;331.4.1.3
+e3wpcA1,207.1.1,207.1.1.24,LRR_8,207.1.1.210,"LRR_1, LRR_6, LRR_8, LRR_12",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,207.1.1.145;207.1.1.55
+e4j0mA1,207.1.1,207.1.1.1,LRR_1,207.1.1.323,"LRR_1, LRRNT_2, LRR_6, LRR_8, Island",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,207.1.1.2;207.1.1.35
+e3ml3A1,207.2.1,207.2.1.10,Pertactin,207.2.1.74,AC_1,APPLY (batch1): reassign f_id -> commons_f,,,other,207.2.1.38
+e2bm5A1,207.9.1,207.9.1.2,Pentapeptide_4,207.9.1.7,"Pentapeptide, Pentapeptide_3",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,207.9.1.6
+e2i47A1,2498.1.1,2498.1.1.45,Reprolysin_5,2498.1.1.90,"Reprolysin, Reprolysin_2",APPLY (batch1): reassign f_id -> commons_f,,,other,2498.1.1.4
+e5ucgA2,327.21.1,327.21.1.1,SpoIIE_N,327.21.1.2,SpoIIE_reg,APPLY (batch1): reassign f_id -> commons_f,,,other,210.2.1.2
+e3tgoC1,331.3.1,331.3.1.8,Lipoprotein_18,331.3.1.50,BamC-like_N,APPLY + reseed/deprecate old group (see reseed_suggestions),,,other,331.22.1.1;331.22.1.2
+e4fe9A2,3597.1.1,3597.1.1.2,DUF5115,3597.1.1.5,CBM_1st_SusF,APPLY (batch1): reassign f_id -> commons_f,,,other,3597.1.1.1
+e4a53A1,4.1.1,4.1.1.67,FDF,4.1.1.391,"FDF, EDC3_N",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,4.1.1.476
+e5teeA1,5.1.4,5.1.4.6,"WD40,ANAPC4_WD40",5.1.4.620,Beta-prop_RIG_1st,APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,other,5.1.4.285;5.1.4.290
+e4ci8A1,5.1.4,5.1.4.2,"WD40,HELP",5.1.4.269,"WD40, HELP, Beta-prop_EML",APPLY (batch1): reassign f_id -> commons_f,,,other,5.1.4.274;5.1.4.6
+e4ci8A2,5.1.4,5.1.4.2,"WD40,HELP",5.1.4.293,"WD40, ANAPC4_WD40, Beta-prop_EML_2",APPLY (batch1): reassign f_id -> commons_f,,,other,5.1.4.274;5.1.4.6
+e5mzhB2,5.1.5,5.1.5.1,WD40,5.1.5.80,"WD40, Beta-prop_IFT122_1st",APPLY (batch1): reassign f_id -> commons_f,,,other,5.1.5.81
+e1ewqA1,601.23.1,601.23.1.1,MutS_III,601.23.1.4,"MutS_IV, MutS_III",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,2004.1.1.45;242.3.1.1;2484.1.1.48;601.23.1.0
+e1wb9A1,601.23.1,601.23.1.1,MutS_III,601.23.1.4,"MutS_IV, MutS_III",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,other,2004.1.1.45;242.3.1.1;2484.1.1.48;601.23.1.0
+e6ebnA3,7035.1.1,,,7035.1.1.1,Cuben,APPLY (batch1): reassign f_id -> commons_f,,,other,7577.1.1.4
+e6h1wA2,7103.1.1,,,7103.1.1.1,MJ1004_C,APPLY (batch1): reassign f_id -> commons_f,,,other,282.1.1.1
+e1jfrA1,7579.1.1,,,7579.1.1.98,"PAF-AH_p_II, PETase",APPLY (batch1): reassign f_id -> commons_f,,,other,7579.1.1.46
+e6j2pA2,906.2.1,,,906.2.1.1,Spp1_C3H_ZnF,APPLY (batch1): reassign f_id -> commons_f,,,other,376.1.3.1
+e1oewA2,1.1.1,1.1.1.1,Asp,1.1.1.27,"Asp, TAXi_N",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,1.1.1.1
+e1smrA2,1.1.1,1.1.1.1,Asp,1.1.1.27,"Asp, TAXi_N",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,1.1.1.1;1.1.1.29
+e1hqvA2,108.1.1,108.1.1.29,EF-hand_7,108.1.1.99,"EF-hand_5, EF-hand_6, EF-hand_7",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,108.1.1.29;108.1.1.98
+e5w1fD1,108.1.1,108.1.1.8,S_100,108.1.1.102,"S_100, EF-hand_7",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,supports_old,108.1.1.8
+e2ooeA1,109.4.1,109.4.1.83,Suf,109.4.1.1316,"Suf, HAT_PRP39_N, HAT_PRP39_C",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,109.4.1.83
+e1ouvA1,109.4.1,109.4.1.109,Sel1,109.4.1.1793,"Sel1, TPR_8",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,supports_old,109.4.1.109
+e4zlhB1,109.4.1,109.4.1.210,TPR_19,109.4.1.1555,"TPR_7, TPR_19",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,supports_old,109.4.1.210;375.1.1.59
+e2cspA1,11.1.1,11.1.1.2,fn3,11.1.1.862,Ig_RIMBP2,APPLY (batch1): reassign f_id -> commons_f,,,supports_old,11.1.1.2
+e4qo5A1,139.2.1,139.2.1.7,Multi-haem_cyto,139.2.1.17,"Cytochrome_C554, Multi-haem_cyto",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,supports_old,139.2.1.7
+e1zfjA2,2002.1.1,2002.1.1.23,IMPDH,2002.1.1.263,"IMPDH, FMN_dh",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,2002.1.1.23;282.1.1.1
+e1yo6A1,2003.1.1,2003.1.1.3,adh_short,2003.1.1.148,"adh_short, KR",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,2003.1.1.3
+e1qamA3,2003.1.5,2003.1.5.2,RrnaAD,2003.1.5.182,"RrnaAD, Methyltransf_11",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,102.2.1.1;2003.1.5.2
+e1zq9A3,2003.1.5,2003.1.5.2,RrnaAD,2003.1.5.155,"RrnaAD, Methyltransf_25",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,102.2.1.0;2003.1.5.2
+e1wznA1,2003.1.5,2003.1.5.81,Methyltransf_25,2003.1.5.151,"Methyltransf_23, Methyltransf_25",APPLY (batch1): reassign f_id -> commons_f,,,supports_old,2003.1.5.81
+e1y8cA1,2003.1.5,2003.1.5.81,Methyltransf_25,2003.1.5.151,"Methyltransf_23, Methyltransf_25",APPLY (batch1): reassign f_id -> commons_f,,,supports_old,2003.1.5.81
+e1mkyA3,2004.1.1,2004.1.1.73,MMR_HSR1,2004.1.1.414,"GTP_EFTU, MMR_HSR1",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,supports_old,2004.1.1.73
+e1vplA1,2004.1.1,2004.1.1.5,ABC_tran,2004.1.1.417,"ABC_tran, AAA_21",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,supports_old,2004.1.1.5
+e1zunB3,2004.1.1,2004.1.1.14,GTP_EFTU,2004.1.1.414,"GTP_EFTU, MMR_HSR1",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,1.1.7.19;1.1.8.11;2004.1.1.14
+e3dhwC2,2004.1.1,2004.1.1.5,ABC_tran,2004.1.1.417,"ABC_tran, AAA_21",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,2004.1.1.5;304.8.1.5
+e4ux3A1,2004.1.1,2004.1.1.87,SMC_N,2004.1.1.429,"SMC_N, AAA_15",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,2004.1.1.87;3922.1.1.0
+e4rfsA1,2004.1.1,2004.1.1.5,ABC_tran,2004.1.1.417,"ABC_tran, AAA_21",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,2004.1.1.5
+e1gpmA2,2005.1.1,2005.1.1.18,NAD_synthase,2005.1.1.47,"NAD_synthase, tRNA_Me_trans",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,2005.1.1.18;2007.1.1.1;327.3.1.1
+e4upcA1,2011.1.1,2011.1.1.12,Nicastrin,2011.1.1.35,"Peptidase_M28, Nicastrin",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,2011.1.1.12;2487.1.1.13
+e1xwsA1,206.1.1,206.1.1.1,Pkinase,206.1.1.71,"Pkinase, Kdo",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,206.1.1.1
+e1yhwA1,206.1.1,206.1.1.1,Pkinase,206.1.1.72,"Pkinase, Pkinase_fungal",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,206.1.1.1
+e2jflA1,206.1.1,206.1.1.1,Pkinase,206.1.1.70,"Pkinase, ABC1",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,206.1.1.1
+e4bkyA1,206.1.1,206.1.1.1,Pkinase,206.1.1.70,"Pkinase, ABC1",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,103.1.1.26;206.1.1.1
+e4k17A2,207.1.1,207.1.1.22,LRR_6,207.1.1.161,"LRR_6, LRR_CARMIL",APPLY (batch1): reassign f_id -> commons_f,,,supports_old,207.1.1.22
+e4gcwA1,247.1.1,247.1.1.11,Lactamase_B_2,247.1.1.29,"Lactamase_B_2, Anti-Pycsar_Apyc1",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,supports_old,247.1.1.11
+e1wepA1,376.1.3,376.1.3.1,PHD,376.1.3.56,PHD_UBR7-like,APPLY (batch1): reassign f_id -> commons_f,,,supports_old,376.1.3.1
+e1xdtR1,389.1.1,389.1.1.1,EGF,389.1.1.99,EGF_TGFA-like,APPLY (batch1): reassign f_id -> commons_f,,,supports_old,389.1.1.1
+e1l0qA2,5.1.4,5.1.4.64,YNCE,5.1.4.405,"Lactonase, YNCE, choice_anch_I",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,supports_old,11.1.1.284;5.1.4.64
+e1tyeA1,5.1.4,5.1.4.13,FG-GAP,5.1.4.257,"FG-GAP, FG-GAP_3",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,supports_old,5.1.4.13
+e3sfzA6,5.1.5,5.1.5.1,WD40,5.1.5.75,"WD40, ANAPC4_WD40",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,supports_old,101.1.2.197;110.1.1.2;148.1.3.0;2004.1.1.56;3704.1.1.1;5.1.4.274;5.1.5.1
+e1ea5A1,7579.1.1,7579.1.1.1,COesterase,7579.1.1.89,"COesterase, BD-FAE",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,7579.1.1.1
+e2hu7A2,7579.1.1,7579.1.1.3,Peptidase_S9,7579.1.1.94,"Peptidase_S9, Peptidase_S15",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,5.1.4.65;7579.1.1.3
+e1c4xA1,7579.1.1,7579.1.1.6,Abhydrolase_1,7579.1.1.92,"Abhydrolase_1, Abhydrolase_6",APPLY (batch1): reassign f_id -> commons_f,,,supports_old,7579.1.1.6
+e1tedA2,7581.1.1,7581.1.1.4,Chal_sti_synt_N,7581.1.1.24,"Chal_sti_synt_N, ACP_syn_III",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,supports_old,7581.1.1.4;7581.1.1.6
+e4tkoB1,1.1.7,1.1.7.3,CusB_dom_1,1.1.7.88,Beta-barrel_AAEA,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e1yleA2,1.13.1,1.13.1.1,AstA,1.13.1.2,AstA_C,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e4zmkA1,1009.1.1,,,1009.1.1.1,Taz1_DD,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e1wj7A1,103.1.1,103.1.1.14,UBA_4,103.1.1.84,UBA_UBAP2,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e4n5cD1,109.4.1,,,109.4.1.1575,"YPP1_N, YPP1_middle, YPP1_C",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,unclassified,
+e5dlqB1,109.4.1,109.4.1.125,CRM1_C,109.4.1.1463,XPO4,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e4ak1A2,11.1.1,11.1.1.200,SGBP_BT4661-like,11.1.1.1383,Ig_BT4661_4th,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e4ak1A3,11.1.1,11.1.1.200,SGBP_BT4661-like,11.1.1.1157,Ig_BT4661_5th,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e4ak1A4,11.1.1,11.1.1.200,SGBP_BT4661-like,11.1.1.1158,Ig_BT4661_6th,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e3lm3A2,12.1.1,12.1.1.20,,12.1.1.117,DUF3864,APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,unclassified,
+e6d7yA1,1205.2.1,,,1205.2.1.1,CdiA_CT_tRNase,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e5h9dC1,141.1.1,141.1.1.6,HEPPP_synt_1,141.1.1.33,HexPS-like,APPLY + reseed/deprecate old group (see reseed_suggestions),,,unclassified,
+e5w2lB1,2.1.1,2.1.1.66,CTC1,2.1.1.243,CTC1_5th,APPLY + reseed/deprecate old group (see reseed_suggestions),,,unclassified,
+e3nklB1,2003.1.1,2003.1.1.71,CoA_binding_3,2003.1.1.260,C2185-like_N,APPLY + reseed/deprecate old group (see reseed_suggestions),,,unclassified,
+e1qhlA1,2004.1.1,2004.1.1.113,MukB,2004.1.1.1172,"MukB, AAA_29",APPLY: composite Pfam-justified (extra Pfam above GA),Q_above_GA,subset_ambiguous,unclassified,
+e6f1sA1,2008.8.1,,,2008.8.1.1,CglI_C,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e6gjeC1,207.16.1,,,207.16.1.1,Cubilin_N,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e6f7jB1,304.9.1,,,304.9.1.78,RRM_SRRT,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e3gs9A2,3070.1.1,3070.1.1.3,Prophage_tail,3070.1.1.18,Prophage_tail_N2,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e4ei0A2,3077.1.1,3077.1.1.2,DUF4466,3077.1.1.3,DUF8576,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e2knjA1,3090.1.1,,,3090.1.1.2,Microplusin,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e3n54B1,3234.1.1,3234.1.1.1,Spore_GerAC,3234.1.1.2,"Spore_GerAC, Spore_GerAC_N",APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,unclassified,
+e2fgtA2,3425.2.1,3425.2.1.1,YycH,3425.2.1.3,YycH_C,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e2o3iA2,4176.1.1,4176.1.1.1,,4176.1.1.2,S-Me-THD_N,APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,unclassified,
+e1xu6A1,4986.1.1,,,4986.1.1.4,VSE2,APPLY: composite Pfam-confirmed (architecture==target),,apply_commons,unclassified,
+e5cwwB1,5.1.4,,,5.1.4.331,NUP82_beta-prop,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e1lshA1,5087.2.1,5087.2.1.1,Vitellogenin_N,5087.2.1.2,Vitellogenin_N,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e6d7yB1,7075.1.1,,,7075.1.1.1,PABL017_Cdi1I,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e6a9sA2,7083.1.1,,,7083.1.1.1,Pox_A26L_M,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e6qixA2,7084.1.1,,,7084.1.1.2,PCHTP_C,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
+e6qixA1,922.1.1,,,922.1.1.21,PCHTP_C,APPLY (batch1): reassign f_id -> commons_f,,,unclassified,
