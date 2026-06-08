@@ -256,10 +256,13 @@ the right interim state pending an eventual split into single domains.
 >   `create_domain_change_request`/`implement_domain_create`, mechanism A — they had ~6 bugs and
 >   had never run). Lsr2 (`e2kngA1`) **held** (target `130.1.1.33` is curator-flagged deprecated).
 > - **Tranche 2 (the 674 non-manual propagation candidates — 621 provisional + 52 manual reps):**
->   fresh `--cut_ga` validation → **252 propagated** (213 reassign + 39 create, `requested_by='v294_t2'`);
->   held: 70 stranding, 236 no-arch/ambiguous (refinable via relaxed-Pfam), 116 points-other/supports-old.
->   Backup `ecod_rep_backup_20260608_pre_tranche2.dump`.
-> - **Net:** repless active F-groups **14,255 → 13,741** (−514 across both tranches).
+>   fresh `--cut_ga` validation → **252 propagated** (213 reassign + 39 create, `requested_by='v294_t2'`).
+>   Relaxed-Pfam rescan (no `cut_ga`) on the 236 no-arch/ambiguous recovered **190** (commons Pfam
+>   present ≥GA but missed by the architecture pass) → **153 more propagated** (122 reassign + 31
+>   create, `requested_by='v294_t2b'`); 34 sub-GA borderline + 12 Pfam-absent held. **405/674 placed.**
+>   Held: 107 stranding (70+37), 34 borderline, 12 structural, 116 points-other/supports-old.
+>   Backups `ecod_rep_backup_20260608_pre_tranche2{,b}.dump`.
+> - **Net:** repless active F-groups **14,255 → 13,588** (−667 across both tranches).
 > - **Held for curator:** Lsr2; 44 REROUTE; 21 REVIEW; 13 HOLD; tranche-2 held (above); 27 ECOD-wide
 >   "(DEPRECATED)"-in-name-but-active F-groups; the lone `is_representative`/designation inconsistency.
 > - **Data note:** commons `is_representative` = `is_manual ∨ is_provisional` (verified: 0 reps without
