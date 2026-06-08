@@ -130,6 +130,24 @@ ECOD domain); promote as provisional but **flag low-coverage** for curator aware
 
 Scaling note: ~65K candidate domains across all multi-member groups — array-scan with ~64+ chunks.
 
+## Tier-2/3 EXECUTED (2026-06-08) — 6,333 provisional reps; rep-selection COMPLETE
+Scanned all **62,763** candidate domain sequences across **6,370** multi-member live F-groups
+(100-way SLURM array). **0 no-concordant groups.** Created **6,333** provisional reps via the
+ranker (`requested_by='v294_repsel_t23'`; 644 experimental + 5,689 computed; 1,025 low-coverage
+flagged but promoted). **Repless 6,440 → 107.** Deferred 37 (33 already-in-ecod_rep under a
+different `f_id`, 4 `ecod_domain_id` collisions).
+
+(Gotcha banked: the FASTA export must use `psql -tA`/`\o`, never `\copy ... TO` — the latter escapes
+the embedded newline to a literal `\n` and hmmscan rejects the file. A whole array run was wasted on
+this before re-export.)
+
+### Final state — repless ecod_rep F-groups: 14,255 → 107
+The 107 residue: 24 dead-branch orphans (deprecated ancestor → curator cleanup), 7 empty (no members
+→ leave), 39 single-member + 37 multi-member **deferrals** (already-in-ecod_rep reassign-conflicts,
+`ecod_domain_id` collisions, 2 discordant). Rep-selection created **13,479** provisional reps total
+(Tier-1 7,146 + Tier-2/3 6,333). Remaining work is the curator queue + the separate commons
+cluster-coherence pass — not rep placement.
+
 ## Open questions for the curator
 1. **Pfam gate strictness** — require above-GA concordance, or allow sub-GA (relaxed) for provisional?
 2. **Single-member misfits** (member's Pfam ≠ F-group pfam_acc) — promote anyway (provisional) or hold?
