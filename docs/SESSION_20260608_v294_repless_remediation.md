@@ -37,6 +37,17 @@ v294 created **without `cluster_relation` rows**. Only `10.1.2.61` (`HA70_C`, v2
 live T-group or fold into v294.2). **Repless now 103** = 20 held + 7 empty + 76 deferrals.
 Lesson: F-group under a deprecated ancestor ≠ junk — check `introduced_release` first.
 
+**Bucket-B cleanup (2026-06-09):** 10 *repped* live F-groups sat under 5 fully curator-deprecated
+branches (`7584.1.1`, `101.44.1`, `3488.1.1`, `101.22.1`, `3633.1.1`). These are the orphan source-groups
+from **Pei/Schaeffer/Cong/Grishin 2025 (Proteins, PMC12353581), "Case Studies of Orphan Domain
+Reclassification in ECOD"** — IscX (`101.22.1`), Ddi2 (`101.44.1`), Acetyl-CoA-synthetase Rossmann
+(`7584.1.1`), sensor histidine kinase (`3488.1.1`), Haptoglobin-Hb receptor (`3633.1.1`). v294
+rep-selection wrongly repped 9 of them because **`cluster_relation` still listed the deprecated
+T-groups** (gate leaked). Cleanup: reconciled `cluster_relation` (removed 6 deprecated T-groups),
+deprecated the 9 F-groups (`orphan_reclass_cleanup`), demoted the 9 leaked provisional reps
+(ecod_rep + commons). **Held `101.44.1.3` `Ddi2_HDD`** (pre-existing manual rep — curator's eye).
+Bucket A (20 GOLD under `10.1.2`) still held for reparenting.
+
 ## Deployment status
 **STAGED ON DIONE ONLY — NOT deployed to sangala prod (`ecod_af2_pdb`).** This is source-db work;
 a prod push is a separate future step. Backups: `backups/ecod_rep_backup_20260608_pre_*.dump`
