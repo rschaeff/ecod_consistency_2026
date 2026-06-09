@@ -48,7 +48,13 @@ a prod push is a separate future step. Backups: `backups/ecod_rep_backup_2026060
 ## Remaining (separate efforts, scoped/documented)
 1. **Curator queue** — the 107 residue + earlier holds (44 REROUTE / 21 REVIEW / 13 HOLD / Lsr2 /
    27 "(DEPRECATED)"-in-name F-groups / the lone `is_representative` inconsistency).
-2. **Commons cluster-coherence pass** — 93,265 non-reps in a different F-group than their named rep;
-   174,186 with no rep pointer (`representative_domain_id`).
+2. **Commons rep sync (TIDY, not critical; direction = ecod_rep → commons)** — critical downstream
+   (classification reference sets, prod) consumes `ecod_rep`, not commons rep flags, so this is
+   deferrable cleanup. The v294 mess came from doing it *backwards* (commons-first); always
+   propagate forward. Post-rep-selection state: 13,474 new reps unflagged in commons; 125,196 of the
+   174,186 no-rep-pointer non-reps are now in an ecod_rep-repped F-group (mechanically resolvable by
+   pointing members at the new rep). The 93,265 "follower in a different F-group than its named rep"
+   is the messier, separate part. (Reps must have `representative_domain_id` NULL per the
+   `version_consistency` CHECK.)
 3. **Prod deployment** — push the dione ecod_rep changes to sangala.
 4. **Migration codebase root-cause** — the `--acc` naming bug + the broken `implement_*` functions.
