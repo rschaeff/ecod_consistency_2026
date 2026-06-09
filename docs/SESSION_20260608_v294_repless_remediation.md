@@ -26,9 +26,16 @@ Plus (not domain_assignment_log): 3,477 F-group accession→name renames; repair
 `implement_reassign_f_group` and the `create_domain_change_request`/`implement_domain_create` path
 (both had never run); 6 F-group deprecations + 58 commons rehomes (the 16-stranding batch only).
 
-## The 107 residue (curator/follow-up, not rep placement)
-24 dead-branch orphans (deprecated T/H/X ancestor) · 7 empty (no members) · 76 deferrals
-(already-in-ecod_rep reassign-conflicts, `ecod_domain_id` collisions, 2 discordant).
+## The residue (curator/follow-up, not rep placement) — 107 → 103 (2026-06-09)
+Originally 24 dead-branch orphans · 7 empty · 76 deferrals. The "24 dead-branch" turned out to be
+mostly **v294 wiring bugs, not old orphans** (release id 4 = v294): 23 of 24 are v294-created
+F-groups with valid Pfams — 20 jelly-roll families (`EMP24_GP25L`, `CBM_4_9`…) **mis-parented under
+the deprecated T-group `10.1.2`**, and 3 under 2 live Archaea T-groups (`1085.1.1`/`7070.1.1`) that
+v294 created **without `cluster_relation` rows**. Only `10.1.2.61` (`HA70_C`, v293) was genuine.
+**2026-06-09:** deprecated the 1, wired `cluster_relation` + repped the 3 (then forward-synced),
+**held the 20** for curator reparenting (only `10.1.1` is live under H-group `10.1`; may need a new
+live T-group or fold into v294.2). **Repless now 103** = 20 held + 7 empty + 76 deferrals.
+Lesson: F-group under a deprecated ancestor ≠ junk — check `introduced_release` first.
 
 ## Deployment status
 **STAGED ON DIONE ONLY — NOT deployed to sangala prod (`ecod_af2_pdb`).** This is source-db work;
