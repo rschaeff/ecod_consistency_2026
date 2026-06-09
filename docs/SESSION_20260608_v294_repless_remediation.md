@@ -46,7 +46,15 @@ rep-selection wrongly repped 9 of them because **`cluster_relation` still listed
 T-groups** (gate leaked). Cleanup: reconciled `cluster_relation` (removed 6 deprecated T-groups),
 deprecated the 9 F-groups (`orphan_reclass_cleanup`), demoted the 9 leaked provisional reps
 (ecod_rep + commons). **Held `101.44.1.3` `Ddi2_HDD`** (pre-existing manual rep — curator's eye).
-Bucket A (20 GOLD under `10.1.2`) still held for reparenting.
+
+**Bucket-A resolved (2026-06-09):** the 20 GOLD F-groups (`EMP24_GP25L`, `CBM_4_9`, glycoside
+hydrolases…) were **reparented** out of the dead `10.1.2` to a **new live T-group `10.1.3` "GOLD
+domain-like"** under H-group `10.1` (`gold_reparent`): created `10.1.3` + wired `cluster_relation`,
+renumbered `10.1.2.X`→`10.1.3.X` (suffixes kept), moved 89 commons members, deprecated the old nodes,
+then **repped all 20** (`repsel_gold` — best-ranked member each; 4 low-coverage single-members
+promoted) and forward-synced (20 flagged + 69 members pointed). **Repless 103 → 83.** `cluster_relation`
+gained `10.1.3`. The new `10.1.3` reflects the GOLD reuse history — `10.1.2` stays deprecated (no
+number reuse). Backup `ecod_rep_backup_20260609_pre_goldreparent.dump`.
 
 ## Deployment status
 **STAGED ON DIONE ONLY — NOT deployed to sangala prod (`ecod_af2_pdb`).** This is source-db work;
