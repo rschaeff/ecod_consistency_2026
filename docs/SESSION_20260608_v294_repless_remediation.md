@@ -48,13 +48,14 @@ a prod push is a separate future step. Backups: `backups/ecod_rep_backup_2026060
 ## Remaining (separate efforts, scoped/documented)
 1. **Curator queue** — the 107 residue + earlier holds (44 REROUTE / 21 REVIEW / 13 HOLD / Lsr2 /
    27 "(DEPRECATED)"-in-name F-groups / the lone `is_representative` inconsistency).
-2. **Commons rep sync (TIDY, not critical; direction = ecod_rep → commons)** — critical downstream
-   (classification reference sets, prod) consumes `ecod_rep`, not commons rep flags, so this is
-   deferrable cleanup. The v294 mess came from doing it *backwards* (commons-first); always
-   propagate forward. Post-rep-selection state: 13,474 new reps unflagged in commons; 125,196 of the
-   174,186 no-rep-pointer non-reps are now in an ecod_rep-repped F-group (mechanically resolvable by
-   pointing members at the new rep). The 93,265 "follower in a different F-group than its named rep"
-   is the messier, separate part. (Reps must have `representative_domain_id` NULL per the
-   `version_consistency` CHECK.)
+2. **Commons rep sync (forward, ecod_rep → commons) — DONE 2026-06-09.**
+   `commons_forward_sync_20260609.sql`: flagged 13,515 commons domains to match ecod_rep (46,410 reps
+   reflected; all 25,285 provisional reps confirmed), and pointed 122,246 NULL-pointer non-reps at
+   their F-group's rep. No-rep-pointer debt 174,186 → 50,157 (48,990 F-group-no-rep + 1,167
+   rep-not-in-commons); 0 CHECK violations. Direction matters — the v294 mess came from doing it
+   *backwards*. Backups: `commons_sync_step1_preimage` + `commons_sync_step2_pointed_ids`. Left
+   alone: 1,384 commons-only reps (reverse direction) and the **93,265 "follower in a different
+   F-group than its named rep"** debt — the messy part, and the natural input to the non-rep
+   checking pass.
 3. **Prod deployment** — push the dione ecod_rep changes to sangala.
 4. **Migration codebase root-cause** — the `--acc` naming bug + the broken `implement_*` functions.
